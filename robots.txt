@@ -1,0 +1,29 @@
+Sitemap: http://www.com-eng.ir/sitemap.xml
+User_agent:*
+Disallow: /images/
+Disallow: /fonts/
+Disallow: /database/
+Disallow: /logic/
+Disallow: /presentation/
+
+Disallow: /olderwebsite/ads/
+Disallow: /olderwebsite/images/
+Disallow: /olderwebsite/postimages/
+Disallow: /olderwebsite/postimagesubs/
+Disallow: /olderwebsite/slider/
+Disallow: /olderwebsite/fonts/
+Disallow: /olderwebsite/ckeditor/
+Disallow: /olderwebsite/style.css
+Disallow: /olderwebsite/manage/
+Disallow: /olderwebsite/pagetemps/
+Disallow: /olderwebsite/phpconnect/
+Disallow: /olderwebsite/files/
+
+Disallow: /index/ajax/
+Disallow: /index/ckeditor/
+Disallow: /index/database/
+Disallow: /index/fonts/
+Disallow: /index/images/
+Disallow: /index/presentation/
+Disallow: /index/print/
+Disallow: /index/slider/

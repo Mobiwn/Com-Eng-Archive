@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html onscroll="setTimeout(function () {document.getElementById('messagecontainer').style.display='none';},100)">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه" />
+	<meta name="keywords" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه ، انجمن ، انجمن علمی ، انجمن علمی دانشجویی ، دانشگاه ارومیه ، کامپیوتر ، نرم افزار" />
+	<meta name="author" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه" />
+	<title dir="rtl">انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه</title>
+	<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico" />
+	<link type="image/x-icon" rel="shortcut icon" href=".../favicon.ico" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+<div id="shadowmk" style="margin:auto; display:none; background-color:#000; opacity:0.5; position:fixed; z-index:3; height: 100%; width: 100%;"></div>
+<body onscroll="setTimeout(function () {document.getElementById('messagecontainer').style.display='none';},100)">
+<h1 style="display:none;">انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه</h1>
+	<div id="header">
+		<div id="headerimg"><img style="width: 100%; height:100%;" src="images/logo4.jpg" alt="logo" title="انجمن علمی کامپیوتر"/></div>
+		<div id="headertitle">
+			<img width="406" height="107" alt="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه" src="images/title.png">
+		</div>
+		<div id="headersocial">
+			<a href="https://www.facebook.com/pages/%D8%A7%D9%86%D8%AC%D9%85%D9%86-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B1%D9%88%D9%85%DB%8C%D9%87/511059362338123?ref=hl" target="_blank"><img id="socialimg1h" class="socialimg" alt="facebook" src="images/fb.png" title="FaceBook" /></a>
+			<a href="https://plus.google.com/b/111103336578635094666/111103336578635094666" target="_blank"><img id="socialimg2h" class="socialimg" alt="google+" src="images/google+.png" title="Google+" /></a>
+			<a href="mailto:info@com-eng.ir"><img id="socialimg3h" class="socialimg" alt="email" src="images/email.png" title="Email" /></a>
+		</div>
+	</div>
+	<div id="headermenucontainer">
+		<div id="headermenu">
+			<a href="http://com-eng.ir/"><div class="headermenutile">
+				صفحه اصلی
+			</div></a>
+			<div id="newsmenu" class="headermenutile" style=" cursor: default;">
+				<li id="headermenutileh1" style="list-style-image: url('images/sub2.png');">اخبار</li>
+				<ul id="headersubmenuli1" class="headersubmenu">
+					<a href="category.php?categoryname=cg"><li style="border-top: solid;border-top-color: #000;border-top-width: 1px;" class="headersubmenuli">گروه کامپیوتر</li></a>
+					<a href="category.php?categoryname=college"><li class="headersubmenuli">دانشکده</li></a>
+					<a href="category.php?categoryname=university"><li class="headersubmenuli">دانشگاه</li></a>
+				</ul>
+			</div>
+			<div id="categorymenu"  class="headermenutile" style=" cursor: default;">
+				<li id="headermenutileh2" style="list-style-image: url('images/sub2.png');">بخش ها</li>
+				<ul id="headersubmenuli2" class="headersubmenu">
+					<a href="category.php?categoryname=اساتید"><li style="border-top: solid;border-top-color: #000;border-top-width: 1px;" class="headersubmenuli">اساتید</li></a><a href="category.php?categoryname=سخت افزار"><li class="headersubmenuli">سخت افزار</li></a><a href="category.php?categoryname=هوش مصنوعی"><li class="headersubmenuli">هوش مصنوعی</li></a><a href="category.php?categoryname=فناوری اطلاعات"><li class="headersubmenuli">فناوری اطلاعات</li></a><a href="category.php?categoryname=امنیت"><li class="headersubmenuli">امنیت</li></a><a href="category.php?categoryname=ترفندستان"><li class="headersubmenuli">ترفندستان</li></a><a href="category.php?categoryname=انجمن"><li class="headersubmenuli">انجمن</li></a>				</ul>
+			</div>
+			<div id="submitmenu" class="headermenutile" style=" cursor: default;">
+				<li id="headermenutileh3" style="list-style-image: url('images/sub2.png');">ورود</li>
+								<ul id="headersubmenuli3" class="headersubmenu">
+									<form method="POST" action="">
+									<li style="border:none; border-top: solid;border-top-color: #000;border-top-width: 1px;" class="headersubmenuli"><input id="logintextboxuser" onfocus="logintextboxuser.defaultValue='';"  onblur="logintextboxuser.defaultValue='نام کاربری';" type="text" name="username" value="نام کاربری"/></li>
+									<li class="headersubmenuli" style="border: none;"><input id="logintextboxpass" style="font-family:'Arial'" onfocus="logintextboxpass.defaultValue='';"  onblur="logintextboxpass.defaultValue='رمز عبور';" type="password" name="password" value="رمز عبور"/></li>
+									<li class="headersubmenuli" style="border: none;"><input id="headerloginbtn"  type="submit" value="ورود"/></li><br/>
+									<a href="signup.php"><li id="headersubmitbtn" class="headersubmenuli">عضویت</li></a><br/>
+									<a href="passreset.php"><li id="passremember" class="headersubmenuli">رمز خود را فراموش کرده اید؟</li></a>
+									</form>
+								</ul>			</div>
+			<a href="contactus.php"><div id="contactus" class="headermenutile">
+				تماس با ما
+			</div></a>
+			<div id="headersearch">
+				<form id="searchformh" method="GET" action="http://www.bing.com/search" target="_blank">
+				<img onclick="document.forms['searchformh'].submit();" style="cursor: pointer;" id="searchimgmag" alt="search" src="images/searchmag.jpg" title="Search"/>
+				<img id="searchimg" alt="search" src="images/search.jpg" title="Search" />
+				<input name="q" onfocus="searchtext.defaultValue='';"  onblur="searchtext.defaultValue='جستجو...';" id="searchtext" type="text" value="جستجو..." />
+                <input type="hidden" name="cp" value="65001" />
+                <input type="hidden" name="FORM" value="FREESS" />
+                <input type="hidden" name="q1" value="site:http://com-eng.ir/" />
+              	</form>
+			</div>
+		</div>
+	</div>
+	
+	<script language="javascript" type="text/javascript" src="jscript.js"></script>
+	
+	<div id="rightsidebar">
+		<div class="rightsidebartile">
+			<div class="rightsidebarheader">
+				بخش ها
+			</div>
+			<div class="rightsidebarcontent">
+				<a href="category.php?categoryname=اساتید"><div class="rightsidebarcontenttile">
+											اساتید
+										</div></a><a href="category.php?categoryname=نرم افزار"><div class="rightsidebarcontenttile">
+											نرم افزار
+										</div></a><a href="category.php?categoryname=سخت افزار"><div class="rightsidebarcontenttile">
+											سخت افزار
+										</div></a><a href="category.php?categoryname=هوش مصنوعی"><div class="rightsidebarcontenttile">
+											هوش مصنوعی
+										</div></a><a href="category.php?categoryname=فناوری اطلاعات"><div class="rightsidebarcontenttile">
+											فناوری اطلاعات
+										</div></a><a href="category.php?categoryname=امنیت"><div class="rightsidebarcontenttile">
+											امنیت
+										</div></a><a href="category.php?categoryname=ترفندستان"><div class="rightsidebarcontenttile">
+											ترفندستان
+										</div></a><a href="category.php?categoryname=انجمن"><div class="rightsidebarcontenttile">
+											انجمن
+										</div></a>            </div>
+		</div>
+		<div class="rightsidebartile">
+			<div class="rightsidebarheader">
+				آخرین مطالب
+			</div>
+			<div class="rightsidebarcontent">
+				<a href="post.php?postnumber=92"><div class="rightsidebarcontenttile">
+										نائب قهرمانی دانشجوی رشته برق دانشگاه ارومیه در مسابقات کشتی پهلوانی شهرستان ارومیه
+									</div></a><a href="post.php?postnumber=91"><div class="rightsidebarcontenttile">
+										تجهیز دستگاههای خودپرداز به سوسکهای بمب انداز ضد سرقت
+									</div></a><a href="post.php?postnumber=90"><div class="rightsidebarcontenttile">
+										آموزش فوتوشاپ
+									</div></a><a href="post.php?postnumber=89"><div class="rightsidebarcontenttile">
+										صفحه ‌لمسی‌ای که شما را می‌شناسد
+									</div></a><a href="post.php?postnumber=86"><div class="rightsidebarcontenttile">
+										موس و کی‌بـورد افسـانه می‌شوند
+									</div></a><a href="post.php?postnumber=84"><div class="rightsidebarcontenttile">
+										نشریه باینری
+									</div></a><a href="post.php?postnumber=83"><div class="rightsidebarcontenttile">
+										جشن میلاد حضرت علی (ع) 
+									</div></a><a href="post.php?postnumber=82"><div class="rightsidebarcontenttile">
+										forget your password?
+									</div></a><a href="post.php?postnumber=81"><div class="rightsidebarcontenttile">
+										 کسب مقام دوم تیم بسکتبال دختران دانشگاه ارومیه...   
+									</div></a><a href="post.php?postnumber=80"><div class="rightsidebarcontenttile">
+										عرضه نسخه ایمن لینوکس برای مقابله با جاسوسی آمریکا 
+									</div></a>			</div>
+		</div>
+		<div class="rightsidebartile">
+			<div class="rightsidebarheader">
+				آخرین نظرات
+			</div>
+			<div class="rightsidebarcontent">
+				<a href="post.php?postnumber=74"><div class="rightsidebarcontenttile">
+										<p>بسیار عالی !!<br />
+&nbsp;</p>
+
+									</div></a>			</div>
+		</div>
+		<div class="rightsidebartile">
+			<div class="rightsidebarheader">
+				لینک های مفید
+			</div>
+			<div class="rightsidebarcontent">
+				<a href="http://urmia.ac.ir" target="_blank"><div class="rightsidebarcontenttile">
+										دانشگاه ارومیه
+									</div></a><a href="http://www.urmia.ac.ir/elecomp/computer/default.aspx" target="_blank"><div class="rightsidebarcontenttile">
+										گروه کامپیوتر دانشگاه ارومیه
+									</div></a>			</div>
+		</div>
+			</div>
+	<div id="main">
+		<div id="content">
+			<div id="posts">
+				<div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=54"><h2 class="postheader">
+									 نمایی مجازی از حملات سایبری بر کره زمین
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><div class="postinnertext">
+										<p>هیچ چیز به اندازه ای تکنیک های قدیمی ترسناکی که مجبورمان می کرد تا آنتی ویروس بر روی کامپیوتر خود نصب کنیم، جواب نمی دهد. کسپرسکی در یک آگهی آشکار برای Kaspersky Security Suite یک نقشه مجازی زنده ساخته است که در آن حملات سایبری با به تصویر کشیدن شش سایه، نقاط مختلف جهان را بسته به مقدار آلوده بودنشان نمایش می دهد. پررنگ ترین این سایه ها متعلق به روسیه است که بیانگر آلوده ترین کشور است بعد از آن ایالات متحده، هند و ویتنام با اختلاف ناچیزی در جایگاه های بعدی قرار دارند.</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=54"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=53"><h2 class="postheader">
+									بدافزار پیش‌رفته‌ی Mask، نسل بدافزار استاکس‌نت هم‌چنان ادامه دارد
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><a href="post.php?postnumber=53"><img class="postimg" alt="بدافزار پیش‌رفته‌ی Mask، نسل بدافزار استاکس‌نت هم‌چنان ادامه دارد" src="postimagesubs/537.jpeg" title="بدافزار پیش‌رفته‌ی Mask، نسل بدافزار استاکس‌نت هم‌چنان ادامه دارد" /></a><div class="postinnertext">
+										<p>پس از کشف استاکس&zwnj;نت، زنجیره&zwnj;ی اکتشافات&nbsp;تهدیدات پیش&zwnj;رفته&zwnj;ی مستمر یا APT&nbsp;ادامه پیدا کرده است. در سال ۲۰۱۲، بدافزار Flame، یک تهدید پیش&zwnj;رفته&zwnj;ی مستمر با هدف جاسوسی در خاورمیانه کشف شد که البته شواهدی از وجود ارتباط این بدافزار با بدافزار استاکس&zwnj;نت وجود داشت.&nbsp;بدافزار&zwnj;ی که با وجود این&zwnj;که ثابت شد کشورهای خبیث آمریکا و رژیم صهیونیستی آن&zwnj; را با هدف تخریب تجهیزات هسته&zwnj;ای نظنز، توسعه داده بودند، اما هم&zwnj;چنان در سکوت مسئولان، بدون بازجویی رها شد.&nbsp;</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=53"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=52"><h2 class="postheader">
+									بدافزارِ iBanking اندروید کاربران فیسبوک را هدف قرار داده است
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><a href="post.php?postnumber=52"><img class="postimg" alt="بدافزارِ iBanking اندروید کاربران فیسبوک را هدف قرار داده است" src="postimagesubs/526.png" title="بدافزارِ iBanking اندروید کاربران فیسبوک را هدف قرار داده است" /></a><div class="postinnertext">
+										<p>بدافزار اندرویدیِ iBanking، یک تروجان بانکی برای دستگاه&zwnj;های تلفن همراه است که مبتنی بر حملات تزریق HTML می&zwnj;باشد.&nbsp; کد این بدافزار به&zwnj;تازگی در انجمن&zwnj;های زیرزمینی برخط منتشر شده که همین مسئله منجر شده است که مجرمان سایبری بیش&zwnj;تری شانس سوء استفاده از این بدافزار و راه&zwnj;اندازی حملات علیه قربانیان بیش&zwnj;تری را داشته باشند.&nbsp;</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=52"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=51"><h2 class="postheader">
+									بدافزار Ploutus: نفوذ به دستگاه‌های خودپرداز فقط با یک پیامک
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><a href="post.php?postnumber=51"><img class="postimg" alt="بدافزار Ploutus: نفوذ به دستگاه‌های خودپرداز فقط با یک پیامک" src="postimagesubs/515.jpg" title="بدافزار Ploutus: نفوذ به دستگاه‌های خودپرداز فقط با یک پیامک" /></a><div class="postinnertext">
+										<p>کم&zwnj;تر از ۲ هفته، به پایان رسمی پشتیبانی از ویندوز اکس&zwnj;پی باقی مانده است، همان&zwnj;طور که در&nbsp;اخبار قبلیگزارش شد، حدوداً ٪۹۵ از ۳ میلیون دستگاه&zwnj; خودپرداز جهان، از این ویندوز استفاده می&zwnj;کنند و مایکروسافت در گزارشی عنوان کرده است که پشتیبانی از این ویندوز را برای این دستگاه&zwnj;ها با دریافت هزینه&zwnj;ی پشتیبانی ادامه خواهد داد.&nbsp; در این میان، کشورهایی نظیر هند، اعلام کرده&zwnj;اند که هزینه&zwnj;ی درخواستی مایکروسافت به ازای این پشتیبانی به حدی زیاد است، که آن&zwnj;ها ترجیح می&zwnj;دهند هزینه&zwnj;های انتقال زیرساخت به سامانه&zwnj;عامل&zwnj;های متن&zwnj;باز لینوکس را تقبل کنند تا این&zwnj;که هزینه&zwnj;های پشتیبانی بپردازند.</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=51"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=50"><h2 class="postheader">
+									نسخه‌ی جدیدِ تروجان بانکی زئوس با امضای دیجیتال معتبر
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><a href="post.php?postnumber=50"><img class="postimg" alt="نسخه‌ی جدیدِ تروجان بانکی زئوس با امضای دیجیتال معتبر" src="postimagesubs/504.jpg" title="نسخه‌ی جدیدِ تروجان بانکی زئوس با امضای دیجیتال معتبر" /></a><div class="postinnertext">
+										<p>یک نسخه&zwnj;ی خطرناک از&nbsp;تروجان&nbsp;بانکی زئوس به&zwnj;تازگی توسط آزمایشگاه ضدبدافزاری Comodo شناسایی شده که با یک امضای دیجیتال معتبرِ سرقتی، متعلق به توسعه&zwnj;دهندگان مایکروسافت، همراه می&zwnj;باشد، چنین امضای معتبری از شناسایی این بدافزار توسط مروررگرهای وب و سامانه&zwnj;های ضدبدافزاری جلوگیری می&zwnj;کند.&nbsp; تمامی نسخه&zwnj;های ویندوزی در سراسر جهان طوری تنظیم شده&zwnj;اند که تمامی برنامه&zwnj;هایی که با گواهی&zwnj;نامه&zwnj;های دیجیتال همراه با امضای مایکروسافت را قبول می&zwnj;کنند و بدافزاری که با چنین امضایی در حال گسترش است، یک خطر بسیار جدی به شمار می&zwnj;رود.&nbsp;</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=50"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=49"><h2 class="postheader">
+									پشتیبانی از پروتکل رمزنگاری HSTS در IE 12
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><a href="post.php?postnumber=49"><img class="postimg" alt="پشتیبانی از پروتکل رمزنگاری HSTS در IE 12" src="postimagesubs/4903.jpg" title="پشتیبانی از پروتکل رمزنگاری HSTS در IE 12" /></a><div class="postinnertext">
+										<p>مایکروسافت روز گذشته تایید کرد که در نسخه&zwnj;ی نهایی مرورگر اینترنت&zwnj;اکسپلورر، از پروتکل رمز&zwnj;نگاری HTTPS Strict Transport پشتیبانی خواهد کرد و به این ترتیب به جمع رقبای خود در حمایت از این پروتکل خواهد پپوست.&nbsp; مرورگر&zwnj;هایی که از پروتکل HSTS پشتیبانی می&zwnj;کنند، هر جلسه&zwnj;ی کاری که از طریق HTTP منتقل خواهد شد را از طریق HTTPS منتقل می&zwnj;کنند و به این ترتیب، تمامی ارتباطات با یک وب&zwnj;گاه را رمز می&zwnj;کنند.&nbsp;</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=49"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=48"><h2 class="postheader">
+									بسته‌شدن پرونده‌ی پشتیبانی از XP و Office 2003
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><a href="post.php?postnumber=48"><img class="postimg" alt="بسته‌شدن پرونده‌ی پشتیبانی از XP و Office 2003" src="postimagesubs/482.jpg" title="بسته‌شدن پرونده‌ی پشتیبانی از XP و Office 2003" /></a><div class="postinnertext">
+										<p>مطابق انتظار، مایکروسافت در دومین سه&zwnj;شنبه&zwnj;ی ماه آوریل، آخرین به&zwnj;روز&zwnj;رسانی&zwnj;های امنیتی ویندوز XP را منتشر کرد و در آن به رفع ۱۱ آسیب&zwnj;پذیری پرداخت.&nbsp; با وجود این&zwnj;&zwnj;که این آخرین به&zwnj;روز&zwnj;رسانی&zwnj;های امنیتی ویندوز XP می&zwnj;باشد، اما تعداد آسیب&zwnj;پذیری&zwnj;های وصله&zwnj;شده، نسبتاً کم می&zwnj;باشد. دو بولتن امنیتی بحرانی و دو بولتن دیگر با درجه&zwnj;&zwnj;&zwnj;ی اهمیت مهم، معرفی شده&zwnj;اند، که البته سوء&zwnj;استفاده از همه&zwnj;ی آن&zwnj;ها می&zwnj;تواند امکان اجرای برنامه از راه دور را برای مهاجم در نرم&zwnj;&zwnj;افزار&zwnj;های آسیب&zwnj;پذیر از جمله آخرین نسخه&zwnj;ی نرم&zwnj;افزار Word و هم&zwnj;چنین مرورگر Intenet Explorre فراهم کنند.&nbsp;</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=48"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=47"><h2 class="postheader">
+									بدافزار لینوکسیِ Windigo: نیم میلیون قربانی در سراسر جهان
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><a href="post.php?postnumber=47"><img class="postimg" alt="بدافزار لینوکسیِ Windigo: نیم میلیون قربانی در سراسر جهان" src="postimagesubs/4711.jpeg" title="بدافزار لینوکسیِ Windigo: نیم میلیون قربانی در سراسر جهان" /></a><div class="postinnertext">
+										<p>در واخر سال ۲۰۱۳، محققان امنیتی هزاران سامانه&zwnj;ی لینوکسیِ آلوده به یک تروجان&nbsp;&nbsp;OpenSSH با نام Linux/Ebury کشف کردند که به مهاجم امکان دست&zwnj;رسی راه دور به سامانه&zwnj;های آلوده را می&zwnj;داد.&nbsp; شرکت امنیتی و ضدبدافزاریِ ESET در ادامه&zwnj;ی تحقیقات خود در مورد این بدافزار، به تازگی کشف کرده است که این بدافزارِ بسیار پیش&zwnj;رفته به نام Windigo، نزدیک به نیم میلیون قربانی در سراسر جهان داشته است و از این میان ۲۵ هزار قربانی مربوط به کارگزار&zwnj;های لیونکسی یا dedicated server&zwnj;ها می&zwnj;باشند.&nbsp;</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=47"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=44"><h2 class="postheader">
+									مایکروسافت بزودی آپدیت ویندوز ۸٫۱ را منتشر میکند.
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><a href="post.php?postnumber=44"><img class="postimg" alt="مایکروسافت بزودی آپدیت ویندوز ۸٫۱ را منتشر میکند." src="postimagesubs/44ei.jpg" title="مایکروسافت بزودی آپدیت ویندوز ۸٫۱ را منتشر میکند." /></a><div class="postinnertext">
+										<p>طبق گزارشات مایکروسافت بزودی آپدیت ویندوز ۸٫۱ منتشر میشود.اگرچه نصب این بروزرسانی ساده نیست و توصیه نمی شود . آخرین خبر :ظاهرا مایکروسافت نصب این بروزرسانی را غیر فعال کرده است.</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=44"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=نرم افزار"><div class="postcate">
+										نرم افزار
+									</div></a>
+									<div class="postauther">
+										رحمت
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=43"><h2 class="postheader">
+									آیا نرم افزارهای iOS پر خطرتر از اندروید هستند ؟
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><a href="post.php?postnumber=43"><img class="postimg" alt="آیا نرم افزارهای iOS پر خطرتر از اندروید هستند ؟" src="postimagesubs/43and.jpg" title="آیا نرم افزارهای iOS پر خطرتر از اندروید هستند ؟" /></a><div class="postinnertext">
+										<p>ظاهرا نبرد بین اندرویید و iOS هرگز پایان پذیر نیست ؛ مردم با توجه به دستگاه های خود و موضوعاتی که از آنها منتشر میشود یکی را برتر از دیگری استدلال میکنند.</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=43"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										رحمت
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div>			</div>
+		</div>
+		<div id="leftsidebar">
+			<a href="http://www.urmia.ac.ir/" target="_blank"><div class="leftsidebartile">
+							<img class="leftsideimg" alt="ads" src="ads/4.jpg" title="دانشگاه ارومیه" />
+							</div></a><a href="http://com-eng.ir/post.php?postnumber=4" target="_blank"><div class="leftsidebartile">
+							<img class="leftsideimg" alt="ads" src="ads/gosaste.jpg" title="گسسته روزن" />
+							</div></a><a href="http://com-eng.ir/post.php?postnumber=4" target="_blank"><div class="leftsidebartile">
+							<img class="leftsideimg" alt="ads" src="ads/gosasteen.jpg" title="گسسته روزن" />
+							</div></a>			
+			<div class="leftsidebartile">
+				<div class="rightsidebarheader" style="text-align: center;">
+					درباره ما
+				</div>
+				<div class="rightsidebarcontent">
+					<a href="http://www.urmia.ac.ir/asatid/j_bagherzade/default.aspx" target="_blank"><div class="rightsidebarcontenttile" style="border-right-width: 1px;">
+						مدیر گروه : دکتر جمشید باقرزاده					</div></a>
+					<a href="http://www.urmia.ac.ir/asatid/m_namazi/default.aspx" target="_blank"><div class="rightsidebarcontenttile" style="border-right-width: 1px;">
+						معاون گروه : مهندس مجید نمازی					</div></a>
+					<div class="rightsidebarcontenttile" style="border-right-width: 1px;">
+						دبیر انجمن : علی قالی باف					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div id="pagenumcontainer">
+			<a href="http://com-eng.ir/"><div class="pagenum" style="width: 70px;">
+								صفحه اول
+							</div></a><a href="http://com-eng.ir/page.php?pagenumber=2"><div class="pagenum">
+									2
+								</div></a><a href="http://com-eng.ir/page.php?pagenumber=3"><div class="pagenum">
+									3
+								</div></a><div class="pagenumindex">
+									4
+								</div><a href="http://com-eng.ir/page.php?pagenumber=5"><div class="pagenum">
+									5
+								</div></a><a href="http://com-eng.ir/page.php?pagenumber=6"><div class="pagenum">
+									6
+								</div></a><a href="http://com-eng.ir/page.php?pagenumber=7"><div class="pagenum" style="width: 70px;">
+							صفحه آخر
+						</div></a>		</div>
+	</div>
+	
+	<div id="footer">
+		<div id="fc1" class="footercontent">
+			<ul>
+				<li class="footerliheader">
+					اخبار گروه کامپیوتر
+				</li>
+				<li class="footerli">
+								<a href="post.php?postnumber=4">ترجمه کتاب ریاضیات گسسته و کاربردهای آن</a>
+							</li>			</ul>
+		</div>
+		<div id="fc2" class="footercontent">
+			<ul>
+				<li class="footerliheader">
+					اخبار دانشکده
+				</li>
+				<li class="footerli">
+								<a href="post.php?postnumber=84">نشریه باینری</a>
+							</li>			</ul>
+		</div>
+		<div id="fc3" class="footercontent">
+			<ul>
+				<li class="footerliheader">
+					اخبار دانشگاه
+				</li>
+				<li class="footerli">
+								<a href="post.php?postnumber=92">نائب قهرمانی دانشجوی رشته برق دانشگاه ارومیه در مسابقات کشتی پهلوانی شهرستان ارومیه</a>
+							</li><li class="footerli">
+								<a href="post.php?postnumber=83">جشن میلاد حضرت علی (ع) </a>
+							</li><li class="footerli">
+								<a href="post.php?postnumber=81"> کسب مقام دوم تیم بسکتبال دختران دانشگاه ارومیه...   </a>
+							</li>			</ul>
+		</div>
+		<div id="footerother">
+			<div id="footersocial">
+				<a href="https://www.facebook.com/pages/%D8%A7%D9%86%D8%AC%D9%85%D9%86-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B1%D9%88%D9%85%DB%8C%D9%87/511059362338123?ref=hl" target="_blank"><img id="socialimg1" class="socialimg" alt="facebook" src="images/fb.png" title="FaceBook" /></a>
+				<a href="https://plus.google.com/b/111103336578635094666/111103336578635094666" target="_blank"><img id="socialimg2" class="socialimg" alt="google+" src="images/google+.png" title="Google+" /></a>
+				<a href="mailto:info@com-eng.ir"><img id="socialimg3" class="socialimg" alt="email" src="images/email.png" title="Email" /></a>
+			</div>
+			<div id="footersearch">
+				<form id="searchformf" method="GET" action="http://www.bing.com/search" target="_blank">
+				<img onclick="document.forms['searchformf'].submit();" id="searchimg" alt="search" src="images/search.jpg" title="Search" />
+				<input name="q"  style="width: 100px;" onfocus="searchtextf.defaultValue='';"  onblur="searchtextf.defaultValue='جستجو...';" id="searchtextf" type="text" value="جستجو..." />
+				<input type="hidden" name="cp" value="65001" />
+                <input type="hidden" name="FORM" value="FREESS" />
+                <input type="hidden" name="q1" value="site:http://com-eng.ir/" />
+              	</form>
+			</div>
+			<br/>
+			<div id="subscribe">
+				<form action="" method="post">
+					<input class="btn" type="submit" value="عضویت"/>
+					<input name="subscribef" style="margin-left:10px; width: 100px;" onfocus="subscribetext.defaultValue='';"  onblur="subscribetext.defaultValue='به ما بپیوندید...';" id="subscribetext" type="text" value="به ما بپیوندید..." />
+				</form>
+			</div>
+		</div>
+		<hr style="background-color: #FFF; width: 100%; margin: auto; clear: both;"/>
+		<div id="cright">
+			تمامی حقوق این وب سایت متعلق به انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه می باشد.<br>استفاده از مطالب وب سایت با ذکر منبع مجاز است.
+		</div>
+		<div id="design">
+			Programmed And Designed By Mohammad Nassiri<br/><a href="mailto:nassirimohammad@ymail.com">E-Mail:nassirimohammad@ymail.com</a>
+		</div>
+
+<!-- Begin WebGozar.com Counter code -->
+<script type="text/javascript" language="javascript" src="http://www.webgozar.ir/c.aspx?Code=3253314&amp;t=counter" ></script>
+<noscript><a href="http://www.webgozar.com/counter/stats.aspx?code=3253314" target="_blank">&#1570;&#1605;&#1575;&#1585;</a></noscript>
+<!-- End WebGozar.com Counter code -->
+
+	</div>
+	<div id="top" style="cursor:pointer; visibility:hidden; position:fixed; bottom:10px; right:10px;">
+		<img id="backtotop" alt="top" width="35" height="30" style="display:none; cursor:pointer; border:none;" src="images/top.png" />
+		<script>
+			$(window).scroll(function() {
+			    if($(this).scrollTop() > 200) {
+			        $('#backtotop').fadeIn();
+			    } else {
+			        $('#backtotop').fadeOut();
+			    }
+			});
+			
+			
+			
+			$('#backtotop').bind('click', function(e) {
+			    e.preventDefault();
+			    $('body,html').animate({scrollTop:0},800);
+			});
+		</script>
+	</div>
+	</body>
+</html>

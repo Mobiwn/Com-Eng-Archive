@@ -1,0 +1,21 @@
+//$("#rs1").slideDown();
+//$("#rsh1").css("background-image","url('images/menudown.png')");
+$(".rightsidebarsubheader").click(function(){
+	$temp=this.id;
+	$temp=$temp.substr(3);
+	$(".rightsidebarsubheader").not("#rsh"+$temp).css("background-image","url('images/menuup.png')");
+	
+	$s=$("#rsh"+$temp).css("background-image").split("/").pop();
+	$s=$s.split(")");
+	$s=$s[0];
+	if($s=="menuup.png")
+		{
+		$("#rsh"+$temp).css("background-image","url('images/menudown.png')");
+		}
+	else
+		{
+		$("#rsh"+$temp).css("background-image","url('images/menuup.png')");
+		}
+	$("#rs"+$temp).slideToggle();
+	$(".rightsidebarsub").not("#rs"+$temp).slideUp();
+	});

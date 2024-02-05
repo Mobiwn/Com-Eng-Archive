@@ -1,0 +1,696 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+<!-- head -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="description" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه" />
+<meta name="keywords" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه ، انجمن ، انجمن علمی ، انجمن علمی دانشجویی ، دانشگاه ارومیه ، کامپیوتر ، نرم افزار" />
+<meta name="author" content="Mohammad Nassiri" />
+<title dir="rtl">انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه</title>
+<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico" />
+<link href="presentation/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script><link rel="stylesheet" type="text/css" media="screen" href="slider/sliderstyle.css"/>
+</head>
+
+<body>
+<h1 style="display:none;">انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه</h1>
+
+<!-- header -->
+<div id="topheader">
+	<div class="thtile" style="border-left: solid;border-color: #FFF;border-width: 1px; color: #FFF; cursor: default;
+		 margin-left: 10px; background-image: none; padding: 5px;">
+	دوشنبه ۶ آذر ۱۳۹۶</div>
+	<a href="http://urmia.ac.ir/" target="_blank">
+	<div class="thtile">دانشگاه ارومیه</div></a>
+	<a href="http://fanni.urmia.ac.ir/?q=node/659" target="_blank">
+	<div class="thtile">دانشکده فنی گروه مهندسی کامپیوتر</div></a>
+</div>
+<div id="header">
+	<img alt="logo" src="images/logo44.jpg" title="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه"> 
+</div>
+<!-- rightsidebar -->
+
+<div id="rightsidebar">
+	<div class="rightsidebartile">
+		<a href=http://com-eng.ir/index/><div id="homepage" class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+				background-repeat: no-repeat; background-position:10px -75px;">
+				صفحه اصلی
+			</div></a>
+<a href="https://www.facebook.com/pages/%D8%A7%D9%86%D8%AC%D9%85%D9%86-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B1%D9%88%D9%85%DB%8C%D9%87/728180240610930"><div id="facebook" class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+				background-repeat: no-repeat; background-position:10px -190px;">
+				فیسبوک
+			</div></a>
+
+			<a href="/index/gallery"><div id="facebook" class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+				background-repeat: no-repeat; background-position:10px -293px;">
+				گالری تصاویر
+			</div></a>
+			<a href="excellent.php"><div id="facebook" class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+				background-repeat: no-repeat; background-position:10px -245px;">
+دانشجویان ممتاز
+			</div></a>
+		<div class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+			background-repeat: no-repeat; background-position:10px 15px;">
+			بخش ها
+		</div>
+		<div id="rsh1" class="rightsidebarsubheader">
+			جستجو
+		</div>
+		<div id="rs1" class="rightsidebarsub">
+			<div class="rightsidebarsubtile">
+				<div id="headersearch">
+					<form id="searchformh" method="GET" action="http://google.com/search" target="_blank">
+	                <input type="hidden" name="domains" value="http://com-eng.ir/index/" />
+	                <input type="hidden" name="oe" value="UTF-8" />
+	                <input type="hidden" name="hl" value="fa" />
+	                <input type="hidden" name="sitesearch" value="http://com-eng.ir/index/" />
+			<input name="q" placeholder=" جستجو ..." id="searchtext" class="formtxt" type="text"/>
+	              	</form>
+				</div>	
+			</div>
+			<div class="rightsidebarsubtile">
+				<div class="formbtn" onclick="document.forms['searchformh'].submit();">
+					جستجو
+				</div>
+			</div>
+		</div>
+		<div id="rsh2" class="rightsidebarsubheader">
+			اخبار
+		</div>
+		<div id="rs2" class="rightsidebarsub">
+			<a href="category.php?catename=اخبار گروه"><div class="rightsidebarsubtilea">
+				گروه
+			</div></a>
+			<a href="category.php?catename=اخبار دانشکده"><div class="rightsidebarsubtilea">
+				دانشکده
+			</div></a>
+			<a href="category.php?catename=اخبار دانشگاه"><div class="rightsidebarsubtilea">
+				دانشگاه
+			</div></a>
+		</div>
+		<div id="rsh3" class="rightsidebarsubheader">
+			انجمن
+		</div>
+		<div id="rs3" class="rightsidebarsub">
+			<a href="category.php?catename=اطلاعیه"><div class="rightsidebarsubtilea">
+				اطلاعیه ها
+			</div></a>
+			<a href="category.php?catename=نشریه"><div class="rightsidebarsubtilea">
+				نشریه باینری
+			</div></a>
+		</div>
+<a href="category.php?catename=ieee"><div class="rightsidebarsubheaderwos" style="direction:rtl;">
+شاخه دانشجویی IEEE
+		</div></a>
+		<a href="category.php?catename=فیلم آموزشی"><div class="rightsidebarsubheaderwos">
+			فیلم های آموزشی
+		</div></a>
+		<a href="category.php?catename=نرم افزار"><div class="rightsidebarsubheaderwos">
+			نرم افزار
+		</div></a>
+		<a href="category.php?catename=سخت افزار"><div class="rightsidebarsubheaderwos">
+			سخت افزار
+		</div></a>
+		<a href="category.php?catename=هوش مصنوعی"><div class="rightsidebarsubheaderwos">
+			هوش مصنوعی
+		</div></a>
+		<a href="category.php?catename=امنیت"><div class="rightsidebarsubheaderwos">
+			امنیت
+		</div></a>
+		<a href="category.php?catename=دانلود"><div class="rightsidebarsubheaderwos">
+			دریافت نرم افزار و فرم ها
+		</div></a>
+		<a href="category.php?catename=متفرقه"><div class="rightsidebarsubheaderwos">
+			متفرقه
+		</div></a>
+	</div>
+	<div class="rightsidebartile">
+		<div class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+			background-repeat: no-repeat; background-position:10px -128px;">
+			آخرین نظرات
+		</div>
+		
+				<a href="post.php?postnumber=121"><div class="rightsidebarsubtilea">
+					از زحمات مدیر جدید سایت کمال تشکر رو دارم، خداروشکر بعد از یک وقفه طولانی دوباره فعالیت از سرگرفته شده. 
+				</div></a>
+					
+				<a href="post.php?postnumber=127"><div class="rightsidebarsubtilea">
+					تبریک میگم و موفقیت های روز افزون رو براشون ارزومندم
+				</div></a>
+					
+				<a href="post.php?postnumber=127"><div class="rightsidebarsubtilea">
+					من هم به نوبه خود به دوستانم تبریک می گویم و آرزومندم در مسابقات بعدی موفق باشند.
+				</div></a>
+					
+				<a href="post.php?postnumber=118"><div class="rightsidebarsubtilea">
+					احسنت،با آرزوی کسب موفقیت های روز افزون
+				</div></a>
+					
+				<a href="post.php?postnumber=112"><div class="rightsidebarsubtilea">
+					متاسفانه هنوز لیست آماده نشده است. پس از دریافت لیست حتما قرار داده خواهد شد.
+				</div></a>
+					
+				<a href="post.php?postnumber=112"><div class="rightsidebarsubtilea">
+					یست دانشجویان ممتاز ارشد رو نمیذارین؟
+				</div></a>
+					
+				<a href="post.php?postnumber=98"><div class="rightsidebarsubtilea">
+					بله، متاسفانه هیچکدام از لوگوها مدنظر شورای گروه برق و کامپیوتر قرار نگرفت.
+ولی متاسفانه مسابقه پایان یافته و در صورتی که لوگویی طراحی کرده اید و احتمال انتخاب دارد، می توانید با دکتر جمشید باقرزاده تماس بگیرید تا در صورت انتخاب، تقدیری مجزا از شما صورت گیرد.
+				</div></a>
+						</div>
+	<div class="rightsidebartile">
+		<div class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+			background-repeat: no-repeat; background-position:10px -190px;">
+			پیوندهای مفید
+		</div>
+		<a href="http://www.urmia.ac.ir/" target="_blank"><div class="rightsidebarsubtilea">
+			دانشگاه ارومیه
+		</div></a>
+		<a href="http://www.kheshtaval.ir/" target="_blank"><div class="rightsidebarsubtilea">
+			خشت اول
+		</div></a>
+		<a href="http://uesc.ir/" target="_blank"><div class="rightsidebarsubtilea">
+			انجمن علمی برق
+		</div></a>
+		<a href="http://maktabkhooneh.org/" target="_blank"><div class="rightsidebarsubtilea">
+			مکتب خونه
+		</div></a>
+		<a href="http://ehsanavr.com/" target="_blank"><div class="rightsidebarsubtilea">
+			مرجع تخصصی برنامه نویسی
+		</div></a>
+		<a href="http://mohandesyar.com/" target="_blank"><div class="rightsidebarsubtilea">
+			مهندس یار
+		</div></a>
+		<a href="http://stackoverflow.com/" target="_blank"><div class="rightsidebarsubtilea">
+			Stack Overflow
+		</div></a>
+		<a href="http://www.w3schools.com/" target="_blank"><div class="rightsidebarsubtilea">
+			Web Development
+		</div></a>
+		<a href="http://www.mspsoft.com/" target="_blank"><div class="rightsidebarsubtilea">
+			MSPSoft
+		</div></a>
+	</div>
+<div class="rightsidebartile" style="text-align: center;">
+		<!-- Gateway Verify Logo -->
+		<script language="javascript" type="text/javascript"  src="http://www.parspal.com/xContext/Component/Verify/?UI=d3a13200b3d14f598937aeb1f0fa859f&GID=220420012&MID=2881C1FE48899459B8C961C5D4C08359F0DD4B3B&Mode=4" >
+		</script>
+		<noscript><a title="درگاه پرداخت"  href="http://www.parspal.com" >درگاه پرداخت پارس پال</a></noscript>
+		<!-- Gateway Verify Logo -->
+	
+	</div>
+</div>
+<script type="text/javascript" src="presentation/rightsidebar.js"></script>
+
+<div id="main">
+
+    <!-- ********************************* posts ************************************************* -->
+	<div class="mainpost">
+		<div class="mainpostheader">
+			مطالب
+		</div>
+		<div class="mainpostcontent">
+			<table>
+				
+				<tr>
+					<td valign="top" class="mainposttileimg">
+						<a href="post.php?postnumber=37"><img title="فایل های مربوط به بخش امنیت نشریه باینری" alt="فایل های مربوط به بخش امنیت نشریه باینری" src="" style="display:none"></a>
+					</td>
+					<td valign="top" class="mainposttilecontent">
+						<div class="mainposttileheader">
+							<a style="color:#079;font-size:13pt;" href="post.php?postnumber=37">فایل های مربوط به بخش امنیت نشریه باینری</a>	
+							<a href="category.php?catename=امنیت"><div class="mainposttilecategory">
+								امنیت
+							</div></a>
+						</div>
+						<div class="postsummary">
+							<p>در ادامه مطلب می توانید آموزش های تصویری و دیگر فایل های اشاره شده در بخش امنیت نشریه باینری را دریافت کنید.</p>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td class="mainposttilesecondrow">
+						<a href="post.php?postnumber=37">
+						<div class="mainposttilecontinue">
+							ادامه ...
+						</div>
+						<div class="mainposttiledate">
+							شنبه ۸ آذر ۱۳۹۳
+						</div>
+						<div class="mainposttilecomment">
+							0 نظر
+						</div>
+						</a>
+					</td>
+				</tr>
+				<tr><td style="height:10px;"></td></tr>
+			
+				<tr>
+					<td valign="top" class="mainposttileimg">
+						<a href="post.php?postnumber=25"><img title="امنیت شبکه چیست؟" alt="امنیت شبکه چیست؟" src="postimages/25-index.jpg" style="display:inline"></a>
+					</td>
+					<td valign="top" class="mainposttilecontent">
+						<div class="mainposttileheader">
+							<a style="color:#079;font-size:13pt;" href="post.php?postnumber=25">امنیت شبکه چیست؟</a>	
+							<a href="category.php?catename=امنیت"><div class="mainposttilecategory">
+								امنیت
+							</div></a>
+						</div>
+						<div class="postsummary">
+							<p>سازمانهای امروزی برای محافظت اطلاعات و سیستمهای اطلاعاتی از دسترسی های غیر مجاز و جلوگیری از ایجاد تغییر، از بین رفتن یا دزدی داده ها بجز در مواردی که از سوی سازمان مجوز صادر شود اهمیت دارد. در یک کلام یعنی امنیت اطلاعات. شرکت ها به این موضوع اهمیت بسیار دارند که مدیران IT به مدیران اجرایی کامل یا (chief information officers) CIO یا (chief Technology officers) CTO تبدیل می شوند.</p>
+
+<p>این مطالب آموزی برای افرادی که می خواهند مسیر تبدیل شدن به یک مدیر امنیتی را آغاز کنند یا ادامه دهند مناسب است.</p>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td class="mainposttilesecondrow">
+						<a href="post.php?postnumber=25">
+						<div class="mainposttilecontinue">
+							ادامه ...
+						</div>
+						<div class="mainposttiledate">
+							شنبه ۲۶ مهر ۱۳۹۳
+						</div>
+						<div class="mainposttilecomment">
+							0 نظر
+						</div>
+						</a>
+					</td>
+				</tr>
+				<tr><td style="height:10px;"></td></tr>
+			
+				<tr>
+					<td valign="top" class="mainposttileimg">
+						<a href="post.php?postnumber=24"><img title="php چیست؟" alt="php چیست؟" src="postimages/24-index.jpg" style="display:inline"></a>
+					</td>
+					<td valign="top" class="mainposttilecontent">
+						<div class="mainposttileheader">
+							<a style="color:#079;font-size:13pt;" href="post.php?postnumber=24">php چیست؟</a>	
+							<a href="category.php?catename=نرم افزار"><div class="mainposttilecategory">
+								نرم افزار
+							</div></a>
+						</div>
+						<div class="postsummary">
+							<p>ی&zwnj;اچ&zwnj;پی (PHP) یکی از پر طرفدارترین زبان&zwnj;های اسکریپت&zwnj;نویسی متن باز (Open Source) است، که بیشتر برای طراحی برنامه&zwnj;های سمت سرور در وب&zwnj;گاه&zwnj;های پویا (Dynamic) مورد استفاده قرار می&zwnj;گیرد. PHP مخفف PHP: Hypertext Preprocessor (پیش&zwnj;پردازنده فرامتن) می&zwnj;&zwnj;باشد.<br />
+پی&zwnj;اچ&zwnj;پی در سال ۱۹۹۴ ایجاد شد. رسموس لردورف (Rasmus Lerdorf) ایجاد کننده اولیه آن بوده است ولی در طی زمان این زبان برنامه&zwnj;سازی، توسط سایر کارشناسان و برنامه&zwnj;نویسان تکمیل گردیده و به شکل کنونی آن درآمده &zwnj;است.<br />
+پی&zwnj;اچ&zwnj;پی از زبان&zwnj;های اسکریپت&zwnj;نویسی تحت وب است. ساختار این زبان بسیار شبیه زبان سی (C) و زبان برنامه&zwnj;نویسی پرل (Perl) می&zwnj;&zwnj;باشد. شکل پذیری فوق العاده آن و نیز همگونی با اغلب بانک&zwnj;های اطلاعاتی از قبیل MySQL قدرت آن را افزایش داده است.<br />
+مشهورترین نرم&zwnj;افزارهای(بسته&zwnj;های) ایجاد شده با پی&zwnj;اچ&zwnj;پی عبارت&zwnj;اند از phpBB و SMF و Mambo و Joomla و PHPNuke و mybb و مدیاویکی (MediaWiki) . پی&zwnj;اچ&zwnj;پی می&zwnj;تواند جایگزینی برای زبان&zwnj;های ASP.NET و JSP و Perl باشد.<br />
+سادگی استفاده از پی&zwnj;اچ&zwnj;پی و شباهت آن به زبان سی و پرل (و از نسخه ۵ آن به جاوا) باعث شده که اغلب برنامه نویسان با تجربه در کوتاه&zwnj;ترین زمان ممکن برنامه&zwnj;های کاملی را ایجاد کنند.<br />
+پی&zwnj;اچ&zwnj;پی تنها یک زبان اسکریپت&zwnj;نویسی نیست و با استفاده از PHP-GTK می&zwnj;توان برای طراحی برنامه&zwnj;های با ظاهر گرافیکی (GUI) و همچنین طراحی برنامه&zwnj;های خط فرمان شبیه پرل یا پایتون (Python) از آن استفاده کرد.<br />
+پی&zwnj;اچ&zwnj;پی امکان استفاده از انواع مختلفی از پایگاه&zwnj;های داده را از جمله MySQL، اوراکل، IBM DB۲ ،Microsoft SQL Server ،PostgreSQL و SQLite با دستورهایی ساده فراهم می&zwnj;&zwnj;سازد.<br />
+پی&zwnj;اچ&zwnj;پی روی بیشتر سیستم عامل&zwnj;های معروف از جمله لینوکس، یونیکس، ویندوز و Mac OSX و با اغلب کارگزارهای وب (Web Server) معروف، قابل اجراست.</p>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td class="mainposttilesecondrow">
+						<a href="post.php?postnumber=24">
+						<div class="mainposttilecontinue">
+							ادامه ...
+						</div>
+						<div class="mainposttiledate">
+							شنبه ۲۶ مهر ۱۳۹۳
+						</div>
+						<div class="mainposttilecomment">
+							1 نظر
+						</div>
+						</a>
+					</td>
+				</tr>
+				<tr><td style="height:10px;"></td></tr>
+			
+				<tr>
+					<td valign="top" class="mainposttileimg">
+						<a href="post.php?postnumber=23"><img title="هوش مصنوعی و کاربردهای ان در صنایع مختلف" alt="هوش مصنوعی و کاربردهای ان در صنایع مختلف" src="postimages/23-index.jpg" style="display:inline"></a>
+					</td>
+					<td valign="top" class="mainposttilecontent">
+						<div class="mainposttileheader">
+							<a style="color:#079;font-size:13pt;" href="post.php?postnumber=23">هوش مصنوعی و کاربردهای ان در صنایع مختلف</a>	
+							<a href="category.php?catename=هوش مصنوعی"><div class="mainposttilecategory">
+								هوش مصنوعی
+							</div></a>
+						</div>
+						<div class="postsummary">
+							<p>بیشتر افراد با شنیدن عبارت هوش مصنوعی ربات های فیلم های علمی و تخیلی و بازی های کامپیوتری و به خصوص شطرنج را به یاد می آورند اما حال با خواندن این مطالب ممکن است نظرات اندکی تغییر کنند ...</p>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td class="mainposttilesecondrow">
+						<a href="post.php?postnumber=23">
+						<div class="mainposttilecontinue">
+							ادامه ...
+						</div>
+						<div class="mainposttiledate">
+							شنبه ۲۶ مهر ۱۳۹۳
+						</div>
+						<div class="mainposttilecomment">
+							0 نظر
+						</div>
+						</a>
+					</td>
+				</tr>
+				<tr><td style="height:10px;"></td></tr>
+			
+				<tr>
+					<td valign="top" class="mainposttileimg">
+						<a href="post.php?postnumber=22"><img title="بررسی دلایل گرم شدن لپ تاب" alt="بررسی دلایل گرم شدن لپ تاب" src="postimages/22-index.jpg" style="display:inline"></a>
+					</td>
+					<td valign="top" class="mainposttilecontent">
+						<div class="mainposttileheader">
+							<a style="color:#079;font-size:13pt;" href="post.php?postnumber=22">بررسی دلایل گرم شدن لپ تاب</a>	
+							<a href="category.php?catename=متفرقه"><div class="mainposttilecategory">
+								متفرقه
+							</div></a>
+						</div>
+						<div class="postsummary">
+							<p>اخیرا در بازار تکنولوژی گرم شدن لپ تاب توجهات زیادی را به خود جلب کرده که شروع این جریان از سال 2006 با آتش گرفتن چند لپ تاب بود که علت آن را اشکال فنی در سیستم برق رسانی و باتری اعلام نمودند ...</p>
+
+<p>اما آیا تمام جریان همین بود؟!</p>
+
+<p>از جمله عواملی که موجب گرم شدن غیر معمول لپ تاب می شوند می توان با موارد زیر اشاره کرد :</p>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td class="mainposttilesecondrow">
+						<a href="post.php?postnumber=22">
+						<div class="mainposttilecontinue">
+							ادامه ...
+						</div>
+						<div class="mainposttiledate">
+							شنبه ۲۶ مهر ۱۳۹۳
+						</div>
+						<div class="mainposttilecomment">
+							1 نظر
+						</div>
+						</a>
+					</td>
+				</tr>
+				<tr><td style="height:10px;"></td></tr>
+			
+				<tr>
+					<td valign="top" class="mainposttileimg">
+						<a href="post.php?postnumber=20"><img title="امنیت شبکه" alt="امنیت شبکه" src="postimages/20-images.jpg" style="display:inline"></a>
+					</td>
+					<td valign="top" class="mainposttilecontent">
+						<div class="mainposttileheader">
+							<a style="color:#079;font-size:13pt;" href="post.php?postnumber=20">امنیت شبکه</a>	
+							<a href="category.php?catename=امنیت"><div class="mainposttilecategory">
+								امنیت
+							</div></a>
+						</div>
+						<div class="postsummary">
+							<p>امنیت شبکه از تصدیق هویّت کاربر و معمولاً توسط یک نام کاربری و یک <a href="http://fa.wikipedia.org/wiki/%D8%B1%D9%85%D8%B2_%D8%B9%D8%A8%D9%88%D8%B1">رمز عبور</a> آغاز می شود. از آنجایی که این موضوع تنها نیازمند به یک چیز در کنار نام کاربری ( یعنی رمز عبور) است، لذا گاهی اوقات تحت عنوان &laquo;احراز هویت تک عامله&raquo; نامیده می شود. با &laquo;احراز هویت دو عامله&raquo; برخی از چیزهایی که شما دارید، نیز استفاده می شود (به عنوان مثال یک <a href="http://fa.wikipedia.org/wiki/%D8%AA%D9%88%DA%A9%D9%86_%D8%A7%D9%85%D9%86%DB%8C%D8%AA%DB%8C">توکن امنیتی</a> یا قفل سخت افزاری، یک کارت ATM و یا تلفن همراه شما)، و یا با &laquo;احراز هویت سه عامله&raquo; بعضی از چیزهایی که معرف شماست نیز استفاده می شود (مانند اثر انگشت).</p>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td class="mainposttilesecondrow">
+						<a href="post.php?postnumber=20">
+						<div class="mainposttilecontinue">
+							ادامه ...
+						</div>
+						<div class="mainposttiledate">
+							سه شنبه ۲۲ مهر ۱۳۹۳
+						</div>
+						<div class="mainposttilecomment">
+							0 نظر
+						</div>
+						</a>
+					</td>
+				</tr>
+				<tr><td style="height:10px;"></td></tr>
+			
+				<tr>
+					<td valign="top" class="mainposttileimg">
+						<a href="post.php?postnumber=15"><img title="زبان برنامه نویسی ++cچیست" alt="زبان برنامه نویسی ++cچیست" src="postimages/15-index.jpg" style="display:inline"></a>
+					</td>
+					<td valign="top" class="mainposttilecontent">
+						<div class="mainposttileheader">
+							<a style="color:#079;font-size:13pt;" href="post.php?postnumber=15">زبان برنامه نویسی ++cچیست</a>	
+							<a href="category.php?catename=نرم افزار"><div class="mainposttilecategory">
+								نرم افزار
+							</div></a>
+						</div>
+						<div class="postsummary">
+							<p>همانطور که می&zwnj;دانید کامپیوتر فقط قابلیت فهم زبان 0و1 را داراست. پس ما فقط می&zwnj;توانیم از طریق صفر یک با آن رابطه برقرار کنیم. در گذشته های دور و در اوایل ساخت این ماشین پیچیده یعنی کامپیوتر نیز از صفر و یک برای بکار گرفتن آن استفاده می&zwnj;شد. اما این روش بسیار وقت گیر بوده و همچنین فقط عده&zwnj;ی کمی از افراد قادر به استفاده از آن بوده&zwnj;اند.<br />
+پس از مدتی برای سهولت در کار برنامه نویسی برای کامپیوتر زبان جدیدی به نام اسمبلی ابداع شد که کار را بسیار ساده تر کرده بود ولی باز هم معایب بزرگی داشت که مهم ترین آن ها نا مفهوم بودن دستورات آن برای انسان بود.<br />
+انسان ها همواره بدنبال زبانی بودند که دستورات آن به زبان انسان ها شباهت بیشتری داشته و فراگیری آن نیز آسان تر باشد و این باعث شد که انسان ها زبان های سطح بالا را بوجود آورند. از جمله این زبان ها Basic نام داشت که واقعا ساختاری روان داشته و فراگیری آن بسیار ساده تر و سریع تر از اسمبلی بود. از دیگر زبان های سطح بالا می&zwnj;توان به Pascal و فرترن اشاره نمود.<br />
+در سال 1970 در آزمایشگاهی به نام بل زبانی ایجاد شد که c نام گرفت. دستورات این زبان بر خلاف زبان های سطح بالای قبلی به طور کامل به زبان انسانی شبیه نبود بلکه در آن امکان استفاده از فرمان ها و دستوراتی بسیار شبیه به زبان های سطح پایین(صفر و یک و اسمبلی) وجود داشت، این قابلیت باعث می&zwnj;شد که ما بتوانیم برنامه های سیستمی و بسیار سریعی ایجاد کنیم که از عهده زبان های سطح بالا بر نمی&zwnj;آمد. در واقع ما در زبان c هم سرعت بالا و همچنین قدرت نوشتن برنامه های سیستمی را همراه با زبان شبیه به زبان انسان ها در اختیار داشتیم که این باعث شد که به C یک زبان ((سطح میانی)) گفته شود.<br />
+زبان ++C که از نسل C می&zwnj;باشد ، تمام توانایی های زبان C را با قابلیت شی گرایی همراه دارد. در دروس مربوط به شی گرایی در این باره بیشتر سخن خواهیم گفت.<br />
+پس از ++C زبان #C (بخوانید سی شارپ) پا به عرصه گذاشت. این زبان جدید در زمینه شی گرایی پیشرفت های بسیاری کرده است و این موضوع سبب پیچیدگی آن شده است. ولی برای یادگیری راحت تر آن شما می&zwnj;بایست ابتدا ++C را فرا گیرید. در واقع کلید ورود به #C در میان کد های ++C نهفته است.</p>
+
+<p>همانطور که گفته شد زبان های برنامه نویسی برای ارتباط با کامپیوتر بکار می&zwnj;روند. حالا ما اطلاعات کافی برای شروع را داریم.<br />
+اما قبل از شروع باید این نکته رو هم ذکر کرد که هیچ زبان برنامه نویسی به خودی خود (به جیز صفر و یک) نمی&zwnj;تواند برنامه ای ایجاد کند مانند ساخت یک ساختمان که حتی با وجود بهترین مصالح بازهم باید کارگری وجود داشته باشد تا این مواد اولیه را به ساختمان تبدیل کند.<br />
+این کار در کامپیوتر به عهده&zwnj;ی کامپایلر می&zwnj;باشد. کامپایلر دستورات نوشته شده توسط ما را به زبان 0 و 1 تبدیل می کند. هر زبان برنامه نویسی هم به کامپایلر مخصوص خود احتیاج دارد. در ++C&zwnj; نیز همینطور.<br />
+کامپایلر های مختلفی برای ++C در بازار وجود دارد که از معروف ترین و بهترین آن ها می&zwnj;توان به Visual C++ 6.0 و Borland C++ 4.0 اشاره کرد که بسیار سریع بوده و سازگار با محیط ویندوز نیز هستند. همچنین کامپایلری به نام Dev C++ Bloodshed وجود دارد که کار با آن نیز ساده و تحت ویندوز می&zwnj;باشد. من در پست بعدی لینک دانلود این کامپایلر را قرار می&zwnj;دهم.<br />
+کامپایلر های تحت داس نیز موجود اند ولی متاسفانه نمی&zwnj;توان بوسیله&zwnj;ی آن ها برنامه های مخصوص ویندوز را کامپایل کرد.</p>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td class="mainposttilesecondrow">
+						<a href="post.php?postnumber=15">
+						<div class="mainposttilecontinue">
+							ادامه ...
+						</div>
+						<div class="mainposttiledate">
+							چهارشنبه ۱۶ مهر ۱۳۹۳
+						</div>
+						<div class="mainposttilecomment">
+							0 نظر
+						</div>
+						</a>
+					</td>
+				</tr>
+				<tr><td style="height:10px;"></td></tr>
+			
+				<tr>
+					<td valign="top" class="mainposttileimg">
+						<a href="post.php?postnumber=13"><img title="راهکارهای افزایش سرعت کامپیوتر" alt="راهکارهای افزایش سرعت کامپیوتر" src="postimages/13-Speed-up-Windows-7-580x387.jpg" style="display:inline"></a>
+					</td>
+					<td valign="top" class="mainposttilecontent">
+						<div class="mainposttileheader">
+							<a style="color:#079;font-size:13pt;" href="post.php?postnumber=13">راهکارهای افزایش سرعت کامپیوتر</a>	
+							<a href="category.php?catename=نرم افزار"><div class="mainposttilecategory">
+								نرم افزار
+							</div></a>
+						</div>
+						<div class="postsummary">
+							<p>همانطور که میدانید با وجود ارائه ی ویندوز ۸ هنوز هم بسیاری از کاربران ویندوز خود را تغییر نداده اند و همچنان از ویندوز فوق العاده و موفق ۷ استفاده میکنند . کاربران ویندوز، همیشه به دنبال نکاتی موثر برای افزایش سرعت بازدهی ویندوز و همچنین افزایش کارایی آن هستند،در این مقاله با ۱3&nbsp; نکته ساده اما مهم و کاربردی برای افزایش سرعت آشنا خواهیم شد .</p>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td class="mainposttilesecondrow">
+						<a href="post.php?postnumber=13">
+						<div class="mainposttilecontinue">
+							ادامه ...
+						</div>
+						<div class="mainposttiledate">
+							چهارشنبه ۹ مهر ۱۳۹۳
+						</div>
+						<div class="mainposttilecomment">
+							0 نظر
+						</div>
+						</a>
+					</td>
+				</tr>
+				<tr><td style="height:10px;"></td></tr>
+			
+				<tr>
+					<td valign="top" class="mainposttileimg">
+						<a href="post.php?postnumber=12"><img title="مقایسه ویندوز 7 با ویندوز 8" alt="مقایسه ویندوز 7 با ویندوز 8" src="postimages/12-Windows7.&.Windows8.a.jpg" style="display:inline"></a>
+					</td>
+					<td valign="top" class="mainposttilecontent">
+						<div class="mainposttileheader">
+							<a style="color:#079;font-size:13pt;" href="post.php?postnumber=12">مقایسه ویندوز 7 با ویندوز 8</a>	
+							<a href="category.php?catename=نرم افزار"><div class="mainposttilecategory">
+								نرم افزار
+							</div></a>
+						</div>
+						<div class="postsummary">
+							<p><br />
+بر اساس نظر سنجی سایت پی سی مگزین، کاربران کامپیوترهای شخصی در رابطه با کارایی و سرعت Windows 8 نظرات متفاوتی را اعلام کرده&zwnj;اند. پی سی مگزین با انجام تعداد زیادی آزمایش، کارایی نسخه آزمایشی ویندوز 8 را از جهات مختلف مورد بررسی قرار داده و در نهایت آن را بسیار سریع&zwnj;تر از ویندوز 7 دانسته است. در آزمایش&zwnj;های صورت گرفته، سرعت شروع (بوت) ویندوز 8 و عملکرد فوق&zwnj;العاده&zwnj;اش به هنگام مشاهده صفحات اینترنت در مقایسه با ویندوز 7 بسیار چشم&zwnj;گیر بوده است. البته در آزمایش&zwnj;های مربوط به Performance و نرم&zwnj;افزارهای Office نتایج متفاوتی به دست آمده است.</p>
+
+<p>&nbsp;</p>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td class="mainposttilesecondrow">
+						<a href="post.php?postnumber=12">
+						<div class="mainposttilecontinue">
+							ادامه ...
+						</div>
+						<div class="mainposttiledate">
+							چهارشنبه ۹ مهر ۱۳۹۳
+						</div>
+						<div class="mainposttilecomment">
+							0 نظر
+						</div>
+						</a>
+					</td>
+				</tr>
+				<tr><td style="height:10px;"></td></tr>
+			
+				<tr>
+					<td valign="top" class="mainposttileimg">
+						<a href="post.php?postnumber=9"><img title="برنامه هفتگی و امتحانات گروه کامپیوتر در پاییز 93" alt="برنامه هفتگی و امتحانات گروه کامپیوتر در پاییز 93" src="postimages/9-779study_20planning_20dur.jpg" style="display:inline"></a>
+					</td>
+					<td valign="top" class="mainposttilecontent">
+						<div class="mainposttileheader">
+							<a style="color:#079;font-size:13pt;" href="post.php?postnumber=9">برنامه هفتگی و امتحانات گروه کامپیوتر در پاییز 93</a>	
+							<a href="category.php?catename=دانلود"><div class="mainposttilecategory">
+								دانلود
+							</div></a>
+						</div>
+						<div class="postsummary">
+							<p style="direction: rtl;">در ادامه می توانید برنامه هفتگی و امتحانات دروس گروه کامپیوتر و فناوری اطلاعات در پاییز 93 را دریافت نمایید...</p>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td class="mainposttilesecondrow">
+						<a href="post.php?postnumber=9">
+						<div class="mainposttilecontinue">
+							ادامه ...
+						</div>
+						<div class="mainposttiledate">
+							یکشنبه ۱۲ مرداد ۱۳۹۳
+						</div>
+						<div class="mainposttilecomment">
+							0 نظر
+						</div>
+						</a>
+					</td>
+				</tr>
+				<tr><td style="height:10px;"></td></tr>
+						</table>
+		</div>
+		
+					<a href="more.php?id=2&cf=27"><div class="mainpostmore" style="float: right;">
+						قدیمی تر
+					</div></a>
+						
+					<a href="more.php?id=2&cf=7"><div class="mainpostmore" style="float: left;">
+						جدیدتر
+					</div></a>
+							</div>
+	<!-- ********************************* posts ************************************************* -->
+
+</div>
+
+<!-- footer -->
+<div id="footer">
+	<div style="height: 160px; overflow: hidden; padding-bottom: 10px;">
+		<div style="float: right; width: 290px; text-align: right; color: #FFF; font-family: 'B Nazanin';
+				 margin-right:150px;">
+			<ul style="padding:0px; list-style:none; direction: rtl; ">
+				<li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px 0px; padding-right: 40px; margin-bottom: 10px; color:#ef9a1b; font-weight: bold;">
+					تماس با انجمن
+				</li>
+				<a href="mailto:info@com-eng.ir"><li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px -23px; padding-right: 40px; margin-bottom: 10px;">
+					ایمیل: info@com-eng.ir
+				</li></a>
+				<li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px -102px; padding-right: 40px; margin-bottom: 10px;">
+					شماره تماس: 09148176583
+				</li>
+				<li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px -76px; padding-right: 40px; margin-bottom: 10px;">
+					سامانه پیامکی: 50002853107777
+				</li>
+			</ul>
+		</div>
+		<div style="float: left; width: 290px; text-align: right; color: #FFF; font-family: 'B Nazanin';">
+			<ul style="padding:0px; list-style:none; direction: rtl; margin-top: 20px;">
+				<li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px 0px; padding-right: 40px; margin-bottom: 10px; color:#ef9a1b; font-weight: bold;">
+					تماس با گروه
+				</li>
+				<a href="http://asatid.urmia.ac.ir/s.yousefi" target="_blank"><li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px -23px; padding-right: 40px; margin-bottom: 10px;" title="دکتر صالح یوسفی">
+					مدیر گروه
+				</li></a>
+				<a href="http://asatid.urmia.ac.ir/m.namazi" target="_blank"><li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px -23px; padding-right: 40px; margin-bottom: 10px;" title="مهندس مجید نمازی">
+					معاون گروه
+				</li></a>
+			</ul>
+		</div>
+	</div> 
+	
+	<div id="auther">
+		<div style="float:right; padding:20px; overflow: hidden; 
+			direction:rtl; text-align: right;	color: #FFF; font-family: 'B Nazanin'; font-size:11pt; font-weight: bold;">
+			کلیه حقوق این وب سایت محفوظ می باشد.
+		</div>
+		<a href="http://www.whitedesign.ir" target="_blasnk"><div style="background-image: url('images/auther.png');
+			background-size:100% 100%; width: 50px; height: 50px; float: left;"></div></a>
+		<p style="float:left; padding:23px 10px 10px 10px; padding-left: 5px;">Designed By: <a href="http://whitedesign.ir">White Design</a></p>
+	</div>
+<!-- Begin WebGozar.com Counter code -->
+<script type="text/javascript" language="javascript" src="http://www.webgozar.ir/c.aspx?Code=3332611&amp;t=counter" ></script>
+<noscript><a href="http://www.webgozar.com/counter/stats.aspx?code=3332611" target="_blank">&#1570;&#1605;&#1575;&#1585;</a></noscript>
+<!-- End WebGozar.com Counter code -->
+</div>
+<!-- back to top -->
+<div id="top" style="cursor:pointer; position:fixed; bottom:10px; right:20px;">
+	<img id="backtotop" alt="top" width="25" height="25" style="display:none; cursor:pointer;
+	  border:solid; border-width:1px; border-color:#033; background-color: #FFF; padding: 5px 5px 5px 5px; border-radius:5px 5px 5px 5px;" src="images/top.png" />
+	<script>
+		$(window).scroll(function() {
+		    if($(this).scrollTop() > 200) {
+		        $('#backtotop').fadeIn();
+		    } else {
+		        $('#backtotop').fadeOut();
+		    }
+		});
+		
+		$('#backtotop').bind('click', function(e) {
+		    e.preventDefault();
+		    $('body,html').animate({scrollTop:0},800);
+		});
+	</script>
+</div>
+
+</body>
+</html>

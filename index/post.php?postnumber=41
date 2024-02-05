@@ -1,0 +1,387 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html onscroll="setTimeout(removemessage(),400);">
+
+<head>
+<!-- head -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="description" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه" />
+<meta name="keywords" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه ، انجمن ، انجمن علمی ، انجمن علمی دانشجویی ، دانشگاه ارومیه ، کامپیوتر ، نرم افزار" />
+<meta name="author" content="Mohammad Nassiri" />
+<title dir="rtl">انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه</title>
+<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico" />
+<link href="presentation/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script><link rel="stylesheet" type="text/css" media="screen" href="slider/sliderstyle.css"/>
+<script src="presentation/message.js"></script>
+</head>
+
+<body onscroll="setTimeout(removemessage(),400);">
+
+<h1 style="display:none;">انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه</h1>
+
+<!-- header -->
+<div id="topheader">
+	<div class="thtile" style="border-left: solid;border-color: #FFF;border-width: 1px; color: #FFF; cursor: default;
+		 margin-left: 10px; background-image: none; padding: 5px;">
+	دوشنبه ۶ آذر ۱۳۹۶</div>
+	<a href="http://urmia.ac.ir/" target="_blank">
+	<div class="thtile">دانشگاه ارومیه</div></a>
+	<a href="http://fanni.urmia.ac.ir/?q=node/659" target="_blank">
+	<div class="thtile">دانشکده فنی گروه مهندسی کامپیوتر</div></a>
+</div>
+<div id="header">
+	<img alt="logo" src="images/logo44.jpg" title="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه"> 
+</div>
+
+<!-- rightsidebar -->
+
+<div id="rightsidebar">
+	<div class="rightsidebartile">
+		<a href=http://com-eng.ir/index/><div id="homepage" class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+				background-repeat: no-repeat; background-position:10px -75px;">
+				صفحه اصلی
+			</div></a>
+<a href="https://www.facebook.com/pages/%D8%A7%D9%86%D8%AC%D9%85%D9%86-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B1%D9%88%D9%85%DB%8C%D9%87/728180240610930"><div id="facebook" class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+				background-repeat: no-repeat; background-position:10px -190px;">
+				فیسبوک
+			</div></a>
+
+			<a href="/index/gallery"><div id="facebook" class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+				background-repeat: no-repeat; background-position:10px -293px;">
+				گالری تصاویر
+			</div></a>
+			<a href="excellent.php"><div id="facebook" class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+				background-repeat: no-repeat; background-position:10px -245px;">
+دانشجویان ممتاز
+			</div></a>
+		<div class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+			background-repeat: no-repeat; background-position:10px 15px;">
+			بخش ها
+		</div>
+		<div id="rsh1" class="rightsidebarsubheader">
+			جستجو
+		</div>
+		<div id="rs1" class="rightsidebarsub">
+			<div class="rightsidebarsubtile">
+				<div id="headersearch">
+					<form id="searchformh" method="GET" action="http://google.com/search" target="_blank">
+	                <input type="hidden" name="domains" value="http://com-eng.ir/index/" />
+	                <input type="hidden" name="oe" value="UTF-8" />
+	                <input type="hidden" name="hl" value="fa" />
+	                <input type="hidden" name="sitesearch" value="http://com-eng.ir/index/" />
+			<input name="q" placeholder=" جستجو ..." id="searchtext" class="formtxt" type="text"/>
+	              	</form>
+				</div>	
+			</div>
+			<div class="rightsidebarsubtile">
+				<div class="formbtn" onclick="document.forms['searchformh'].submit();">
+					جستجو
+				</div>
+			</div>
+		</div>
+		<div id="rsh2" class="rightsidebarsubheader">
+			اخبار
+		</div>
+		<div id="rs2" class="rightsidebarsub">
+			<a href="category.php?catename=اخبار گروه"><div class="rightsidebarsubtilea">
+				گروه
+			</div></a>
+			<a href="category.php?catename=اخبار دانشکده"><div class="rightsidebarsubtilea">
+				دانشکده
+			</div></a>
+			<a href="category.php?catename=اخبار دانشگاه"><div class="rightsidebarsubtilea">
+				دانشگاه
+			</div></a>
+		</div>
+		<div id="rsh3" class="rightsidebarsubheader">
+			انجمن
+		</div>
+		<div id="rs3" class="rightsidebarsub">
+			<a href="category.php?catename=اطلاعیه"><div class="rightsidebarsubtilea">
+				اطلاعیه ها
+			</div></a>
+			<a href="category.php?catename=نشریه"><div class="rightsidebarsubtilea">
+				نشریه باینری
+			</div></a>
+		</div>
+<a href="category.php?catename=ieee"><div class="rightsidebarsubheaderwos" style="direction:rtl;">
+شاخه دانشجویی IEEE
+		</div></a>
+		<a href="category.php?catename=فیلم آموزشی"><div class="rightsidebarsubheaderwos">
+			فیلم های آموزشی
+		</div></a>
+		<a href="category.php?catename=نرم افزار"><div class="rightsidebarsubheaderwos">
+			نرم افزار
+		</div></a>
+		<a href="category.php?catename=سخت افزار"><div class="rightsidebarsubheaderwos">
+			سخت افزار
+		</div></a>
+		<a href="category.php?catename=هوش مصنوعی"><div class="rightsidebarsubheaderwos">
+			هوش مصنوعی
+		</div></a>
+		<a href="category.php?catename=امنیت"><div class="rightsidebarsubheaderwos">
+			امنیت
+		</div></a>
+		<a href="category.php?catename=دانلود"><div class="rightsidebarsubheaderwos">
+			دریافت نرم افزار و فرم ها
+		</div></a>
+		<a href="category.php?catename=متفرقه"><div class="rightsidebarsubheaderwos">
+			متفرقه
+		</div></a>
+	</div>
+	<div class="rightsidebartile">
+		<div class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+			background-repeat: no-repeat; background-position:10px -128px;">
+			آخرین نظرات
+		</div>
+		
+				<a href="post.php?postnumber=121"><div class="rightsidebarsubtilea">
+					از زحمات مدیر جدید سایت کمال تشکر رو دارم، خداروشکر بعد از یک وقفه طولانی دوباره فعالیت از سرگرفته شده. 
+				</div></a>
+					
+				<a href="post.php?postnumber=127"><div class="rightsidebarsubtilea">
+					تبریک میگم و موفقیت های روز افزون رو براشون ارزومندم
+				</div></a>
+					
+				<a href="post.php?postnumber=127"><div class="rightsidebarsubtilea">
+					من هم به نوبه خود به دوستانم تبریک می گویم و آرزومندم در مسابقات بعدی موفق باشند.
+				</div></a>
+					
+				<a href="post.php?postnumber=118"><div class="rightsidebarsubtilea">
+					احسنت،با آرزوی کسب موفقیت های روز افزون
+				</div></a>
+					
+				<a href="post.php?postnumber=112"><div class="rightsidebarsubtilea">
+					متاسفانه هنوز لیست آماده نشده است. پس از دریافت لیست حتما قرار داده خواهد شد.
+				</div></a>
+					
+				<a href="post.php?postnumber=112"><div class="rightsidebarsubtilea">
+					یست دانشجویان ممتاز ارشد رو نمیذارین؟
+				</div></a>
+					
+				<a href="post.php?postnumber=98"><div class="rightsidebarsubtilea">
+					بله، متاسفانه هیچکدام از لوگوها مدنظر شورای گروه برق و کامپیوتر قرار نگرفت.
+ولی متاسفانه مسابقه پایان یافته و در صورتی که لوگویی طراحی کرده اید و احتمال انتخاب دارد، می توانید با دکتر جمشید باقرزاده تماس بگیرید تا در صورت انتخاب، تقدیری مجزا از شما صورت گیرد.
+				</div></a>
+						</div>
+	<div class="rightsidebartile">
+		<div class="rightsidebarheader" style="background-image: url('images/rsmenuicons.png'); 
+			background-repeat: no-repeat; background-position:10px -190px;">
+			پیوندهای مفید
+		</div>
+		<a href="http://www.urmia.ac.ir/" target="_blank"><div class="rightsidebarsubtilea">
+			دانشگاه ارومیه
+		</div></a>
+		<a href="http://www.kheshtaval.ir/" target="_blank"><div class="rightsidebarsubtilea">
+			خشت اول
+		</div></a>
+		<a href="http://uesc.ir/" target="_blank"><div class="rightsidebarsubtilea">
+			انجمن علمی برق
+		</div></a>
+		<a href="http://maktabkhooneh.org/" target="_blank"><div class="rightsidebarsubtilea">
+			مکتب خونه
+		</div></a>
+		<a href="http://ehsanavr.com/" target="_blank"><div class="rightsidebarsubtilea">
+			مرجع تخصصی برنامه نویسی
+		</div></a>
+		<a href="http://mohandesyar.com/" target="_blank"><div class="rightsidebarsubtilea">
+			مهندس یار
+		</div></a>
+		<a href="http://stackoverflow.com/" target="_blank"><div class="rightsidebarsubtilea">
+			Stack Overflow
+		</div></a>
+		<a href="http://www.w3schools.com/" target="_blank"><div class="rightsidebarsubtilea">
+			Web Development
+		</div></a>
+		<a href="http://www.mspsoft.com/" target="_blank"><div class="rightsidebarsubtilea">
+			MSPSoft
+		</div></a>
+	</div>
+<div class="rightsidebartile" style="text-align: center;">
+		<!-- Gateway Verify Logo -->
+		<script language="javascript" type="text/javascript"  src="http://www.parspal.com/xContext/Component/Verify/?UI=d3a13200b3d14f598937aeb1f0fa859f&GID=220420012&MID=2881C1FE48899459B8C961C5D4C08359F0DD4B3B&Mode=4" >
+		</script>
+		<noscript><a title="درگاه پرداخت"  href="http://www.parspal.com" >درگاه پرداخت پارس پال</a></noscript>
+		<!-- Gateway Verify Logo -->
+	
+	</div>
+</div>
+<script type="text/javascript" src="presentation/rightsidebar.js"></script>
+
+<div id="main">
+	
+				<div class="postcontent">
+		<div class="postcontentheader">
+			معرفی وب سایتی در زمینه بازی
+			<div class="mainposttilecomment" style="float:left; padding-top:0px; padding-bottom:0px;
+				 color:#000; opacity:0.6; cursor:default; font-size:11pt; background-position:right 0px;">
+				دوشنبه ۱۷ آذر ۱۳۹۳
+			</div>
+			<div class="mainposttilecomment" style="float:left; padding-top:0px; padding-bottom:0px;
+				 color:#000;  opacity:0.6; cursor:default; font-size:11pt; background-position: right -86px;">
+				0 نظر
+			</div>
+			<a href="category.php?catename=متفرقه"><div class="mainposttilecomment" style="float:left; padding-top:0px; padding-bottom:0px;
+				 color:#000; opacity:0.6; font-size:11pt; background-position:right -375px;">
+				متفرقه
+			</div></a>
+		</div>
+		<div class="postcontentimg" style="display:inline">
+			<img style="display:block" width="100%" title="معرفی وب سایتی در زمینه بازی" alt="معرفی وب سایتی در زمینه بازی" src="postimages/41-Screenshot-(16).jpg">
+		</div>
+		<div class="postcontenttxt">
+			<p>در این وب سایت می توانید به راحتی از بازی های جدید با خبر شده و علاوه بر آن نقد و تریلر آن ها را ببینید.</p>
+
+<p>از ویژگی های بسیار خوب آن معرفی، نقد و پیش نمایش بازی های ایرانی می باشد.</p>
+
+<p><a href="http://zoomg.ir/" target="_blank">http://zoomg.ir</a></p>
+
+<p><img alt="zoomg" src="http://com-eng.ir/index/postimages/zoomg.jpg" style="border-style:solid; border-width:1px; height:261px; width:500px" /></p>
+
+		</div>
+	</div>
+				
+				<div class="postcontentoffer">
+				<div class="postcontentofferheader">مطالب مرتبط :</div>
+				
+						<a href="post.php?postnumber=109"><div class="postcontentoffertile">
+							<img width="100%" title="مسابقات تابستانی هنر حل مساله" alt="مسابقات تابستانی هنر حل مساله" src="postimages/109-Honar-H (1).jpg" style="display:inline">
+							<p>مسابقات تابستانی هنر حل مساله</p>
+						</div></a>
+						
+						<a href="post.php?postnumber=108"><div class="postcontentoffertile">
+							<img width="100%" title="نمرات گسسته" alt="نمرات گسسته" src="" style="display:none">
+							<p>نمرات گسسته</p>
+						</div></a>
+						
+						<a href="post.php?postnumber=107"><div class="postcontentoffertile">
+							<img width="100%" title="پروژه آخر آز شبکه" alt="پروژه آخر آز شبکه" src="" style="display:none">
+							<p>پروژه آخر آز شبکه</p>
+						</div></a>
+						</div>
+				<div class="postcomment">
+		<div class="postcontentcommentheader">نظرات :</div>
+		<table>
+				<p style="text-align:right; direction:rtl; font-family:'B Nazanin';">اولین نفر ارسال کننده نظر باشید.</p>
+			</table>
+		</div>
+				<div class="postcommentsend">
+			<div class="postcontentcommentsendheader">ارسال نظر :</div>
+			<form action="" method="post" onsubmit="return check1();" style="text-align: right; direction: rtl;">
+			<input name="postid" type="hidden" value=41>
+			<div class="formlbl">نام و نام خانوادگی :</div>
+			<input id="formname" name="name" onfocus="resetcolor($('#formname'));" type="text" class="formtxt">
+			<div class="formlbl">متن نظر :</div>
+			<textarea id="formother" onfocus="resetcolor($('#formother'));" rows="5" cols="32" name="message"></textarea>
+			<div class="formlbl">تصویر امنیتی :</div>
+			<div id="captchadiv"><script type="text/javascript">
+function recaptcha(){
+var rnd=Math.floor((Math.random()*1000)+1); 
+document.getElementById("imgcaptcha").src='logic/cc/sa-captcha/sa-captcha.inc.php?' + rnd;
+}
+</script>
+<style type="text/css">
+.captcha {
+padding: 5px;
+display: inline-block;
+background: #FCFAFA;
+box-shadow: 0 0 5px #E6E4E4;
+border-radius: 2px;
+border: 1px solid #DDD;
+}
+.captcha img {
+vertical-align: middle;
+}
+#refresh{cursor: pointer}
+</style>
+<!-- Start SA-CAPTCHA code block -->
+<span class="captcha">
+<img id="imgcaptcha" src="logic/cc/sa-captcha/sa-captcha.inc.php"/>
+<a onclick="recaptcha();" id="refresh" ><img src="logic/cc/sa-captcha/img/re.png"  /></a>
+</span>
+<!-- End SA-CAPTCHA code block --></div>
+				<input type="text" class="formtxt" name="cap" maxlength="5" style="font-family: 'Tahoma'"/>
+				<div style="clear:both;"><input type="submit" class="formbtn" value="ارسال"/></div>
+				</form>
+				</div></div>
+
+<!-- footer -->
+<div id="footer">
+	<div style="height: 160px; overflow: hidden; padding-bottom: 10px;">
+		<div style="float: right; width: 290px; text-align: right; color: #FFF; font-family: 'B Nazanin';
+				 margin-right:150px;">
+			<ul style="padding:0px; list-style:none; direction: rtl; ">
+				<li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px 0px; padding-right: 40px; margin-bottom: 10px; color:#ef9a1b; font-weight: bold;">
+					تماس با انجمن
+				</li>
+				<a href="mailto:info@com-eng.ir"><li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px -23px; padding-right: 40px; margin-bottom: 10px;">
+					ایمیل: info@com-eng.ir
+				</li></a>
+				<li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px -102px; padding-right: 40px; margin-bottom: 10px;">
+					شماره تماس: 09148176583
+				</li>
+				<li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px -76px; padding-right: 40px; margin-bottom: 10px;">
+					سامانه پیامکی: 50002853107777
+				</li>
+			</ul>
+		</div>
+		<div style="float: left; width: 290px; text-align: right; color: #FFF; font-family: 'B Nazanin';">
+			<ul style="padding:0px; list-style:none; direction: rtl; margin-top: 20px;">
+				<li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px 0px; padding-right: 40px; margin-bottom: 10px; color:#ef9a1b; font-weight: bold;">
+					تماس با گروه
+				</li>
+				<a href="http://asatid.urmia.ac.ir/s.yousefi" target="_blank"><li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px -23px; padding-right: 40px; margin-bottom: 10px;" title="دکتر صالح یوسفی">
+					مدیر گروه
+				</li></a>
+				<a href="http://asatid.urmia.ac.ir/m.namazi" target="_blank"><li style="height:24px; background-image: url('images/icons.png'); background-repeat: no-repeat; 
+				background-position:260px -23px; padding-right: 40px; margin-bottom: 10px;" title="مهندس مجید نمازی">
+					معاون گروه
+				</li></a>
+			</ul>
+		</div>
+	</div> 
+	
+	<div id="auther">
+		<div style="float:right; padding:20px; overflow: hidden; 
+			direction:rtl; text-align: right;	color: #FFF; font-family: 'B Nazanin'; font-size:11pt; font-weight: bold;">
+			کلیه حقوق این وب سایت محفوظ می باشد.
+		</div>
+		<a href="http://www.whitedesign.ir" target="_blasnk"><div style="background-image: url('images/auther.png');
+			background-size:100% 100%; width: 50px; height: 50px; float: left;"></div></a>
+		<p style="float:left; padding:23px 10px 10px 10px; padding-left: 5px;">Designed By: <a href="http://whitedesign.ir">White Design</a></p>
+	</div>
+<!-- Begin WebGozar.com Counter code -->
+<script type="text/javascript" language="javascript" src="http://www.webgozar.ir/c.aspx?Code=3332611&amp;t=counter" ></script>
+<noscript><a href="http://www.webgozar.com/counter/stats.aspx?code=3332611" target="_blank">&#1570;&#1605;&#1575;&#1585;</a></noscript>
+<!-- End WebGozar.com Counter code -->
+</div>
+<!-- back to top -->
+<div id="top" style="cursor:pointer; position:fixed; bottom:10px; right:20px;">
+	<img id="backtotop" alt="top" width="25" height="25" style="display:none; cursor:pointer;
+	  border:solid; border-width:1px; border-color:#033; background-color: #FFF; padding: 5px 5px 5px 5px; border-radius:5px 5px 5px 5px;" src="images/top.png" />
+	<script>
+		$(window).scroll(function() {
+		    if($(this).scrollTop() > 200) {
+		        $('#backtotop').fadeIn();
+		    } else {
+		        $('#backtotop').fadeOut();
+		    }
+		});
+		
+		$('#backtotop').bind('click', function(e) {
+		    e.preventDefault();
+		    $('body,html').animate({scrollTop:0},800);
+		});
+	</script>
+</div>
+
+<script src="presentation/checkforms.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,251 @@
+
+<!DOCTYPE HTML">
+<html onclick="setTimeout(function () {document.getElementById('messagecontainers').style.display='none';},400);
+				setTimeout(function () {document.getElementById('messagecontainere').style.display='none';},400);">
+
+<head>
+<!-- head -->
+<meta name="google-site-verification" content="_WoZe8sP80IyR_iYXoaoXRXK1dDWnri8gRRYm7-pCpk" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="انجمن علمی دانشجویی برق دانشگاه ارومیه، انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه، شاخه دانشجویی IEEE دانشگاه ارومیه " />
+<meta name="keywords" content="انجمن علمی دانشجویی برق دانشگاه ارومیه، انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه، شاخه دانشجویی IEEE دانشگاه ارومیه" />
+<meta name="author" content="Mohammad Nasiri" />
+<meta name="viewport" content="width=device-width">
+<title dir="rtl">شاخه دانشجویی IEEE دانشگاه ارومیه</title>
+<link type="image/x-icon" rel="shortcut icon" href="images/favicon.png" />
+<link type="image/x-icon" rel="shortcut icon" href="../favicon.png" />
+<link href="presentation/style.css" rel="stylesheet" type="text/css" />
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+<script src="jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+<script type="text/javascript">
+window.onload = function() {
+		location.href = "#firstseg";
+	}
+</script>
+</head>
+
+<body onclick="setTimeout(function () {document.getElementById('messagecontainers').style.display='none';},400);
+				setTimeout(function () {document.getElementById('messagecontainere').style.display='none';},400);">
+				
+<h1 style="display:none;">انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه</h1>
+<!-- home -->
+
+<div id="firstseg">
+	<div id="firstbg"></div>
+	<div id="firstseginnerbg">
+		<div id="logo">
+			<div id="logoimg">
+			</div>
+			<div id="discription">
+<a href="http://com-eng.ir/index/category.php?catename=ieee" target="_blank" style="color:#2980b9;">شاخه دانشجویی IEEE دانشگاه ارومیه</a><br>
+				لطفا برای آگاهی از جدیدترین اخبار، اطلاعیه ها، دانلود نرم افزار، مطالعه مقالات و ارسال نظرات، وارد وب سایت انجمن شوید.
+			</div>
+		</div>
+		<div id="menucontainer">
+			<a href="../index" target="_blank"><div class="menutile" style="background-position: 90% 10px;">
+انجمن کامپیوتر
+			</div></a>
+			<div class="menutile2" onclick="moveToSeg('secondseg');" style="background-position: 90% -55px;">
+				ارتباط با ما
+			</div>
+			<div class="menutile2" onclick="moveToSeg('thirdseg');" style="background-position: 90% -107px;">
+				عضویت در شاخه
+			</div>
+			<a href="http://uesc.ir/" target="_blank"><div class="menutile3" style="background-position: 90% -165px;">
+انجمن برق
+			</div></a>
+		</div>
+		<a class="scrolldown" onclick="moveToSeg('secondseg');" href="javascript:void(0);"></a>
+		<a id="auther" href="http://www.whitedesign.ir" target="_blank"></a>
+	</div>
+</div>
+
+
+<!-- second seg -->
+
+<div id="secondseg">
+	<div class="navemenu">
+		<div class="navetile" onclick="moveToSeg('firstseg');" style="background-position: 90% -255px;">
+			صفحه اصلی
+		</div>
+		<a href="../index" target="_blank"><div class="navetile" style="background-position: 90% 17px;">
+			ورود به وب سایت
+		</div></a>
+		<div class="navetile" onclick="moveToSeg('thirdseg');" style="background-position: 90% -100px;">
+			عضویت در شاخه
+		</div>
+		<div class="navetile" style="background-position: 90% -48px; background-color: #34495e; cursor: default;">
+			ارتباط با ما
+		</div>
+	</div>
+	<div class="content">
+		<form onsubmit="return check1();" id="formcontactus" method="POST" action="">
+			<div class="formlabel">نام:</div>
+			<input id="f1" type="text" class="formtext" name="name"/>
+			<div class="formlabel">نام خانوادگی :</div>
+			<input id="f2" type="text" class="formtext" name="fname"/>
+			<div class="formlabel">شماره تماس :</div>
+			<input id="f3" type="text" class="formtext" name="tel"/>
+			<div class="formlabel">* پست الکترونیک :</div>
+			<input id="f4" required type="email" class="formtext" name="email"/>
+			<div class="formlabel" style="width: 120px">* متن پیام :</div>
+			<textarea id="formother" required rows="5" cols="18" name="message"></textarea>
+			<div class="formlabel">تصویر امنیتی :</div>
+			<input required type="text" class="formtext" name="cap" maxlength="5" style="font-family: 'Tahoma';"/>
+			<div id="cap1"><script type="text/javascript">
+function recaptcha(){
+var rnd=Math.floor((Math.random()*1000)+1); 
+document.getElementById("imgcaptcha").src='logic/cc/sa-captcha/sa-captcha.inc.php?' + rnd;
+}
+</script>
+<style type="text/css">
+.captcha {
+padding: 5px;
+display: inline-block;
+background: #FCFAFA;
+box-shadow: 0 0 5px #E6E4E4;
+border-radius: 2px;
+border: 1px solid #DDD;
+}
+.captcha img {
+vertical-align: middle;
+}
+#refresh{cursor: pointer}
+</style>
+<!-- Start SA-CAPTCHA code block -->
+<span class="captcha">
+<img id="imgcaptcha" src="logic/cc/sa-captcha/sa-captcha.inc.php"/>
+<a onclick="recaptcha();" id="refresh" ><img src="logic/cc/sa-captcha/img/re.png"  /></a>
+</span>
+<!-- End SA-CAPTCHA code block --></div>
+			<div style="clear:both;"><input type="submit" class="formloginbtn" value="ارسال"/></div>
+		</form>
+	</div>
+	<div class="group">
+		<div class="grouptileheader">دبیر شاخه دانشجویی IEEE :</div>
+		<a href="mailto:w.mohammad.k@gmail.com">
+		<div class="grouptilesub">محمد نصیری</div>
+		</a>
+		<div class="grouptileheader">دبیر انجمن علمی برق :</div>
+		<a href="mailto:i0_ol@ymail.com">
+		<div class="grouptilesub">مرتضی امین صالحی</div>
+		</a>
+		<div class="grouptileheader">دبیر انجمن علمی کامپیوتر :</div>
+                <a href="mailto:soly1372@yahoo.com">
+		<div class="grouptilesub">مهدی سلیمان نژاد</div>
+</a>
+	</div>
+	<div class="pageimg"></div>
+	<div id="bottomdowndiv" onclick="moveToSeg('thirdseg');"></div>
+</div>
+<!-- third seg -->
+<div id="thirdseg">
+	<div class="navemenu">
+		<div class="navetile" onclick="moveToSeg('firstseg');" style="background-position: 90% -255px;">
+			صفحه اصلی
+		</div>
+		<a href="../index" target="_blank"><div class="navetile" style="background-position: 90% 17px;">
+			ورود به وب سایت
+		</div></a>
+		<div class="navetile" style="background-position: 90% -100px; background-color: #34495e; cursor: default;">
+			عضویت در شاخه
+		</div>
+		<div class="navetile" onclick="moveToSeg('secondseg');" style="background-position: 90% -48px;">
+			ارتباط با ما
+		</div>
+	</div>
+	<div class="contentthird">
+		<form onsubmit="return check2();" id="formloginst" method="POST" action="">
+			<div class="signinf">
+				<div class="formlabel">* نام:</div>
+				<input id="f21" required type="text" class="formtext" name="namest"/>
+				<div class="formlabel">* نام خانوادگی :</div>
+				<input id="f22" required type="text" class="formtext" name="fnamest"/>
+				<div class="formlabel">* شماره دانشجویی :</div>
+				<input id="f23" required type="text" class="formtext" name="stnumst"/>
+				<div class="formlabel">* شماره تماس :</div>
+				<input id="f24" required type="text" class="formtext" name="telst"/>
+				<div class="formlabel">* پست الکترونیک :</div>
+				<input id="f25" required type="email" class="formtext" name="emailst"/>
+				<div class="formlabel">تصویر امنیتی :</div>
+				<input required style="font-family: 'Tahoma';" type="text" class="formtext" name="capst" maxlength="5"/>
+				<div id="cap2"><script type="text/javascript">
+function recaptcha2(){
+var rnd=Math.floor((Math.random()*1000)+1); 
+document.getElementById("imgcaptcha2").src='logic/cc2/sa-captcha/sa-captcha.inc.php?' + rnd;
+}
+</script>
+<style type="text/css">
+.captcha {
+padding: 5px;
+display: inline-block;
+background: #FCFAFA;
+box-shadow: 0 0 5px #E6E4E4;
+border-radius: 2px;
+border: 1px solid #DDD;
+}
+.captcha img {
+vertical-align: middle;
+}
+#refresh{cursor: pointer}
+</style>
+<!-- Start SA-CAPTCHA code block -->
+<span class="captcha">
+<img id="imgcaptcha2" src="logic/cc2/sa-captcha/sa-captcha.inc.php"/>
+<a onclick="recaptcha2();" id="refresh2" ><img src="logic/cc2/sa-captcha/img/re.png"  /></a>
+</span>
+<!-- End SA-CAPTCHA code block --></div>
+				<div style="float: right; clear: right;"><input type="submit" class="formloginbtn" value="ارسال"/></div>
+			</div>
+			<div class="signins">
+				<div class="formlabel">زمینه همکاری :</div>
+				<div class="formlabelck" style="clear:right;">کارگروه اجرایی:</div>
+				<input type="checkbox" class="formck" name="ckop"/>
+				<div class="formlabelck">کارگروه آموزشی :</div>
+				<input type="checkbox" class="formck" name="ckteach"/>
+				<div class="formlabelck">کارگروه نشریات :</div>
+				<input type="checkbox" class="formck" name="ckmag"/>
+				<div class="formlabelck">کارگروه وب سایت :</div>
+				<input type="checkbox" class="formck" name="ckweb"/>
+				<div class="formlabelck">کارگروه علمی و پژوهشی :</div>
+				<input type="checkbox" class="formck" name="ckss"/>
+				<div class="formlabelck">کارگروه برنامه نویسی :</div>
+				<input type="checkbox" class="formck" name="ckprog"/>
+				<div class="formlabel" style="width: 120px">فعالیت های پیشین :</div>
+				<textarea id="formother" rows="6s" cols="25" name="othertxtst" style="margin-left:105px; float: left; margin-top: 10px;"></textarea>
+			</div>
+			
+		</form>
+	</div>
+	<div class="thirdpageimg"></div>
+	<div id="bottomdowndiv" onclick="moveToSeg('firstseg');" style="background-image: url('images/up.png'); top:277vh;">
+	</div>
+	<div id="footer">
+		<a href="http://www.whitedesign.ir" target="_blasnk"><div id="footerauther"></div></a>
+		<p style="float:left; line-height: 50pt;">
+		Designed By :
+		<a href="http://www.whitedesign.ir" target="_blasnk">White Design</a>
+		</p>
+		<p style="float:right; direction: rtl; line-height: 50pt;">
+		کلیه حقوق این وب سایت محفوظ می باشد.
+		</p>
+	</div>
+</div>
+<!-- java script include -->
+<script src="presentation/js.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53436116-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

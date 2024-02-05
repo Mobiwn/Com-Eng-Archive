@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- start: search -->
+<html xml:lang="persian" lang="persian" dir="rtl" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::.. - جستجو</title>
+<!-- start: headerinclude -->
+<link rel="alternate" type="application/rss+xml" title="آخرین موضوع ها (RSS 2.0)" href="http://com-eng.ir/syndication.php" />
+<link rel="alternate" type="application/atom+xml" title="آخرین موضوع ها (Atom 1.0)" href="http://com-eng.ir/syndication.php?type=atom1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="http://com-eng.ir/jscripts/prototype.js?ver=1603"></script>
+<script type="text/javascript" src="http://com-eng.ir/jscripts/general.js?ver=1603"></script>
+<script type="text/javascript" src="http://com-eng.ir/jscripts/popup_menu.js?ver=1600"></script>
+<link type="text/css" rel="stylesheet" href="http://com-eng.ir/cache/themes/theme19/global.css" />
+<link type="text/css" rel="stylesheet" href="http://com-eng.ir/cache/themes/theme19/css3.css" />
+
+<script type="text/javascript">
+<!--
+	var cookieDomain = ".com-eng.ir";
+	var cookiePath = "/";
+	var cookiePrefix = "";
+	var deleteevent_confirm = "آیا می خواهید این رویداد را حذف کنید؟";
+	var removeattach_confirm = "آیا مطمئن هستید که می خواهید ضمیمه های انتخاب شده را حذف کنید.";
+	var loading_text = 'در حال بارگزاری <br />لطفا منتظر بمانید...';
+	var saving_changes = 'در حال ذخیره تغییران';
+	var use_xmlhttprequest = "1";
+	var my_post_key = "cf2e4c4a9bde1174db653de986a32128";
+	var imagepath = "images/reflex";
+// -->
+</script>
+
+<!-- end: headerinclude -->
+</head>
+<body>
+<!-- start: header -->
+<a name="top" id="top"></a>
+<div class="tcat"> <b>..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::..</b></small></div>
+<div id="headersection">
+<div class="header">
+<div class="logo"><a href="http://com-eng.ir/index.php"><img src="http://com-eng.ir/images/reflex/logo.png" border="0" alt="..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::.." title="..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::.." /></a></div>
+<div class="banner">
+<script type="text/javascript">
+</script>
+</div>
+</div>
+<ul id="menu" ="center">
+<li><a href="http://com-eng.ir/index.php" title="Home"><b>..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::..</b></a></li>
+<li><a href="http://com-eng.ir/search.php" title="جستجو"><b>جستجو</b></a></li>
+<li><a href="http://com-eng.ir/memberlist.php" title="لیست کاربران"><b>لیست کاربران</b></a></li>
+<li><a href="http://com-eng.ir/calendar.php" title="تقویم"><b>تقویم</b></a></li>
+<li><a href="http://com-eng.ir/misc.php?action=help" title="راهنمایی"><b>راهنمایی</b></a></li>
+</ul>
+</div>
+</div>
+<div id="container">
+
+			<!-- start: header_welcomeblock_guest -->
+<table border="0" cellspacing="1" cellpadding="4" class="tborder">
+<tr>
+<td class="trow1" width="60%" rowspan="2"><!-- start: nav -->
+
+<div class="navigation">
+<!-- start: nav_bit -->
+<a href="http://com-eng.ir/index.php">..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::..</a>
+<!-- end: nav_bit --><!-- start: nav_sep_active -->
+ / 
+<!-- end: nav_sep_active --><!-- start: nav_bit_active -->
+<span class="active">جستجو</span>
+<!-- end: nav_bit_active -->
+</div>
+<!-- end: nav --></td>
+<td width="27%" class="trow2" style="font-size:11px">
+<form action="member.php" method="post">
+<input type="hidden" name="action" value="do_login" />
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><strong><span class="smalltext">نام کاربری</span></strong>&nbsp;&nbsp;</td>
+<td><input type="text" class="textbox" name="username" title="Nick:" value="نام کاربری" onfocus="this.value=''" />
+</td>
+</tr>
+<tr>
+<td><strong><span class="smalltext">رمز عبور</span></strong>&nbsp;&nbsp;</td>
+<td><input type="password" class="textbox" name="password" title="Pass:" value="رمز عبور" onfocus="this.value=''" />&nbsp;&nbsp;<input type="submit" class="button" name="submit" value="ورود" /></td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+<div align="center">
+<table class="tborder" border="0" cellspacing="0" cellpadding="3" align="center" style="border-top-width:0px; font-size:11px">
+<tr align="center" class="thead">
+<td class="welcome"><a href="http://com-eng.ir/member.php?action=register"><b>ثبت نام</b></a></td>
+<td class="welcome"><a href="http://com-eng.ir/misc.php?action=help"><b>راهنمایی</b></a></td>
+<td class="welcome"><a href="http://com-eng.ir/memberlist.php"><b>لیست کاربران</b></a></td>
+<td class="welcome"><a href="search.php?action=getnew"><b>نمایش ارسالهای جدید</b></a></td>
+<td class="welcome"><a href="http://com-eng.ir/search.php?action=getdaily"><b>نمایش ارسالهای امروز</b></a></td>
+</tr>
+</table>
+</div>
+<!-- end: header_welcomeblock_guest --><br />
+			<hr class="hidden" />
+			
+			
+			
+			
+			
+
+<div id="content">
+<!-- end: header -->
+<form method="post" action="search.php">
+<input type="hidden" name="action" value="do_search" />
+<table border="0" cellspacing="1" cellpadding="4" class="tborder">
+<tr>
+<td colspan="2" class="thead"><strong>..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::.. - جستجو</strong></td>
+</tr>
+<tr>
+<td class="tcat" width="50%"><strong>جستجو بر پایه کلمات کلیدی</strong></td>
+<td class="tcat" width="50%"><strong>جستجو بر پایه نام کاربری</strong></td>
+</tr>
+<tr>
+<td class="trow1">
+<table><tr>
+<td valign="top"><input type="text" class="textbox" name="keywords" size="35" maxlength="250" /></td>
+</tr>
+<tr>
+<td>
+<span class="smalltext"><input type="radio" class="radio" name="postthread" value="1" checked="checked" />جستجو در داخل ارسال‌ها<br /><input type="radio" class="radio" name="postthread" value="2" />تنها جستجوی عنوان ارسال‌ها</span></td>
+</tr></table>
+</td>
+<td class="trow1">
+<table><tr>
+<td class="trow1"><input type="text" class="textbox" id="author" name="author" size="35" maxlength="30" /><br /><span class="smalltext"><input type="checkbox" class="checkbox" name="matchusername" value="1" checked="checked" /> هم خوانی کامل با نام کاربری</span></td>
+<td class="trow1">&nbsp;</td>
+</tr></table>
+</td>
+</tr>
+<tr>
+<td class="tcat"><strong>جستجو در انجمن‌ها</strong></td>
+<td class="tcat"><strong>گزینه‌های جستجو</strong></td>
+</tr>
+<tr>
+<td class="trow1" rowspan="5"><select name="forums[]" size="20" multiple="multiple">
+<option value="all" selected="selected">جستجو در تمامی انجمن‌های فعال</option>
+<option value="all">----------------------</option>
+<option value="210"> اخبار و قوانین انجمن</option>
+<option value="211">&nbsp;&nbsp;&nbsp;&nbsp; اخبار انجمن</option>
+<option value="212">&nbsp;&nbsp;&nbsp;&nbsp; اطلاعیه های انجمن</option>
+<option value="213">&nbsp;&nbsp;&nbsp;&nbsp; انتقادات و پیشنهادات</option>
+<option value="130"> انجمن گروه کامپیوتر</option>
+<option value="131">&nbsp;&nbsp;&nbsp;&nbsp; کارشناسی نرم افزار کامپیوتر</option>
+<option value="227">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; انقلاب اسلامی</option>
+<option value="132">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; تاریخ اسلام</option>
+<option value="133">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ریاضی گسسته</option>
+<option value="134">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; زبان ماشین و اسمبلی</option>
+<option value="135">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; گرافیک کامپیوتری</option>
+<option value="136">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; زبان تخصصی</option>
+<option value="137">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; معادلات دیفرانسیل</option>
+<option value="138">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; طراحی سیستم های شی گرا</option>
+<option value="139">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; متون اسلامی</option>
+<option value="140">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ریاضی مهندسی</option>
+<option value="141">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; شیوه ارائه مطالب علمی و فنی</option>
+<option value="142">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; هوش مصنوعی</option>
+<option value="143">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; مهندسی نرم افزار</option>
+<option value="144">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; مهندسی اینترنت</option>
+<option value="145">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; طراحی و پیاده سازی زبان های برنامه نویسی</option>
+<option value="146">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; محیط های چند رسانه ای</option>
+<option value="147">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; معارف اسلامی 2</option>
+<option value="148">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; آزمایشگاه مهندسی نرم افزار</option>
+<option value="149">&nbsp;&nbsp;&nbsp;&nbsp; کاردانی نرم افزار کامپیوتر</option>
+<option value="158">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; معارف اسلامی 1</option>
+<option value="159">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; زبان ماشین و اسمبلی</option>
+<option value="160">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ریاضی کاربردی</option>
+<option value="161">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; آمار واحتمالات</option>
+<option value="162">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; مبانی الکترونیک</option>
+<option value="163">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; کارگاه مبانی الکترونیک</option>
+<option value="164">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ساختمان داده</option>
+<option value="166">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اصول سرپرستی</option>
+<option value="167">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; آزمایشگاه نرم افزار های گرافیکی</option>
+<option value="168">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; زبان فنی</option>
+<option value="157">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; زبان</option>
+<option value="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; زبان فارسی</option>
+<option value="151">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اخلاق و تربیت اسلامی</option>
+<option value="152">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; برنامه سازی پیشرفته</option>
+<option value="153">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; سیستم عامل</option>
+<option value="154">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; کارگاه سیستم عامل</option>
+<option value="155">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ریاضی</option>
+<option value="156">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; فیزیک</option>
+<option value="169">&nbsp;&nbsp;&nbsp;&nbsp; ICT - گرایش کاربردها</option>
+<option value="170">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; برنامه سازی پیشرفته</option>
+<option value="171">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ریاضی کاربردی</option>
+<option value="172">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; احتمالات در ICT</option>
+<option value="173">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; فناوری اطلاعات</option>
+<option value="175">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; تکنولوژی مخابرات</option>
+<option value="176">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ذخیره و بازیابی</option>
+<option value="177">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; انقلاب اسلامی</option>
+<option value="178">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; تجزیه و تحلیل سیستم ها</option>
+<option value="179">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; امنیت اطلاعات</option>
+<option value="180">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; مخابرات دیجیتال</option>
+<option value="181">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; کارگاه مخابرات دیجیتال</option>
+<option value="182">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; کاربرد های ICT</option>
+<option value="183">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; سیستم های مخابرات نوری</option>
+<option value="184">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; کارگاه سیستم های مخابرات نوری</option>
+<option value="185">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; محیط های چند رسانه ای</option>
+<option value="186">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; کارگاه محیط های چند رسانه ای</option>
+<option value="187">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; تاریخ اسلام</option>
+<option value="193">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ارتباط داده ها</option>
+<option value="188">&nbsp;&nbsp;&nbsp;&nbsp; ICT - گرایش مدیریت</option>
+<option value="209">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ارتباط داده ها</option>
+<option value="189">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; برنامه سازی پیشرفته</option>
+<option value="190">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ریاضی کاربردی</option>
+<option value="195">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; احتمالات در ICT</option>
+<option value="192">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; فناوری اطلاعات</option>
+<option value="194">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; تکنولوژی مخابرات</option>
+<option value="196">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ذخیره و بازیابی</option>
+<option value="197">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; انقلاب اسلامی</option>
+<option value="198">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; تجزیه و تحلیل سیستم ها</option>
+<option value="199">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; امنیت اطلاعات</option>
+<option value="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; مخابرات دیجیتال</option>
+<option value="201">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; کارگاه مخابرات دیجیتال</option>
+<option value="208">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; سیستم های مدیریت اطلاعات MIS</option>
+<option value="203">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; کارگاه سیستم های مدیریت اطلاعات MIS</option>
+<option value="204">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; سیستم های مخابرات نوری</option>
+<option value="205">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; کارگاه سیستم های مخابرات نوری</option>
+<option value="206">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; متون اسلامی</option>
+<option value="207">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; تاریخ اسلام</option>
+<option value="214"> انجمن تخصصی</option>
+<option value="215">&nbsp;&nbsp;&nbsp;&nbsp; برنامه نویسی</option>
+<option value="216">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Asp.Net</option>
+<option value="217">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Html</option>
+<option value="218">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C#</option>
+<option value="219">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C++</option>
+<option value="220">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VB.net</option>
+<option value="221">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSS</option>
+<option value="222">&nbsp;&nbsp;&nbsp;&nbsp; طراحی و گرافیک</option>
+<option value="225">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3DMax</option>
+<option value="226">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Maya</option>
+<option value="224">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Flash</option>
+<option value="223">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Photoshop</option>
+<option value="228">&nbsp;&nbsp;&nbsp;&nbsp; پایگاه داده</option>
+<option value="229">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQL</option>
+<option value="230">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access </option>
+<option value="231">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My SQL</option>
+<option value="232">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oracle</option>
+<option value="234">&nbsp;&nbsp;&nbsp;&nbsp; نرم افزار</option>
+<option value="233">&nbsp;&nbsp;&nbsp;&nbsp; سخت افزار</option>
+<option value="235">&nbsp;&nbsp;&nbsp;&nbsp; شبکه و اینترنت</option>
+<option value="236"> انجمن عمومی</option>
+<option value="237">&nbsp;&nbsp;&nbsp;&nbsp; بحث آزاد</option>
+<option value="238">&nbsp;&nbsp;&nbsp;&nbsp; اخبار فناوری اطلاعات</option>
+<option value="239">&nbsp;&nbsp;&nbsp;&nbsp; موبایل</option>
+<option value="240">&nbsp;&nbsp;&nbsp;&nbsp; کتاب و جزوه آموزشی</option>
+<option value="241">&nbsp;&nbsp;&nbsp;&nbsp; عکس و پس زمینه</option>
+<option value="242">&nbsp;&nbsp;&nbsp;&nbsp; سرگرمی</option>
+
+</select></td>
+<td class="trow1">
+<select name="findthreadst">
+<option value="1">جستجوی موضوع‌ها با حداقل</option>
+<option value="2">جستجوی موضوع‌ها با حداکثر</option>
+</select> <input type="text" class="textbox" name="numreplies" size="2" maxlength="4" />&nbsp;پاسخ<br />
+<br />
+<select name="postdate">
+<option value="0">جستجوی ارسال‌ها بدون دیدگاه به تاریخ</option>
+<option value="1">جستجوی ارسال‌ها از دیروز</option>
+<option value="7">جستجوی ارسال‌های از یک هفته پیش</option>
+<option value="14">جستجوی ارسال‌های از دو هفته پیش</option>
+<option value="30">جستجوی ارسال‌ها از یک ماه پیش</option>
+<option value="90">جستجوی ارسال‌ها از سه ماه پیش</option>
+<option value="180">جستجوی ارسال‌ها از شش ماه پیش</option>
+<option value="365">جستجوی ارسال‌ها از 1 سال پیش</option>
+</select>&nbsp;&nbsp; <input type="radio" class="radio" name="pddir" value="1" checked="checked" />و تازه‌ تر  <input type="radio" class="radio" name="pddir" value="0" />قدیمی تر<br />
+<br />
+
+</td>
+</tr>
+<tr>
+<td class="tcat"><strong>گزینه‌های نمایش</strong></td>
+</tr>
+<tr>
+<td class="trow1">
+<select name="sortby">
+<option value="lastpost">نمایش نتایج بر پایه تاریخ آخرین ارسال</option>
+<option value="starter">نمایش نتایج بر پایه نویسنده</option>
+<option value="forum">نمایش نتایج بر پایه انجمن</option>
+</select> در حالت های <input type="radio" class="radio" name="sortordr" value="asc" />صعودی <input type="radio" class="radio" name="sortordr" value="desc" checked="checked" />نزولی 
+</td>
+</tr>
+<tr>
+<td class="tcat"><strong>گزینه‌های دید</strong></td>
+</tr>
+<tr>
+<td class="trow1">نمایش نتایج به شکل <input type="radio" class="radio" name="showresults" value="threads" checked="checked" />موضوع <input type="radio" class="radio" name="showresults" value="posts" />ارسال</td>
+</tr>
+
+</table>
+<div align="center"><br /><input type="submit" class="button" name="submit" value="جستجو" /></div>
+</form>
+<!-- start: footer -->
+<br />
+<br class="clear" />
+<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><img src="http://com-eng.ir/task.php" border="0" width="1" height="1" alt="" /><!-- End task image code -->
+
+
+
+		</div><br>
+		</div>
+<div class="tcat"><center><small><b>..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::.. © 2012.</b></center></small></div>
+<div class="footer_out">
+<table width="100%" cellspacing="0" cellpadding="0" class="footer">
+<tr>
+
+
+
+
+
+<td class="footer_box" width="50%" valign="top">
+<div class="footer_h2">..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::..</div>
+<div class="footer_h2_bottom_1"></div>
+<div class="footer_h2_bottom_2"></div>
+<div class="footer_h1">
+<ul class="footer_h1">
+<li><a href="mailto:saeed_golestanfar@yahoo.com">تماس با ما</a></li>
+<li><a href="com-eng.ir">..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::..</a></li>
+<li><a href="http://com-eng.ir/archive/index.php">حالت آرشیو</a></li>
+<li><a href="http://com-eng.ir/misc.php?action=syndication">RSS<img src="images/reflex/rss-icon.png"></a></li>
+</ul>
+</div>
+</td>
+<td class="footer_box" width="50%" valign="top">
+<div class="footer_h2">لينك هاي ارتباطي </div>
+<div class="footer_h2_bottom_1"></div>
+<div class="footer_h2_bottom_2"></div>
+<div class="footer_h1">
+<ul class="footer_h1">
+<li><a href="http://com-eng.ir/stats.php">آمار انجمن</a></li>
+<li><a href="http://com-eng.ir/showteam.php">تيم مديريت </a></li>
+<li><a href="#content">بازگشت به محتوا</a></li>
+<li><a href="#" class="totop">بازگشت به بالا</a></li>
+<li><a href="http://www.acstu.com/">پايگاه داده هاي حسابداري ايران </a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+</tr>
+<tr>
+
+
+
+
+<td width="100%" colspan="3" align="center" class="c12">
+
+
+
+
+
+
+
+
+
+
+<!-- You may NOT remove, modify or hinder the visibility of the MyBB copyright at any time.
+                     It must contain the links to the MyBB website and be formatted appropriately.
+
+                     Failure to comply with the above will result in prosecution to the full extent of the law.
+                     This is free software, support us and we'll support you. -->
+
+
+
+
+پارسی سازی توسط: <a href="http://mybbskin.ir">MyBBSkin.Ir</a> & <a href="http://iran-talk.ir">Iran-Talk.Ir</a> - نسخه: 1608
+<br />قدرت گرفته از:  <a href="http://www.mybboard.net" target="_blank">MyBB® </a>, &copy; 2002-2012 <a href="http://www.mybboard.net" target="_blank">MyBB Group</a>.                <!-- End copyright --></td>
+</tr>
+<tr>
+<td width="100%" colspan="3" align="center" class="c12">
+<!-- You may NOT remove, modify or hinder the visibility of the Theme copyright at any time.
+                     It must contain the links to the Solstice website and be formatted appropriately.
+
+                     Failure to comply with the above will result in prosecution to the full extent of the law.
+                     This is a free theme, support us and we'll support you. -->
+Theme "CS RefleX" by R[a]sh[3]r 
+<p align="center">RTL by:<a href="http://www.acstu.com/">rezakashefi</a></p>
+</a><!-- End copyright --></td>
+
+
+
+
+   
+
+
+</tr>
+
+
+
+
+
+</table>
+</div>
+<!-- end: footer -->
+<script type="text/javascript" src="jscripts/autocomplete.js?ver=1400"></script>
+<script type="text/javascript">
+<!--
+	if(use_xmlhttprequest == "1")
+	{
+		new autoComplete("author", "xmlhttp.php?action=get_users", {valueSpan: "username"});
+	}
+// -->
+</script>
+</body>
+</html>
+
+<!-- end: search -->

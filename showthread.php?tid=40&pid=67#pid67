@@ -1,0 +1,877 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- start: showthread -->
+<html xml:lang="persian" lang="persian" dir="rtl" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>جزوه گرافیک کامپیوتری(جلسه آخر)</title>
+<!-- start: headerinclude -->
+<link rel="alternate" type="application/rss+xml" title="آخرین بحث ها (RSS 2.0)" href="http://com-eng.ir/syndication.php" />
+<link rel="alternate" type="application/atom+xml" title="آخرین بحث ها (Atom 1.0)" href="http://com-eng.ir/syndication.php?type=atom1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="http://com-eng.ir/jscripts/prototype.js?ver=1600"></script>
+<script type="text/javascript" src="http://com-eng.ir/jscripts/general.js?ver=1600"></script>
+<script type="text/javascript" src="http://com-eng.ir/jscripts/popup_menu.js?ver=1600"></script>
+<link type="text/css" rel="stylesheet" href="http://com-eng.ir/cache/themes/theme7/global.css" />
+<link type="text/css" rel="stylesheet" href="http://com-eng.ir/cache/themes/theme7/showthread.css" />
+<link type="text/css" rel="stylesheet" href="http://com-eng.ir/css.php?stylesheet=27" />
+
+<script type="text/javascript">
+<!--
+	var cookieDomain = ".com-eng.ir";
+	var cookiePath = "/";
+	var cookiePrefix = "";
+	var deleteevent_confirm = "آیا مطمئن هستید که می‌خواهید این رویداد را حذف کنید؟";
+	var removeattach_confirm = "آیا مطمئن هستید که می‌خواهید پیوست‌های انتخاب شده را از این ارسال حذف کنید؟";
+	var loading_text = 'در حال بارگذاری <br />لطفاً صبر کنید...';
+	var saving_changes = 'در حال ذخیره تغییرات ...';
+	var use_xmlhttprequest = "1";
+	var my_post_key = "b1aff52bc17b6ca64e698161089f4565";
+	var imagepath = "images/thecure";
+// -->
+</script>
+
+							<script type="text/javascript" src="jscripts/thx.js"></script>
+<!-- end: headerinclude -->
+<script type="text/javascript">
+<!--
+	var quickdelete_confirm = "آیا مطمئن هستید که می‌خواهید این ارسال را حذف کنید؟";
+// -->
+</script>
+<script type="text/javascript" src="jscripts/thread.js?ver=1400"></script>
+</head>
+<body>
+	<!-- start: header -->
+<a name="top" id="top"></a>
+<div id="header">
+		<!-- start: header_welcomeblock_guest -->
+<div class="mainwrap">
+<div class="top_bar"></div>
+		<div class="header_main"><div class="header_left"><div class="header_right">
+			<div class="logo"><a href="http://com-eng.ir/index.php"><img src="http://com-eng.ir/images/thecure/logo.jpg" alt="..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::.." title="..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::.." /></a></div>
+			<div class="guest_links">
+				<ul>
+					<li><a href="http://com-eng.ir/member.php?action=register" class="register_button"></a></li>
+					<li class="guest_or">&nbsp;</li>
+					<li><a href="http://com-eng.ir/member.php?action=login" class="login_button"></a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div></div></div>
+
+		<div id="navbar">
+			<ul id="nav">
+				<li><a href="http://com-eng.ir">صفحه اصلی</a></li>
+				<li><a href="http://com-eng.ir/memberlist.php">لیست اعضا</a></li>
+				<li><a href="http://com-eng.ir/calendar.php">سالنامه</a></li>
+				<li><a href="http://com-eng.ir/misc.php?action=help">راهنما</a></li>
+			</ul>
+
+			<div id="search">
+			<form action="http://com-eng.ir/search.php" method="post">
+				<div class="search_input_wrap"><input name="keywords" class="nav_search_input" title="Enter your search keywords" type="text" /></div>
+				<input value="" name="submit-search" class="nav_search_button" type="submit" />
+				<input type="hidden" name="action" value="do_search" />
+			</form>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+<div id="container"><div class="container_wrap">
+	<div class="mainwrap">
+		<div class="subnav">
+		<script type="text/javascript">
+		<!--
+			lang.username = "نام کاربری";
+			lang.password = "گذرواژه‌";
+			lang.login = "ورود";
+			lang.lost_password = " &mdash; <a href=\"http://com-eng.ir/member.php?action=lostpw\">گذرواژه‌تان را فراموش کرده‌اید؟<\/a>";
+			lang.register_url = " &mdash; <a href=\"http://com-eng.ir/member.php?action=register\">ثبت نام<\/a>";
+			lang.remember_me = "مرا به خاطر بسپار";
+		// -->
+</script>
+			<div class="float_left"><a href="http://com-eng.ir/search.php">جستجو پیشرفته</a></div>
+			<span id="quick_login">درود مهمان گرامی! <a href="http://com-eng.ir/member.php?action=login" onclick="MyBB.quickLogin(); return false;">ورود</a> &mdash; <a href="http://com-eng.ir/member.php?action=register">ثبت نام</a></span>
+		</div>
+<!-- end: header_welcomeblock_guest -->
+		<div id="content">
+			
+			
+			
+			
+ <!-- start: headerannounce -->
+
+<table border="0" cellspacing="" cellpadding="" class="tborder" style="clear: both; border-top-width:1;">
+    <tr>
+        <td class="thead" width="100%"><b><font color="#ffcc00">کلام روز</font>
+</b></td>
+    </tr>
+    <tr>
+        <td class="trow1">
+        <ul>
+	<li><font color="#FF0000"><b>مهمترین فردی كه باید بدون چون و چرا نسبت به او صادق و وفادار باشید ، خود شما هستید.
+
+</b></font></li>
+	
+</ul>
+            </td>
+    </tr>
+</table>
+<p> 
+<!-- end: headerannounce -->
+			
+			<!-- start: repost -->
+<table class="tborder" style="CLEAR: both" cellSpacing="1" cellPadding="4" border="0">
+	<thead>
+		<tr>
+			<td class="thead">
+			<div class="expcolimage">
+				<img src="images/collapse.gif" id="last_post_img" class="expander" alt="[-]" title="[-]" /></div>
+			<div>
+				<strong>آخرین ارسالی ها</strong>
+			</div>
+			</td>
+		</tr>
+	</thead>
+	<tbody style="" id="last_post_e">
+	<tr>
+		<td class="trow1">
+		<marquee onmouseover="this.stop()" onmouseout="this.start()" direction="up" scrollamount="1" scrolldelay="1" height="120"> 
+		<!-- start: repost_threadsbits -->
+<table>
+	<tr>
+		<td id="subject" colspan="6"><strong>
+		<a target="_blank" href="http://com-eng.ir/showthread.php?tid=49&action=lastpost">
+		 دانلود مجله های کلیک - ضمیمه فناوری اطلاعات روزنامه جام جم</a></strong></td>
+	</tr>
+	<tr class="smalltext" id="settingchange">
+		<td>شروع کننده:<img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=1">SGLX</a></td>
+		<td>آخرین ارسال توسط:<td><img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=1">SGLX</a></td></td>
+		<td>پاسخ ها:1</td>
+		<td><img src="images/last/forum.png" style="vertical-align: middle;" title="انجمن:"><a target="_blank" href="http://com-eng.ir/forumdisplay.php?fid=99">کتاب های الکترونیکی</a></td>
+		<td>مشاهده:15</td>
+		<td><img src="images/last/date.png" style="vertical-align: middle;">زمان:امروز</td>
+	</tr>
+</table>
+<!-- end: repost_threadsbits --><!-- start: repost_threadsbits -->
+<table>
+	<tr>
+		<td id="subject" colspan="6"><strong>
+		<a target="_blank" href="http://com-eng.ir/showthread.php?tid=50&action=lastpost">
+		 انتخاب واحد</a></strong></td>
+	</tr>
+	<tr class="smalltext" id="settingchange">
+		<td>شروع کننده:<img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=1">SGLX</a></td>
+		<td>آخرین ارسال توسط:<td><img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=38">مسلم</a></td></td>
+		<td>پاسخ ها:16</td>
+		<td><img src="images/last/forum.png" style="vertical-align: middle;" title="انجمن:"><a target="_blank" href="http://com-eng.ir/forumdisplay.php?fid=129">بحث آزاد</a></td>
+		<td>مشاهده:96</td>
+		<td><img src="images/last/date.png" style="vertical-align: middle;">زمان:۱۱-۱۵-۱۳۹۰</td>
+	</tr>
+</table>
+<!-- end: repost_threadsbits --><!-- start: repost_threadsbits -->
+<table>
+	<tr>
+		<td id="subject" colspan="6"><strong>
+		<a target="_blank" href="http://com-eng.ir/showthread.php?tid=47&action=lastpost">
+		 نمونه سوال شی گرا( پاسخ سوال سوم اضافه شد.)</a></strong></td>
+	</tr>
+	<tr class="smalltext" id="settingchange">
+		<td>شروع کننده:<img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=18">Ronak</a></td>
+		<td>آخرین ارسال توسط:<td><img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=47">aminheidary</a></td></td>
+		<td>پاسخ ها:13</td>
+		<td><img src="images/last/forum.png" style="vertical-align: middle;" title="انجمن:"><a target="_blank" href="http://com-eng.ir/forumdisplay.php?fid=48">نمونه سوالات امتحانی</a></td>
+		<td>مشاهده:467</td>
+		<td><img src="images/last/date.png" style="vertical-align: middle;">زمان:۱۰-۲۷-۱۳۹۰</td>
+	</tr>
+</table>
+<!-- end: repost_threadsbits --><!-- start: repost_threadsbits -->
+<table>
+	<tr>
+		<td id="subject" colspan="6"><strong>
+		<a target="_blank" href="http://com-eng.ir/showthread.php?tid=46&action=lastpost">
+		 کتاب دایتل دایتل </a></strong></td>
+	</tr>
+	<tr class="smalltext" id="settingchange">
+		<td>شروع کننده:<img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=1">SGLX</a></td>
+		<td>آخرین ارسال توسط:<td><img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=1">SGLX</a></td></td>
+		<td>پاسخ ها:0</td>
+		<td><img src="images/last/forum.png" style="vertical-align: middle;" title="انجمن:"><a target="_blank" href="http://com-eng.ir/forumdisplay.php?fid=50">جزوه و کتاب آموزشی </a></td>
+		<td>مشاهده:21</td>
+		<td><img src="images/last/date.png" style="vertical-align: middle;">زمان:۱۰-۲۷-۱۳۹۰</td>
+	</tr>
+</table>
+<!-- end: repost_threadsbits --><!-- start: repost_threadsbits -->
+<table>
+	<tr>
+		<td id="subject" colspan="6"><strong>
+		<a target="_blank" href="http://com-eng.ir/showthread.php?tid=44&action=lastpost">
+		 Belle</a></strong></td>
+	</tr>
+	<tr class="smalltext" id="settingchange">
+		<td>شروع کننده:<img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=7">rhosseinr</a></td>
+		<td>آخرین ارسال توسط:<td><img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=7">rhosseinr</a></td></td>
+		<td>پاسخ ها:0</td>
+		<td><img src="images/last/forum.png" style="vertical-align: middle;" title="انجمن:"><a target="_blank" href="http://com-eng.ir/forumdisplay.php?fid=40">Symbian</a></td>
+		<td>مشاهده:32</td>
+		<td><img src="images/last/date.png" style="vertical-align: middle;">زمان:۱۰-۲۳-۱۳۹۰</td>
+	</tr>
+</table>
+<!-- end: repost_threadsbits --><!-- start: repost_threadsbits -->
+<table>
+	<tr>
+		<td id="subject" colspan="6"><strong>
+		<a target="_blank" href="http://com-eng.ir/showthread.php?tid=43&action=lastpost">
+		 بازی cuttherope</a></strong></td>
+	</tr>
+	<tr class="smalltext" id="settingchange">
+		<td>شروع کننده:<img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=7">rhosseinr</a></td>
+		<td>آخرین ارسال توسط:<td><img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=7">rhosseinr</a></td></td>
+		<td>پاسخ ها:0</td>
+		<td><img src="images/last/forum.png" style="vertical-align: middle;" title="انجمن:"><a target="_blank" href="http://com-eng.ir/forumdisplay.php?fid=101">بازی</a></td>
+		<td>مشاهده:19</td>
+		<td><img src="images/last/date.png" style="vertical-align: middle;">زمان:۱۰-۲۲-۱۳۹۰</td>
+	</tr>
+</table>
+<!-- end: repost_threadsbits --><!-- start: repost_threadsbits -->
+<table>
+	<tr>
+		<td id="subject" colspan="6"><strong>
+		<a target="_blank" href="http://com-eng.ir/showthread.php?tid=36&action=lastpost">
+		 چاپ کارکتر بلافاصله پس از دریافت</a></strong></td>
+	</tr>
+	<tr class="smalltext" id="settingchange">
+		<td>شروع کننده:<img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=15">Gian Franco Zola</a></td>
+		<td>آخرین ارسال توسط:<td><img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=17">hadi.ivan</a></td></td>
+		<td>پاسخ ها:2</td>
+		<td><img src="images/last/forum.png" style="vertical-align: middle;" title="انجمن:"><a target="_blank" href="http://com-eng.ir/forumdisplay.php?fid=54">نمونه پروژه</a></td>
+		<td>مشاهده:62</td>
+		<td><img src="images/last/date.png" style="vertical-align: middle;">زمان:۱۰-۲۱-۱۳۹۰</td>
+	</tr>
+</table>
+<!-- end: repost_threadsbits --><!-- start: repost_threadsbits -->
+<table>
+	<tr>
+		<td id="subject" colspan="6"><strong>
+		<a target="_blank" href="http://com-eng.ir/showthread.php?tid=34&action=lastpost">
+		 Enter Your Password</a></strong></td>
+	</tr>
+	<tr class="smalltext" id="settingchange">
+		<td>شروع کننده:<img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=15">Gian Franco Zola</a></td>
+		<td>آخرین ارسال توسط:<td><img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=17">hadi.ivan</a></td></td>
+		<td>پاسخ ها:2</td>
+		<td><img src="images/last/forum.png" style="vertical-align: middle;" title="انجمن:"><a target="_blank" href="http://com-eng.ir/forumdisplay.php?fid=54">نمونه پروژه</a></td>
+		<td>مشاهده:52</td>
+		<td><img src="images/last/date.png" style="vertical-align: middle;">زمان:۱۰-۲۱-۱۳۹۰</td>
+	</tr>
+</table>
+<!-- end: repost_threadsbits --><!-- start: repost_threadsbits -->
+<table>
+	<tr>
+		<td id="subject" colspan="6"><strong>
+		<a target="_blank" href="http://com-eng.ir/showthread.php?tid=39&action=lastpost">
+		 جزوه دیفراسیل(دوجلسه آخر)</a></strong></td>
+	</tr>
+	<tr class="smalltext" id="settingchange">
+		<td>شروع کننده:<img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=15">Gian Franco Zola</a></td>
+		<td>آخرین ارسال توسط:<td><img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=17">hadi.ivan</a></td></td>
+		<td>پاسخ ها:2</td>
+		<td><img src="images/last/forum.png" style="vertical-align: middle;" title="انجمن:"><a target="_blank" href="http://com-eng.ir/forumdisplay.php?fid=68">کتاب و جزوه آموزشی</a></td>
+		<td>مشاهده:64</td>
+		<td><img src="images/last/date.png" style="vertical-align: middle;">زمان:۱۰-۲۱-۱۳۹۰</td>
+	</tr>
+</table>
+<!-- end: repost_threadsbits --><!-- start: repost_threadsbits -->
+<table>
+	<tr>
+		<td id="subject" colspan="6"><strong>
+		<a target="_blank" href="http://com-eng.ir/showthread.php?tid=41&action=lastpost">
+		 جزوه اضافه برای درس ریاضی گسسته</a></strong></td>
+	</tr>
+	<tr class="smalltext" id="settingchange">
+		<td>شروع کننده:<img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=1">SGLX</a></td>
+		<td>آخرین ارسال توسط:<td><img src="images/last/username.png" style="vertical-align: middle;"><a target="_blank" href="http://com-eng.ir/member.php?action=profile&uid=28">Tiger</a></td></td>
+		<td>پاسخ ها:1</td>
+		<td><img src="images/last/forum.png" style="vertical-align: middle;" title="انجمن:"><a target="_blank" href="http://com-eng.ir/forumdisplay.php?fid=70">کتاب و جزوه آموزشی</a></td>
+		<td>مشاهده:56</td>
+		<td><img src="images/last/date.png" style="vertical-align: middle;">زمان:۱۰-۱۹-۱۳۹۰</td>
+	</tr>
+</table>
+<!-- end: repost_threadsbits --></marquee> </td>
+	</tr>
+	</tbody>
+	
+</table><br>
+<!-- end: repost -->
+			<!-- start: nav -->
+
+<div class="navigation">
+<!-- start: nav_bit -->
+<a href="http://com-eng.ir/index.php">..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::..</a><!-- start: nav_sep -->
+ / 
+<!-- end: nav_sep -->
+<!-- end: nav_bit --><!-- start: nav_bit -->
+<a href="forumdisplay.php?fid=45">دروس تخصصی</a><!-- start: nav_sep -->
+ / 
+<!-- end: nav_sep -->
+<!-- end: nav_bit --><!-- start: nav_bit -->
+<a href="forumdisplay.php?fid=56">گرافیک کامپیوتری</a><!-- start: nav_sep -->
+ / 
+<!-- end: nav_sep -->
+<!-- end: nav_bit --><!-- start: nav_bit -->
+<a href="forumdisplay.php?fid=60">کتاب و جزوه آموزشی</a>
+<!-- end: nav_bit --><!-- start: nav_sep_active -->
+ / 
+<!-- end: nav_sep_active --><!-- start: nav_bit_active -->
+<span class="active">جزوه گرافیک کامپیوتری(جلسه آخر)</span>
+<!-- end: nav_bit_active -->
+</div>
+<!-- end: nav -->
+			<br />
+<!-- end: header -->
+	
+	<div class="float_right">
+		
+
+	</div>
+	<div class="float_left">
+		<!-- start: showthread_newreply -->
+<a href="newreply.php?tid=40"><img src="images/thecure/persian/newreply.gif" alt="ارسال پاسخ" title="ارسال پاسخ" /></a>&nbsp;
+<!-- end: showthread_newreply -->
+	</div>
+	<!-- start: showthread_ratethread -->
+<div style="margin-top: 6px; padding-right: 10px;" class="float_left">
+		<script type="text/javascript" src="jscripts/rating.js?ver=1400"></script>
+		<div id="success_rating_40" style="float: left; padding-top: 2px; padding-right: 10px;">&nbsp;</div>
+		<strong style="float: right; padding-right: 10px;">امتیاز موضوع: </strong>
+		<div class="inline_rating">
+			<ul class="star_rating star_rating_notrated" id="rating_thread_40">
+				<li style="width: 80%" class="current_rating" id="current_rating_40">2 رأی - میانگین امیتازات:  3.5</li>
+				<li><a class="one_star" title="1 ستاره از 5 ستاره" href="./ratethread.php?tid=40&amp;rating=1&amp;my_post_key=b1aff52bc17b6ca64e698161089f4565">1</a></li>
+				<li><a class="two_stars" title="2 ستاره از 5 ستاره" href="./ratethread.php?tid=40&amp;rating=2&amp;my_post_key=b1aff52bc17b6ca64e698161089f4565">2</a></li>
+				<li><a class="three_stars" title="3 ستاره از 5 ستاره" href="./ratethread.php?tid=40&amp;rating=3&amp;my_post_key=b1aff52bc17b6ca64e698161089f4565">3</a></li>
+				<li><a class="four_stars" title="4 ستاره از 5 ستاره" href="./ratethread.php?tid=40&amp;rating=4&amp;my_post_key=b1aff52bc17b6ca64e698161089f4565">4</a></li>
+				<li><a class="five_stars" title="5 ستاره از 5 ستاره" href="./ratethread.php?tid=40&amp;rating=5&amp;my_post_key=b1aff52bc17b6ca64e698161089f4565">5</a></li>
+			</ul>
+		</div>
+</div>
+<!-- end: showthread_ratethread -->
+<div class="clear"></div>
+<div class="thead_main"><div class="thead_left"><div class="thead_right"><div class="thead_text">
+				<div style="float: left;">
+					<span class="smalltext"><strong><a href="showthread.php?mode=threaded&amp;tid=40&amp;pid=67#pid67">حالت موضوعی</a> | <a href="showthread.php?mode=linear&amp;tid=40&amp;pid=67#pid67">حالت خطی</a></strong></span>
+				</div>
+				<div>
+					<strong>جزوه گرافیک کامپیوتری(جلسه آخر)</strong>
+				</div>
+</div></div></div></div>
+	<table border="0" cellspacing="0" cellpadding="6" class="tborder" style="clear: both; border-bottom-width: 0;">
+		
+	</table>
+	<div id="posts">
+		<!-- start: postbit -->
+
+<a name="pid65" id="pid65"></a>
+<table border="0" cellspacing="0" cellpadding="6" class="tborder" style="border-top-width: 0; " id="post_65">
+	<tbody>
+		<tr>
+			<td class="tcat tcat_left tcat_right tcat_top">
+				<div class="float_right smalltext">
+					۱۰-۱۷-۱۳۹۰, ۱۱:۲۲ صبح <span id="edited_by_65"></span>
+				</div>
+				<!-- start: postbit_posturl -->
+<div style="float: left; width: auto; vertical-align: top"><img src="http://com-eng.ir/images/mobile/posted_0.gif" alt="" width="08" height="08" title="Posted from GoMobile" style="vertical-align: middle;" /> <span class="smalltext"><strong>ارسال:  <a href="showthread.php?tid=40&amp;pid=65#pid65">#1</a></strong></span></div>
+<!-- end: postbit_posturl -->
+			</td>
+		</tr>
+
+		<tr>
+			<td class="trow1 ">
+				<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+					<tr>
+						<td class="post_avatar" width="1" style="padding-right: 10px;">
+							<!-- start: postbit_avatar -->
+<a href="member.php?action=profile&amp;uid=15"><img src="./uploads/avatars/avatar_15.jpg?dateline=1325282882" alt="" width="70" height="64" /></a>
+<!-- end: postbit_avatar -->
+						</td>
+						<td class="post_author">
+							<strong><span class="largetext"><a href="http://com-eng.ir/member.php?action=profile&amp;uid=15"><span style="color: green;"><strong><em>Gian Franco Zola</em></strong></span></a></span></strong> <!-- start: postbit_offline -->
+<img src="images/thecure/buddy_offline.gif" title="آفلاین" alt="آفلاین" />
+<!-- end: postbit_offline --><br />
+							<span class="smalltext">
+								مدیریت سایت<br />
+								<img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><br />
+								
+							</span>
+						</td>
+						<td class="smalltext post_author_info" width="165">
+							<!-- start: postbit_author_user -->
+
+	ارسال‌ها:  9<br />
+	تاریخ عضویت:  آذر ۱۳۹۰
+	<!-- start: postbit_reputation -->
+<br />اعتبار:  <a href="reputation.php?uid=15"><strong class="reputation_neutral">0</strong></a>
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user -->
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="trow2 post_content ">
+				<span class="smalltext"><strong>جزوه گرافیک کامپیوتری(جلسه آخر) </strong></span>
+<hr />
+				<div class="post_body" id="pid_65">
+					سلام<br />
+جزوه آخرین جلسه درس گرافیک کامپیوتری با دو کیفیت<br />
+دیدن لینک ها برای شما امکان پذیر نیست. لطفا <a href="http://com-eng.ir/member.php?action=register">ثبت نام کنید</a> یا <a href="http://com-eng.ir/member.php?action=login">وارد حساب خود شوید</a> تا بتوانید لینک ها را ببینید.<br />
+<br />
+دیدن لینک ها برای شما امکان پذیر نیست. لطفا <a href="http://com-eng.ir/member.php?action=register">ثبت نام کنید</a> یا <a href="http://com-eng.ir/member.php?action=login">وارد حساب خود شوید</a> تا بتوانید لینک ها را ببینید.<br />
+
+				</div>
+				
+				
+
+				<div class="post_meta" id="post_meta_65">
+				<div class="float_right"></div>
+				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="trow1 post_buttons ">
+				<div class="author_buttons float_right">
+					<!-- start: postbit_find -->
+<a href="search.php?action=finduser&amp;uid=15"><img src="images/thecure/persian/postbit_find.gif" alt="یافتن تمامی ارسال‌های این کاربر" title="یافتن تمامی ارسال‌های این کاربر" /></a>
+<!-- end: postbit_find -->
+				</div>
+				<div class="post_management_buttons float_left"><!-- start: postbit_quote -->
+<a href="newreply.php?tid=40&amp;pid=65"><img src="images/thecure/persian/postbit_quote.gif" alt="نقل قول این ارسال در یک پاسخ" title="نقل قول این ارسال در یک پاسخ" /></a>
+<!-- end: postbit_quote -->
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end: postbit --><!-- start: postbit -->
+
+<a name="pid67" id="pid67"></a>
+<table border="0" cellspacing="0" cellpadding="6" class="tborder" style="margin-top: 5px; " id="post_67">
+	<tbody>
+		<tr>
+			<td class="tcat tcat_left tcat_right tcat_top">
+				<div class="float_right smalltext">
+					۱۰-۱۷-۱۳۹۰, ۱۱:۲۴ صبح <span id="edited_by_67"></span>
+				</div>
+				<!-- start: postbit_posturl -->
+<div style="float: left; width: auto; vertical-align: top"><img src="http://com-eng.ir/images/mobile/posted_0.gif" alt="" width="08" height="08" title="Posted from GoMobile" style="vertical-align: middle;" /> <span class="smalltext"><strong>ارسال:  <a href="showthread.php?tid=40&amp;pid=67#pid67">#2</a></strong></span></div>
+<!-- end: postbit_posturl -->
+			</td>
+		</tr>
+
+		<tr>
+			<td class="trow1 ">
+				<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+					<tr>
+						<td class="post_avatar" width="1" style="padding-right: 10px;">
+							<!-- start: postbit_avatar -->
+<a href="member.php?action=profile&amp;uid=15"><img src="./uploads/avatars/avatar_15.jpg?dateline=1325282882" alt="" width="70" height="64" /></a>
+<!-- end: postbit_avatar -->
+						</td>
+						<td class="post_author">
+							<strong><span class="largetext"><a href="http://com-eng.ir/member.php?action=profile&amp;uid=15"><span style="color: green;"><strong><em>Gian Franco Zola</em></strong></span></a></span></strong> <!-- start: postbit_offline -->
+<img src="images/thecure/buddy_offline.gif" title="آفلاین" alt="آفلاین" />
+<!-- end: postbit_offline --><br />
+							<span class="smalltext">
+								مدیریت سایت<br />
+								<img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><br />
+								
+							</span>
+						</td>
+						<td class="smalltext post_author_info" width="165">
+							<!-- start: postbit_author_user -->
+
+	ارسال‌ها:  9<br />
+	تاریخ عضویت:  آذر ۱۳۹۰
+	<!-- start: postbit_reputation -->
+<br />اعتبار:  <a href="reputation.php?uid=15"><strong class="reputation_neutral">0</strong></a>
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user -->
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="trow2 post_content ">
+				<span class="smalltext"><strong>RE: جزوه گرافیک کامپیوتری(جلسه آخر) </strong></span>
+<hr />
+				<div class="post_body" id="pid_67">
+					Topic Up
+				</div>
+				
+				
+
+				<div class="post_meta" id="post_meta_67">
+				<div class="float_right"></div>
+				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="trow1 post_buttons ">
+				<div class="author_buttons float_right">
+					<!-- start: postbit_find -->
+<a href="search.php?action=finduser&amp;uid=15"><img src="images/thecure/persian/postbit_find.gif" alt="یافتن تمامی ارسال‌های این کاربر" title="یافتن تمامی ارسال‌های این کاربر" /></a>
+<!-- end: postbit_find -->
+				</div>
+				<div class="post_management_buttons float_left"><!-- start: postbit_quote -->
+<a href="newreply.php?tid=40&amp;pid=67"><img src="images/thecure/persian/postbit_quote.gif" alt="نقل قول این ارسال در یک پاسخ" title="نقل قول این ارسال در یک پاسخ" /></a>
+<!-- end: postbit_quote -->
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end: postbit -->
+	</div>
+	<table border="0" cellspacing="0" cellpadding="6" class="tborder" style="border-top-width: 0;">
+		<tr>
+			<td colspan="2" class="tfoot">
+				<!-- start: showthread_search -->
+	<div class="float_left">
+		<form action="search.php" method="post">
+			<input type="hidden" name="action" value="thread" />
+			<input type="hidden" name="tid" value="40" />
+			<input type="text" name="keywords" value="واژه‌های کلیدی را وارد کنید" onfocus="if(this.value == 'واژه‌های کلیدی را وارد کنید') { this.value = ''; }" onblur="if(this.value=='') { this.value='واژه‌های کلیدی را وارد کنید'; }" class="textbox" size="25" />
+			<input type="submit" class="button" value="جستجو در موضوع" />
+		</form>
+	</div>
+<!-- end: showthread_search -->
+				<div>
+					<strong>&laquo; <a href="showthread.php?tid=40&amp;action=nextoldest">قدیمی تر</a> | <a href="showthread.php?tid=40&amp;action=nextnewest">تازه‌ تر</a> &raquo;</strong>
+				</div>
+			</td>
+		</tr>
+	</table>
+<div class="tfoot_main"><div class="tfoot_left"><div class="tfoot_right"></div></div></div>
+	<div class="float_right">
+		
+	</div>
+	<div style="padding-top: 4px;" class="float_left">
+		<!-- start: showthread_newreply -->
+<a href="newreply.php?tid=40"><img src="images/thecure/persian/newreply.gif" alt="ارسال پاسخ" title="ارسال پاسخ" /></a>&nbsp;
+<!-- end: showthread_newreply -->
+	</div>
+	<br style="clear: both;" />
+	
+	
+	
+	<br />
+	<div class="float_right">
+		<ul class="thread_tools">
+			<li class="printable"><a href="printthread.php?tid=40">مشاهده نسخه قابل چاپ</a></li>
+			<li class="sendthread"><a href="sendthread.php?tid=40">ارسال این موضوع به یک دوست</a></li>
+			<li class="subscription_add"><a href="usercp2.php?action=addsubscription&amp;tid=40&amp;my_post_key=b1aff52bc17b6ca64e698161089f4565">مشترک شدن در این موضوع</a></li>
+		</ul>
+	</div>
+
+	<div class="float_left" style="text-align: right;">
+		
+		<!-- start: forumjump_advanced -->
+<form action="forumdisplay.php" method="get">
+<span class="smalltext"><strong>پرش به انجمن: </strong></span>
+<select name="fid" onchange="window.location=('forumdisplay.php?fid='+this.options[this.selectedIndex].value)">
+<option value="-1" >لطفاً یک انجمن را انتخاب نمایید: </option>
+<option value="-1">--------------------</option>
+<option value="-4">پیام‌های خصوصی</option>
+<option value="-3">کنترل پنل کاربر</option>
+<option value="-5">چه کسی آنلاین است؟</option>
+<option value="-2">جستجو</option>
+<option value="-1">خانه</option>
+<!-- start: forumjump_bit -->
+<option value="1" > اطلاعیه ها و مباحث مرتبط با سایت</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="2" >-- اطلاعیه ها و اخبار سایت</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="18" >-- پیشنهادات و انتقادات</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="45" > دروس تخصصی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="109" >-- برنامه سازی سیستم</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="113" >---- سوال و جواب</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="114" >---- نمونه سوالات امتحانی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="115" >---- نمونه پروژه</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="116" >---- جزوه و کتاب آموزشی </option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="110" >-- معماری کامپیوتر</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="117" >---- سوال و جواب</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="118" >---- نمونه سوالات امتحانی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="119" >---- نمونه پروژه</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="120" >---- جزوه و کتاب آموزشی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="111" >-- ایجاد بانک های اطلاعاتی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="121" >---- سوال و جواب</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="122" >---- نمونه سوالات امتحانی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="123" >---- نمونه پروژه</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="124" >---- جزوه و کتاب آموزشی </option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="112" >-- طراحی الگوریتم</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="125" >---- سوال و جواب</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="126" >---- نمونه سوالات امتحانی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="127" >---- نمونه پروژه</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="128" >---- جزوه و کتاب آموزشی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="46" >-- برنامه سازی شی گرائی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="47" >---- سوال و جواب</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="48" >---- نمونه سوالات امتحانی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="49" >---- نمونه پروژه</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="50" >---- جزوه و کتاب آموزشی </option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="51" >-- زبان ماشین و اسمبلی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="52" >---- سوال و جواب</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="53" >---- نمونه سوالات امتحانی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="54" >---- نمونه پروژه</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="55" >---- جزوه و کتاب آموزشی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="56" >-- گرافیک کامپیوتری</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="57" >---- سوال و جواب</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="58" >---- نمونه سوالات امتحانی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="59" >---- نمونه پروژه</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="60" selected="selected">---- کتاب و جزوه آموزشی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="61" > دروس پایه </option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="64" >-- آمار و احتمالات </option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="72" >---- سوال و جواب</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="73" >---- کتاب و جزوه آموزشی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="74" >---- نمونه سوالات امتحانی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="65" >-- ریاضی مهندسی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="75" >---- سوال و جواب</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="76" >---- کتاب و جزوه آموزشی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="77" >---- نمونه سوالات امتحانی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="63" >-- ریاضی گسسته</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="69" >---- سوال و جواب</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="70" >---- کتاب و جزوه آموزشی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="71" >---- نمونه سوالات امتحانی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="62" >-- معادلات دیفرانسیل</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="66" >---- سوال و جواب</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="68" >---- کتاب و جزوه آموزشی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="67" >---- نمونه سوالات امتحانی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="78" > دروس عمومی </option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="79" >-- تاریخ اسلام</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="80" >-- انقلاب اسلامی و ریشه های آن</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="81" >-- متون اسلامی </option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="82" >-- معارف اسلامی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="30" > آموزش</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="31" >-- برنامه نویسی </option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="83" >---- C#</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="84" >---- C++</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="85" >---- ASP.NET</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="86" >---- PHP</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="87" >---- VB.NET</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="88" >---- HTML</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="32" >-- گرافیک و انیمیشن سازی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="89" >---- 3DMAX</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="90" >---- MAYA</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="91" >---- PHOTOSHOP</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="92" >---- FLASH</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="33" >-- ساخت و تولید بازی های رایانه ای</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="34" >-- پایگاه داده ها</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="100" >-- شبکه</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="94" >-- دیگر مطالب آموزشی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="95" > دانلود </option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="96" >-- نرم افزار</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="97" >---- کاربردی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="98" >---- سیستم عامل</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="103" >-- فیلم</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="102" >-- موزیک</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="99" >-- کتاب های الکترونیکی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="101" >-- بازی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="38" > موبایل</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="39" >-- Windows Phone</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="40" >-- Symbian</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="41" >-- Android</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="42" >-- iOs</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="43" >-- سیستم عامل های دیگر</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="6" > متفرقه</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="106" >-- اخبار</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="107" >---- ورزشی</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="108" >---- کامپیوتر</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="129" >-- بحث آزاد</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="104" >-- ادبیات</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="105" >-- مطالب ظنز</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="28" >-- معرفی وبلاگ و سایت</option>
+<!-- end: forumjump_bit -->
+</select>
+<!-- start: gobutton -->
+<input type="submit" class="button" value="برو" />
+<!-- end: gobutton -->
+</form>
+
+<!-- end: forumjump_advanced -->
+	</div>
+	<br style="clear: both;" />
+	<!-- start: showthread_usersbrowsing -->
+<br />
+<div class="tcat tcat_main smalltext" style="padding: 4px">
+کاربرانِ درحال بازدید از این موضوع: <br />1 مهمان
+</div>
+<br />
+<!-- end: showthread_usersbrowsing -->
+	<!-- start: footer -->
+<div class="clear"></div>
+<a href="#top" class="top_icon">بازگشت به بالا</a><a href="#content" class="content_icon">بازگشت به محتوا </a>
+<div class="clear"></div>
+</div>
+		<div class="footer_main"></div>
+	</div>
+</div></div>
+<div id="footer">
+	<div class="mainwrap">
+<div class="footer_menu">
+		<h2>دسترسی سریع</h2>
+		<ul>
+			<li><a href="com-eng.ir" class="bot_home">..::انجمن دانشجویان کامپیوتر دانشگاه نقش جهان::..</a></li>
+			<li><a href="mailto:saeed_golestanfar@yahoo.com" class="bot_contact">تماس با ما</a></li>
+			<li><a href="http://com-eng.ir/archive/index.php/thread-40.html" class="bot_archive">بایگانی</a></li>
+			<li><a href="http://com-eng.ir/misc.php?action=syndication" class="bot_rss">پیوند سایتی RSS</a></li>
+		</ul>
+</div>
+<div class="footer_content">
+			<br />
+			<br /><br />
+			<!-- MyBB is free software developed and maintained by a volunteer community. 
+				It would be much appreciated by the MyBB Group if you left the full copyright and "powered by" notice intact, 
+				to show your support for MyBB.  If you choose to remove or modify the copyright below, 
+				you may be refused support on the MyBB Community Forums.
+					 
+				This is free software, support us and we'll support you. -->
+				<div class="float_left"><!-- start: footer_languageselect -->
+<form method="get" action="/showthread.php" id="lang_select">
+		<input type="hidden" name="tid" value="40" />
+<input type="hidden" name="pid" value="67" />
+
+		<input type="hidden" name="my_post_key" value="b1aff52bc17b6ca64e698161089f4565" />
+		<select name="language" onchange="MyBB.changeLanguage();">
+			<optgroup label="انتخاب سریع زبان">
+				<option value="english">&nbsp;&nbsp;&nbsp;English (American)</option>
+<option value="persian" selected="selected">&nbsp;&nbsp;&nbsp;پارسی - Persian</option>
+
+			</optgroup>
+		</select>
+		<!-- start: gobutton -->
+<input type="submit" class="button" value="برو" />
+<!-- end: gobutton -->
+	</form>
+<!-- end: footer_languageselect --></div><br />
+</br>
+				Persian Translation by <a href="http://www.MyBBIran.com/">MyBBIran.com</a> - Ver: 3.6
+<br>
+Powered by <a href="http://mybb.com/" target="_blank">MyBB</a>, &copy; 2002-1390 <a href="http://mybb.com/" target="_blank">MyBB Group</a>.
+Theme designed by <a href="http://www.audentio.com" title="Free MyBB Themes">Audentio Design</a></br>.
+Translation by <a href="http://www.mybbiran.com" title="MyBBIran.com">MyBBIran.com</a>
+				<!-- End powered by -->
+
+
+
+</div>
+<div class="clear"></div>
+		<!-- <div id="debug"></div> -->
+		<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><!-- End task image code -->
+		
+	</div>
+</div>
+<!-- end: footer -->
+</body>
+</html>
+<!-- end: showthread -->

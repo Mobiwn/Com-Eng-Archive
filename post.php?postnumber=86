@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html onscroll="setTimeout(function () {document.getElementById('messagecontainer').style.display='none';},100)">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه" />
+	<meta name="keywords" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه ، انجمن ، انجمن علمی ، انجمن علمی دانشجویی ، دانشگاه ارومیه ، کامپیوتر ، نرم افزار" />
+	<meta name="author" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه" />
+	<title dir="rtl">انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه</title>
+	<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico" />
+	<link type="image/x-icon" rel="shortcut icon" href=".../favicon.ico" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="ckeditor/ckeditor.js"></script>
+</head>
+<body onscroll="setTimeout(function () {document.getElementById('messagecontainer').style.display='none';},100)">
+<div id="shadowmk" style="margin:auto; display:none; background-color:#000; opacity:0.5; position:fixed; z-index:3; height: 100%; width: 100%;"></div>
+<div id="shadowmkr" style="margin:auto; display:none; background-color:#000; opacity:0.5; position:fixed; z-index:3; height: 100%; width: 100%;"></div>
+<h1 style="display:none;">انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه</h1>
+	<div id="header">
+		<div id="headerimg"><img style="width: 100%; height:100%;" src="images/logo4.jpg" alt="logo" title="انجمن علمی کامپیوتر"/></div>
+		<div id="headertitle">
+			<img width="406" height="107" alt="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه" src="images/title.png">
+		</div>
+		<div id="headersocial">
+			<a href="https://www.facebook.com/pages/%D8%A7%D9%86%D8%AC%D9%85%D9%86-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B1%D9%88%D9%85%DB%8C%D9%87/511059362338123?ref=hl" target="_blank"><img id="socialimg1h" class="socialimg" alt="facebook" src="images/fb.png" title="FaceBook" /></a>
+			<a href="https://plus.google.com/b/111103336578635094666/111103336578635094666" target="_blank"><img id="socialimg2h" class="socialimg" alt="google+" src="images/google+.png" title="Google+" /></a>
+			<a href="mailto:info@com-eng.ir"><img id="socialimg3h" class="socialimg" alt="email" src="images/email.png" title="Email" /></a>
+		</div>
+	</div>
+	<div id="headermenucontainer">
+		<div id="headermenu">
+			<a href="http://com-eng.ir/"><div class="headermenutile">
+				صفحه اصلی
+			</div></a>
+			<div id="newsmenu" class="headermenutile" style=" cursor: default;">
+				<li id="headermenutileh1" style="list-style-image: url('images/sub2.png');">اخبار</li>
+				<ul id="headersubmenuli1" class="headersubmenu">
+					<a href="category.php?categoryname=اخبار گروه"><li style="border-top: solid;border-top-color: #000;border-top-width: 1px;" class="headersubmenuli">گروه کامپیوتر</li></a>
+					<a href="category.php?categoryname=اخبار دانشکده"><li class="headersubmenuli">دانشکده</li></a>
+					<a href="category.php?categoryname=اخبار دانشگاه"><li class="headersubmenuli">دانشگاه</li></a>
+				</ul>
+			</div>
+			<div id="categorymenu"  class="headermenutile" style=" cursor: default;">
+				<li id="headermenutileh2" style="list-style-image: url('images/sub2.png');">بخش ها</li>
+				<ul id="headersubmenuli2" class="headersubmenu">
+					<a href="category.php?categoryname=software"><li style="border-top: solid;border-top-color: #000;border-top-width: 1px;" class="headersubmenuli">نرم افزار</li></a>					<a href="category.php?categoryname=اساتید"><li class="headersubmenuli">اساتید</li></a><a href="category.php?categoryname=سخت افزار"><li class="headersubmenuli">سخت افزار</li></a><a href="category.php?categoryname=هوش مصنوعی"><li class="headersubmenuli">هوش مصنوعی</li></a><a href="category.php?categoryname=فناوری اطلاعات"><li class="headersubmenuli">فناوری اطلاعات</li></a><a href="category.php?categoryname=امنیت"><li class="headersubmenuli">امنیت</li></a><a href="category.php?categoryname=ترفندستان"><li class="headersubmenuli">ترفندستان</li></a><a href="category.php?categoryname=انجمن"><li class="headersubmenuli">انجمن</li></a>				</ul>
+			</div>
+			<div id="submitmenu" class="headermenutile" style=" cursor: default;">
+				<li id="headermenutileh3" style="list-style-image: url('images/sub2.png');">ورود</li>
+								<ul id="headersubmenuli3" class="headersubmenu">
+									<form method="POST" action="">
+									<li style="border:none; border-top: solid;border-top-color: #000;border-top-width: 1px;" class="headersubmenuli"><input id="logintextboxuser" onfocus="logintextboxuser.defaultValue='';"  onblur="logintextboxuser.defaultValue='نام کاربری';" type="text" name="username" value="نام کاربری"/></li>
+									<li class="headersubmenuli" style="border: none;"><input id="logintextboxpass" style="font-family:'Arial'" onfocus="logintextboxpass.defaultValue='';"  onblur="logintextboxpass.defaultValue='رمز عبور';" type="password" name="password" value="رمز عبور"/></li>
+									<li class="headersubmenuli" style="border: none;"><input id="headerloginbtn"  type="submit" value="ورود"/></li><br/>
+									<a href="signup.php"><li id="headersubmitbtn" class="headersubmenuli">عضویت</li></a><br/>
+									<a href="passreset.php"><li id="passremember" class="headersubmenuli">رمز خود را فراموش کرده اید؟</li></a>
+									</form>
+								</ul>			</div>
+			<a href="contactus.php"><div id="contactus" class="headermenutile">
+				تماس با ما
+			</div></a>
+			<div id="headersearch">
+				<form id="searchformh" method="GET" action="http://www.bing.com/search" target="_blank">
+				<img onclick="document.forms['searchformh'].submit();" style="cursor: pointer;" id="searchimgmag" alt="search" src="images/searchmag.jpg" title="Search"/>
+				<img id="searchimg" alt="search" src="images/search.jpg" title="Search" />
+				<input name="q" onfocus="searchtext.defaultValue='';"  onblur="searchtext.defaultValue='جستجو...';" id="searchtext" type="text" value="جستجو..." />
+                <input type="hidden" name="cp" value="65001" />
+                <input type="hidden" name="FORM" value="FREESS" />
+                <input type="hidden" name="q1" value="site:http://com-eng.ir/" />
+              	</form>
+			</div>
+		</div>
+	</div>
+	
+	<script language="javascript" type="text/javascript" src="jscript.js"></script>
+	
+	<div id="rightsidebar">
+		<div class="rightsidebartile">
+			<div class="rightsidebarheader">
+				بخش ها
+			</div>
+			<div class="rightsidebarcontent">
+				<a href="category.php?categoryname=اساتید"><div class="rightsidebarcontenttile">
+											اساتید
+										</div></a><a href="category.php?categoryname=نرم افزار"><div class="rightsidebarcontenttile">
+											نرم افزار
+										</div></a><a href="category.php?categoryname=سخت افزار"><div class="rightsidebarcontenttile">
+											سخت افزار
+										</div></a><a href="category.php?categoryname=هوش مصنوعی"><div class="rightsidebarcontenttile">
+											هوش مصنوعی
+										</div></a><a href="category.php?categoryname=فناوری اطلاعات"><div class="rightsidebarcontenttile">
+											فناوری اطلاعات
+										</div></a><a href="category.php?categoryname=امنیت"><div class="rightsidebarcontenttile">
+											امنیت
+										</div></a><a href="category.php?categoryname=ترفندستان"><div class="rightsidebarcontenttile">
+											ترفندستان
+										</div></a><a href="category.php?categoryname=انجمن"><div class="rightsidebarcontenttile">
+											انجمن
+										</div></a>            </div>
+		</div>
+		<div class="rightsidebartile">
+			<div class="rightsidebarheader">
+				آخرین مطالب
+			</div>
+			<div class="rightsidebarcontent">
+				<a href="post.php?postnumber=92"><div class="rightsidebarcontenttile">
+										نائب قهرمانی دانشجوی رشته برق دانشگاه ارومیه در مسابقات کشتی پهلوانی شهرستان ارومیه
+									</div></a><a href="post.php?postnumber=91"><div class="rightsidebarcontenttile">
+										تجهیز دستگاههای خودپرداز به سوسکهای بمب انداز ضد سرقت
+									</div></a><a href="post.php?postnumber=90"><div class="rightsidebarcontenttile">
+										آموزش فوتوشاپ
+									</div></a><a href="post.php?postnumber=89"><div class="rightsidebarcontenttile">
+										صفحه ‌لمسی‌ای که شما را می‌شناسد
+									</div></a><a href="post.php?postnumber=86"><div class="rightsidebarcontenttile">
+										موس و کی‌بـورد افسـانه می‌شوند
+									</div></a><a href="post.php?postnumber=84"><div class="rightsidebarcontenttile">
+										نشریه باینری
+									</div></a><a href="post.php?postnumber=83"><div class="rightsidebarcontenttile">
+										جشن میلاد حضرت علی (ع) 
+									</div></a><a href="post.php?postnumber=82"><div class="rightsidebarcontenttile">
+										forget your password?
+									</div></a><a href="post.php?postnumber=81"><div class="rightsidebarcontenttile">
+										 کسب مقام دوم تیم بسکتبال دختران دانشگاه ارومیه...   
+									</div></a><a href="post.php?postnumber=80"><div class="rightsidebarcontenttile">
+										عرضه نسخه ایمن لینوکس برای مقابله با جاسوسی آمریکا 
+									</div></a>			</div>
+		</div>
+		<div class="rightsidebartile">
+			<div class="rightsidebarheader">
+				آخرین نظرات
+			</div>
+			<div class="rightsidebarcontent">
+				<a href="post.php?postnumber=74"><div class="rightsidebarcontenttile">
+										<p>بسیار عالی !!<br />
+&nbsp;</p>
+
+									</div></a>			</div>
+		</div>
+		<div class="rightsidebartile">
+			<div class="rightsidebarheader">
+				لینک های مفید
+			</div>
+			<div class="rightsidebarcontent">
+				<a href="http://urmia.ac.ir" target="_blank"><div class="rightsidebarcontenttile">
+										دانشگاه ارومیه
+									</div></a><a href="http://www.urmia.ac.ir/elecomp/computer/default.aspx" target="_blank"><div class="rightsidebarcontenttile">
+										گروه کامپیوتر دانشگاه ارومیه
+									</div></a>			</div>
+		</div>
+			</div>
+	<div id="main">
+		<div id="content">
+		<script type="text/javascript">
+
+		function btnrclick($temp)
+		{
+			$('#hiddencomid').val($temp);
+			$('#commentsendr').fadeIn();
+			event.stopPropagation();
+			$('#shadowmkr').fadeIn();
+		}
+
+		function closecomment()
+		{	
+			$('#shadowmkr').fadeOut();
+			$('#commentsendr').fadeOut();
+		}
+
+		function check1()
+		{
+			$flag=true;
+			if($('#commenttext').val()==null || $('#commenttext').val()=="")
+			{
+				$('#commenttext').css('background-color','#ffcfab');
+				$flag=false;
+			}
+			if($flag==false)
+			{
+				return false;
+			}
+		}
+
+		function check2()
+		{
+			$flag=true;
+			if($('#commenttextr').val()==null || $('#commenttextr').val()=="")
+			{
+				$('#commenttextr').css('background-color','#ffcfab');
+				$flag=false;
+			}
+			if($flag==false)
+			{
+				return false;
+			}
+		}
+		
+		function resetcolor($temp)
+		{
+			$temp.css('background-color','#FFF');
+		}
+		
+		</script>
+			<div id="posts">
+				
+					<div class="post">
+						<div class="posttext">
+							<a href="post.php?postnumber=86"><h2 class="postheader">
+								موس و کی‌بـورد افسـانه می‌شوند
+								<div class="postdate">
+									2014-05-11
+								</div>
+							</h2></a>
+							<div class="postcontent"><a href="post.php?postnumber=86"><div class="postpageimg" ><img width="100%" height="100%" alt="موس و کی‌بـورد افسـانه می‌شوند" src="postimages/86IMAGE635350541592540000.jpg" title="" /></div></a><div class="postinnertext">
+									<h1>&nbsp; موس و کی&zwnj;بـورد افسـانه می&zwnj;شوند</h1>
+
+<h3>لیپ موشن تنها یک ابزار کنترل حرکتی نیست. این روش جدید ارتباطی در هر جایی می&zwnj;تواند مفید باشد و حتی برای محصولاتی غیر از رایانه، از قبیل گوشی، تبلت و حتی روبات&zwnj;های جراح به کار بیاید. یکی از برنامه&zwnj;هایی که برای کار با این وسیله نوشته شده</h3>
+
+<p>&nbsp;</p>
+
+<p>دو دوست قدیمی تکنولوژی جدیدی برای ارتباط کاربر و رایانه ابداع کرده&zwnj;اند که انقلابی در دنیای دیجیتال ایجاد می&zwnj;کند<br />
+&nbsp;<br />
+&nbsp;</p>
+
+<p>ما باید بتوانیم به هر رایانه&zwnj;ای وارد شویم و نیازی نباشد که زبان ویژه آن را بدانیم. تنها باید برای ایجاد ارتباط با رایانه کاری انجام دهیم که احساسمان به&zwnj;طور مستقیم فرمان می&zwnj;دهد. این وظیفه تکنولوژی است که ما را بفهمد. در این راه باید به حذف وسایل و تجهیزات اضافی رایانه و درنتیجه حذف هزینه، جاگیری و مشکلات فکر کرد. از این طریق تعامل با رایانه خیلی ساده انجام می&zwnj;شود و دیگر نیازی به سخت&zwnj;افزاری مثل کی&zwnj;بورد و کلیدها و میانبرهای گیج&zwnj;کننده&zwnj;اش نیست.</p>
+
+<p>&nbsp;</p>
+
+<p>حالا دنیای تکنولوژی برای حذف این ابزارها، گامی رو به جلو برداشته است. این گام جدید کنترلر لیپ موشن لقب گرفته و شبیه یک آی&zwnj;فون مینیاتوری است که روی یک میز در مقابل رایانه قرار می&zwnj;گیرد. کنترلر در داخل یک فضای مخروطی ۲۲۶ سانتی&zwnj;متر مکعبی بالایش می&zwnj;تواند حرکت&zwnj;ها را با دقت ۰۰۱/۰ میلی&zwnj;متر متوجه شود و این میزان دقت نسبت به کینکت مایکروسافت بسیار بالاتر است.<br />
+&nbsp;<br />
+&nbsp;</p>
+
+<p>لیپ موشن تنها یک ابزار کنترل حرکتی نیست. این روش جدید ارتباطی در هر جایی می&zwnj;تواند مفید باشد و حتی برای محصولاتی غیر از رایانه، از قبیل گوشی، تبلت و حتی روبات&zwnj;های جراح به کار بیاید. یکی از برنامه&zwnj;هایی که برای کار با این وسیله نوشته شده، برنامه&zwnj;ای امنیتی است که می&zwnj;تواند به جای کلمه&zwnj;عبور یا اسکن چشم از خصوصیات طبیعی و بیومتریک مردم برای شناسایی آنها استفاده کند. کار دیگری که می&zwnj;توان با این وسیله انجام داد هدایت یک کوادکوپتر بدون سرنشین (هلی&zwnj;کوپتر چهارپره کوچک) با حرکت دست روی لیپ است. در حقیقت کارهایی که می&zwnj;توان با این وسیله انجام داد بی&zwnj;شمار هستند و همه آنها سحرآمیز و شگفت&zwnj;آور به نظر می&zwnj;رسند.</p>
+
+<p><strong>کنترل&zwnj;های حرکتی از کجا شروع شدند؟</strong><br />
+این اولین ایده ساخت یک کنترل حرکتی نیست. اما اولین باری است که با این کیفیت به واقعیت تبدیل می&zwnj;شود. کنترلرهای وی نینتندو که در سال ۲۰۰۶ عرضه شدند، در نوع خود نوآورانه بودند و با کم کردن بعضی محدودیت&zwnj;ها، بسیار جذاب و محبوب بودند. تلاش&zwnj;های دیگری هم برای ساخت کنترلرهای حرکتی انجام شد. مانند دستکش&zwnj;های شگفت&zwnj;انگیز و اخیرا باند دستی که سیگنال&zwnj;های الکتریکی ماهیچه را دریافت می&zwnj;کند. اما تا پیش از لیپ موشن، شاید موفق&zwnj;ترین شرکت در نزدیک کردن این ایده به واقعیت کینکت مایکروسافت بوده است. آنها در محصول جدید ایکس&zwnj;باکس جز اینکه صورت کاربر در مقابل سنسور قرار بگیرد به چیز دیگری نیاز ندارند.</p>
+
+<p><br />
+کینکت اول از تکنولوژی موسوم به &laquo;نور سازمان&zwnj;یافته&raquo; استفاده می&zwnj;کرد؛ به این ترتیب که خطوط متعدد نور در فضا پراکنده شده و با قطع شدن آنها، اطلاعات دستگاه در مورد جسم متحرک کامل می&zwnj;شد. این فناوری برای تشخیص حرکت&zwnj;های بزرگ مثل حرکت دادن چوب گلف یا ضربه چکش مناسب است. اما حرکت&zwnj;های ظریف و منفرد انگشت، نیاز به دقت خیلی بیشتری دارد و عملا ایجاد این همه خط نوری در محیط امکان&zwnj;پذیر نیست.</p>
+
+<p>&nbsp;</p>
+
+<p>بهار امسال مایکروسافت نور سازمان&zwnj;یافته را با &laquo;زمان پرواز&raquo; جایگزین کرد؛ روشی که بیشتر شبیه یک رادار عمل می&zwnj;کرد. با ارسال امواج مادون قرمز و اندازه گیری زمان پاسخ آنها از جسم هدف، طول و عرض و عمق حرکت با دقت بیشتری در اختیار دستگاه قرار می&zwnj;گرفت و بدین ترتیب دستگاه قادر بود یک تصویر سه بعدی از آنچه به دست آورده ترسیم کند. این دستاورد دقت بیشتری نسبت به نورهای سازمان&zwnj;یافته دارد؛ ولی هنوز با تکنولوژی لیپ موشن فاصله زیادی دارد. کینکت از یک فاصله مشخص به بعد خوب کار می&zwnj;کند و در فاصله نزدیک دقت آن تقریبا صفر می&zwnj;شود.</p>
+
+<p><a href=\"http://professorha.ir/mag/wp-content/uploads/2014/05/LeapMotion.jpg\"><img alt=\"LeapMotion\" src=\"http://professorha.ir/mag/wp-content/uploads/2014/05/LeapMotion-500x281.jpg\" style=\"height:auto; margin:0px; width:500px\" /></a></p>
+
+<p><strong>لیپ موشن چگونه کار می&zwnj;کند؟</strong><br />
+روش کار لیپ موشن به&zwnj;طور کلی متفاوت است. هولز اطلاعات جمع شده توسط لیپ را با یک دوربین آنالوگ درنور ملایم مقایسه می&zwnj;کند. در این صورت قادر به تشخیص سایه&zwnj;هایی با منحنی&zwnj;ها و اختلاف&zwnj;های جزئی خواهد بود. اما نحوه تبدیل و تجزیه و تحلیل این اطلاعات به تصویر مجازی شیء مشخص نیست و شرکت هم در مورد اینکه چگونه این تصاویر سه&zwnj;بعدی شگفت&zwnj;انگیز را تشکیل می&zwnj;دهد چیزی بروز نداده است. پاسخ در روابط ریاضی اسرارآمیزی نهفته است که پشت طراحی این وسیله هستند. حیرت&zwnj;آورتر از همه این است که تمام داده&zwnj;برداری&zwnj;ها و تبدیل&zwnj;ها و تصویرسازی&zwnj;ها بدون هیچ تاخیری صورت می&zwnj;گیرد. با همه اینها دستگاه آنها تنها بخش ناچیزی از ظرفیت cpu را به خود اختصاص می&zwnj;دهد و از هیچ قطعه سیلیکونی خاص یا سنسور پیچیده&zwnj;ای استفاده نمی&zwnj;کنند.</p>
+
+<p>کاری که امروز این دستگاه انجام می&zwnj;دهد با سخت&zwnj;افزارهای ۱۰ سال پیش هم شدنی بود، به شرطی که یک نفر به معادلات ریاضی مورد استفاده لیپ موشن دست می&zwnj;یافت.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>لیپ&zwnj;موشن در فضا</strong><br />
+چند هفته بعداز تولید اولین نمونه&zwnj;های عملی، ویکتور لو، یکی از مهندسان آزمایشگاه نیروی محرکه جت ناسا در مقابل دستگاه لیپ موشن در کالیفرنیا ایستاد و یک روبات فضایی یک تنی را از ۵۶۰ کیلومتر دورتر هدایت کرد. روبات فضایی اتلیت Athlete شش بازو دارد و می&zwnj;تواند پرواز کند. ناسا این روبات را به صورتی طراحی کرده که می&zwnj;تواند اعضای بدنش را مانند دست انسان حرکت دهد، ولو می&zwnj;توانست بازوهای آن را با تکان دادن انگشت&zwnj;هایش هدایت کند.</p>
+
+<p>لو این شاهکار بزرگ را روی استیج کنفرانس سالانه بازی&zwnj;سازان اجرا می&zwnj;کرد. وقتی او دست&zwnj;هایش را بالا برد، حاضران روی پرده بزرگ نمایش دیدند که موتورهای جت روبات روشن شدند. ماشین غول&zwnj;پیکر ناسا از روی زمین بلند شد. دموی ناسا یکی از بزرگ&zwnj;ترین و باشکوه&zwnj;ترین کاربردهای لیپ موشن را به نمایش گذاشت و این تنها پیروزی لیپ&zwnj;موشن نبوده است.</p>
+
+<p>&nbsp;</p>
+
+<p>از ماه&zwnj;های ابتدایی که کیت&zwnj;ها و واحدهای تستی برای سازندگان مختلف ارسال شدند، حجم وسیعی از دموهای ویدئویی در ارتباط با برنامه&zwnj;های کاربردی وابسته به لیپ&zwnj;موشن ساخته شده است. گوگل ارث، برنامه وابسته به لیپ موشن خود را معرفی کرد و در دموی خود شخصی را نشان داد که با حرکت انگشتانش نقشه خلیج سان فرانسیسکو را بزرگ و کوچک می&zwnj;کند.</p>
+
+<p>یک موسیقی&zwnj;دان نیز دمویی برای یک نرم&zwnj;افزار جالب نواختن موسیقی به نام ایرهارپ AirHarp به نمایش گذاشت. گستره کاربردهای این تکنولوژی شگفت&zwnj;انگیز بسیار فراتر از این است و هر وسیله&zwnj;ای که برای هدایت به رایانه یا کنترل از راه دور نیاز داشته می&zwnj;تواند به این فناوری مجهز شود. از تبلت&zwnj; و رایانه شخصی و گوشی هوشمند گرفته تا تلویزیون و عمل&zwnj;های جراحی و روبات&zwnj;ها و حتی هدایت ماشین.</p>
+
+<p><a href=\"http://professorha.ir/mag/wp-content/uploads/2014/05/Leap_Motion1.jpg\"><img alt=\"Leap_Motion1\" src=\"http://professorha.ir/mag/wp-content/uploads/2014/05/Leap_Motion1-495x300.jpg\" style=\"height:auto; margin:0px; width:495px\" /></a></p>
+
+<p><strong>تحولات دنیای تعامل</strong><br />
+در تاریخ تعامل کاربر و رایانه، تنها دو بار تحول اساسی اتفاق افتاده است.در اواسط دهه ۸۰، وقتی اپل تعامل خطی قدیمی و معمول را با موس&zwnj;های گرافیکی متحول کرد و بار دیگر اخیرا که اپل موبایل&zwnj;های مولتی&zwnj;تاچ را عرضه کرد. در هر دو این موارد، ارتباط انسان-رایانه مستقیم&zwnj;تر و کوتاه&zwnj;تر و درک دستورات انسان توسط ماشین ساده&zwnj;تر شد. وقتی موس به رایانه اضافه شد، کاربر مستقیما دستوراتش را به نمایشگر انتقال می&zwnj;داد و هنگامی که تکنولوژی نمایشگر لمسی این ارتباط را نزدیک&zwnj;تر کرد. اکنون لیپ موشن شما را به درون نمایشگر انتقال خواهد داد!</p>
+
+<p><strong>محدودیت&zwnj;های لیپ&zwnj;موشن</strong><br />
+حتی طبیعی&zwnj;ترین برنامه&zwnj;های سه&zwnj;بعدی هم محدودیت&zwnj;های خودشان را دارند. یکی از اولین چیزهایی که هنگام شروع کار با کنترلرهای لیپ&zwnj;موشن به ذهن خواهد رسید، این است که هیچ تماس لمسی در این ارتباط وجود ندارد. بنابراین هیچ حس لمسی و عکس&zwnj;العملی وجود نخواهد داشت تا حرکات انگشت&zwnj;ها با آن تنظیم و کالیبره شوند. این طبیعت دنیای دیجیتال است، میزان اطلاعات و ویژگی&zwnj;های درون آن بیشتر از چیزی است که در دنیای واقعی وجود دارد. یک محدودیت دیگر، این است که کاربر دستانش را در هر سه بعد حرکت می&zwnj;دهد، درحالی&zwnj;که نتیجه روی یک نمایشگر دو بعدی ظاهر خواهد شد. این موضوع می&zwnj;تواند گیج&zwnj;کننده و مشکل&zwnj;آفرین باشد.</p>
+
+<p><strong>تکامل لیپ&zwnj;موشن</strong><br />
+برای رفع این مسأله شاید استفاده از نمایشگرهای سه&zwnj;بعدی چاره&zwnj;ساز باشد. فعلا تکنولوژی موجود نمایشگرهای سه&zwnj;بعدی نیز برای رفع همه نیازهای لیپ&zwnj;موشن کافی نیست. هولز می&zwnj;گوید: &laquo;لیپ موشن می&zwnj;تواند با گجت&zwnj;های دیگر مانند عینک گوگل کامل&zwnj;تر شود. به این ترتیب گویی شما درون نمایشگر قرار گرفته&zwnj;اید؛ بدون اینکه به نمایشگری نیاز باشد.<br />
+استفاده از دستورات صوتی برای انجام برخی تعامل&zwnj;های لیپ موشن و رایانه می&zwnj;تواند پیشرفت بعدی باشد. مثلا بعضی دستورات از قبیل &laquo;بازگشت&raquo; (undo) یا دستور ترسیم اشکال سه بعدی پیش&zwnj;فرض مثل مکعب یا هرم می&zwnj;تواند حجم حرکات دست را کمتر کند.</p>
+
+								</div>
+							</div>
+							<div class="postdetail">
+								<a href="category.php?categoryname=سخت افزار"><div class="postcate">
+									سخت افزار
+								</div></a>
+								<div class="postauther">
+										فاطمه
+								</div>
+								<div class="poscomment">
+									0  نظر
+								</div>
+							</div>
+						</div>
+					</div>			</div>
+				<div id="commentsend" style="clear:both; direction:rtl; float:right; font-family:'B Nazanin'; color:#ff6a00; margin-bottom:20px;">برای ارسال نظر لطفا وارد سایت شوید.</div>				
+				<div id="commentsendr">
+					<form  method="POST" action="">
+						<div style="float: right; color:#FFF; font-family: 'B Yekan'; direction: rtl; padding-right: 5px;">متن نظر: </div>
+						<div><textarea id="commenttextr" rows="10" cols="70" name="commentr" maxlength="1000" ></textarea></div><br>
+						<div><input id="commentsendbtnr" type="submit" value="ارسال نظر" /></div>
+						<div><input onclick="closecomment();" id="closecommentsendr" type="button" value="بستن" /></div>
+						<input id="hiddencomid" type="hidden" name="comid" value="0" />
+					</form>
+				</div>
+				
+				
+				<script>
+					CKEDITOR.replace( 'commenttext' );
+					CKEDITOR.replace( 'commenttextr' );
+				</script>
+				
+							</div>
+		<div id="leftsidebar">
+			<a href="http://www.urmia.ac.ir/" target="_blank"><div class="leftsidebartile">
+							<img class="leftsideimg" alt="ads" src="ads/4.jpg" title="دانشگاه ارومیه" />
+							</div></a><a href="http://com-eng.ir/post.php?postnumber=4" target="_blank"><div class="leftsidebartile">
+							<img class="leftsideimg" alt="ads" src="ads/gosaste.jpg" title="گسسته روزن" />
+							</div></a><a href="http://com-eng.ir/post.php?postnumber=4" target="_blank"><div class="leftsidebartile">
+							<img class="leftsideimg" alt="ads" src="ads/gosasteen.jpg" title="گسسته روزن" />
+							</div></a>			
+			<div class="leftsidebartile">
+				<div class="rightsidebarheader" style="text-align: center;">
+					درباره ما
+				</div>
+				<div class="rightsidebarcontent">
+					<a href="http://www.urmia.ac.ir/asatid/j_bagherzade/default.aspx" target="_blank"><div class="rightsidebarcontenttile" style="border-right-width: 1px;">
+						مدیر گروه : دکتر جمشید باقرزاده					</div></a>
+					<a href="http://www.urmia.ac.ir/asatid/m_namazi/default.aspx" target="_blank"><div class="rightsidebarcontenttile" style="border-right-width: 1px;">
+						معاون گروه : مهندس مجید نمازی					</div></a>
+					<div class="rightsidebarcontenttile" style="border-right-width: 1px;">
+						دبیر انجمن : علی قالی باف					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div id="pagenumcontainer">
+			<div class="pagenumdeactive" style="width: 70px;">
+								صفحه اول
+							</div><a href="http://com-eng.ir/"><div class="pagenum">
+									1
+								</div></a><a href="http://com-eng.ir/page.php?pagenumber=2"><div class="pagenum">
+									2
+								</div></a><a href="http://com-eng.ir/page.php?pagenumber=3"><div class="pagenum">
+									3
+								</div></a><a href="http://com-eng.ir/page.php?pagenumber=4"><div class="pagenum">
+									4
+								</div></a><a href="http://com-eng.ir/page.php?pagenumber=5"><div class="pagenum">
+									5
+								</div></a><a href="http://com-eng.ir/page.php?pagenumber=7"><div class="pagenum" style="width: 70px;">
+							صفحه آخر
+						</div></a>		</div>
+	</div>
+	
+	<div id="footer">
+		<div id="fc1" class="footercontent">
+			<ul>
+				<li class="footerliheader">
+					اخبار گروه کامپیوتر
+				</li>
+				<li class="footerli">
+								<a href="post.php?postnumber=4">ترجمه کتاب ریاضیات گسسته و کاربردهای آن</a>
+							</li>			</ul>
+		</div>
+		<div id="fc2" class="footercontent">
+			<ul>
+				<li class="footerliheader">
+					اخبار دانشکده
+				</li>
+				<li class="footerli">
+								<a href="post.php?postnumber=84">نشریه باینری</a>
+							</li>			</ul>
+		</div>
+		<div id="fc3" class="footercontent">
+			<ul>
+				<li class="footerliheader">
+					اخبار دانشگاه
+				</li>
+				<li class="footerli">
+								<a href="post.php?postnumber=92">نائب قهرمانی دانشجوی رشته برق دانشگاه ارومیه در مسابقات کشتی پهلوانی شهرستان ارومیه</a>
+							</li><li class="footerli">
+								<a href="post.php?postnumber=83">جشن میلاد حضرت علی (ع) </a>
+							</li><li class="footerli">
+								<a href="post.php?postnumber=81"> کسب مقام دوم تیم بسکتبال دختران دانشگاه ارومیه...   </a>
+							</li>			</ul>
+		</div>
+		<div id="footerother">
+			<div id="footersocial">
+				<a href="https://www.facebook.com/pages/%D8%A7%D9%86%D8%AC%D9%85%D9%86-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B1%D9%88%D9%85%DB%8C%D9%87/511059362338123?ref=hl" target="_blank"><img id="socialimg1" class="socialimg" alt="facebook" src="images/fb.png" title="FaceBook" /></a>
+				<a href="https://plus.google.com/b/111103336578635094666/111103336578635094666" target="_blank"><img id="socialimg2" class="socialimg" alt="google+" src="images/google+.png" title="Google+" /></a>
+				<a href="mailto:info@com-eng.ir"><img id="socialimg3" class="socialimg" alt="email" src="images/email.png" title="Email" /></a>
+			</div>
+			<div id="footersearch">
+				<form id="searchformf" method="GET" action="http://www.bing.com/search" target="_blank">
+				<img onclick="document.forms['searchformf'].submit();" id="searchimg" alt="search" src="images/search.jpg" title="Search" />
+				<input name="q"  style="width: 100px;" onfocus="searchtextf.defaultValue='';"  onblur="searchtextf.defaultValue='جستجو...';" id="searchtextf" type="text" value="جستجو..." />
+				<input type="hidden" name="cp" value="65001" />
+                <input type="hidden" name="FORM" value="FREESS" />
+                <input type="hidden" name="q1" value="site:http://com-eng.ir/" />
+              	</form>
+			</div>
+			<br/>
+			<div id="subscribe">
+				<form action="" method="post">
+					<input class="btn" type="submit" value="عضویت"/>
+					<input name="subscribef" style="margin-left:10px; width: 100px;" onfocus="subscribetext.defaultValue='';"  onblur="subscribetext.defaultValue='به ما بپیوندید...';" id="subscribetext" type="text" value="به ما بپیوندید..." />
+				</form>
+			</div>
+		</div>
+		<hr style="background-color: #FFF; width: 100%; margin: auto; clear: both;"/>
+		<div id="cright">
+			تمامی حقوق این وب سایت متعلق به انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه می باشد.<br>استفاده از مطالب وب سایت با ذکر منبع مجاز است.
+		</div>
+		<div id="design">
+			Programmed And Designed By Mohammad Nassiri<br/><a href="mailto:nassirimohammad@ymail.com">E-Mail:nassirimohammad@ymail.com</a>
+		</div>
+
+<!-- Begin WebGozar.com Counter code -->
+<script type="text/javascript" language="javascript" src="http://www.webgozar.ir/c.aspx?Code=3253314&amp;t=counter" ></script>
+<noscript><a href="http://www.webgozar.com/counter/stats.aspx?code=3253314" target="_blank">&#1570;&#1605;&#1575;&#1585;</a></noscript>
+<!-- End WebGozar.com Counter code -->
+
+	</div>
+	<div id="top" style="cursor:pointer; visibility:hidden; position:fixed; bottom:10px; right:10px;">
+		<img id="backtotop" alt="top" width="35" height="30" style="display:none; cursor:pointer; border:none;" src="images/top.png" />
+		<script>
+			$(window).scroll(function() {
+			    if($(this).scrollTop() > 200) {
+			        $('#backtotop').fadeIn();
+			    } else {
+			        $('#backtotop').fadeOut();
+			    }
+			});
+			
+			
+			
+			$('#backtotop').bind('click', function(e) {
+			    e.preventDefault();
+			    $('body,html').animate({scrollTop:0},800);
+			});
+		</script>
+	</div>
+	</body>
+</html>
+		

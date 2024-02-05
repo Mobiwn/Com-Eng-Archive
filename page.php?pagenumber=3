@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html onscroll="setTimeout(function () {document.getElementById('messagecontainer').style.display='none';},100)">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه" />
+	<meta name="keywords" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه ، انجمن ، انجمن علمی ، انجمن علمی دانشجویی ، دانشگاه ارومیه ، کامپیوتر ، نرم افزار" />
+	<meta name="author" content="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه" />
+	<title dir="rtl">انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه</title>
+	<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico" />
+	<link type="image/x-icon" rel="shortcut icon" href=".../favicon.ico" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+<div id="shadowmk" style="margin:auto; display:none; background-color:#000; opacity:0.5; position:fixed; z-index:3; height: 100%; width: 100%;"></div>
+<body onscroll="setTimeout(function () {document.getElementById('messagecontainer').style.display='none';},100)">
+<h1 style="display:none;">انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه</h1>
+	<div id="header">
+		<div id="headerimg"><img style="width: 100%; height:100%;" src="images/logo4.jpg" alt="logo" title="انجمن علمی کامپیوتر"/></div>
+		<div id="headertitle">
+			<img width="406" height="107" alt="انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه" src="images/title.png">
+		</div>
+		<div id="headersocial">
+			<a href="https://www.facebook.com/pages/%D8%A7%D9%86%D8%AC%D9%85%D9%86-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B1%D9%88%D9%85%DB%8C%D9%87/511059362338123?ref=hl" target="_blank"><img id="socialimg1h" class="socialimg" alt="facebook" src="images/fb.png" title="FaceBook" /></a>
+			<a href="https://plus.google.com/b/111103336578635094666/111103336578635094666" target="_blank"><img id="socialimg2h" class="socialimg" alt="google+" src="images/google+.png" title="Google+" /></a>
+			<a href="mailto:info@com-eng.ir"><img id="socialimg3h" class="socialimg" alt="email" src="images/email.png" title="Email" /></a>
+		</div>
+	</div>
+	<div id="headermenucontainer">
+		<div id="headermenu">
+			<a href="http://com-eng.ir/"><div class="headermenutile">
+				صفحه اصلی
+			</div></a>
+			<div id="newsmenu" class="headermenutile" style=" cursor: default;">
+				<li id="headermenutileh1" style="list-style-image: url('images/sub2.png');">اخبار</li>
+				<ul id="headersubmenuli1" class="headersubmenu">
+					<a href="category.php?categoryname=cg"><li style="border-top: solid;border-top-color: #000;border-top-width: 1px;" class="headersubmenuli">گروه کامپیوتر</li></a>
+					<a href="category.php?categoryname=college"><li class="headersubmenuli">دانشکده</li></a>
+					<a href="category.php?categoryname=university"><li class="headersubmenuli">دانشگاه</li></a>
+				</ul>
+			</div>
+			<div id="categorymenu"  class="headermenutile" style=" cursor: default;">
+				<li id="headermenutileh2" style="list-style-image: url('images/sub2.png');">بخش ها</li>
+				<ul id="headersubmenuli2" class="headersubmenu">
+					<a href="category.php?categoryname=اساتید"><li style="border-top: solid;border-top-color: #000;border-top-width: 1px;" class="headersubmenuli">اساتید</li></a><a href="category.php?categoryname=سخت افزار"><li class="headersubmenuli">سخت افزار</li></a><a href="category.php?categoryname=هوش مصنوعی"><li class="headersubmenuli">هوش مصنوعی</li></a><a href="category.php?categoryname=فناوری اطلاعات"><li class="headersubmenuli">فناوری اطلاعات</li></a><a href="category.php?categoryname=امنیت"><li class="headersubmenuli">امنیت</li></a><a href="category.php?categoryname=ترفندستان"><li class="headersubmenuli">ترفندستان</li></a><a href="category.php?categoryname=انجمن"><li class="headersubmenuli">انجمن</li></a>				</ul>
+			</div>
+			<div id="submitmenu" class="headermenutile" style=" cursor: default;">
+				<li id="headermenutileh3" style="list-style-image: url('images/sub2.png');">ورود</li>
+								<ul id="headersubmenuli3" class="headersubmenu">
+									<form method="POST" action="">
+									<li style="border:none; border-top: solid;border-top-color: #000;border-top-width: 1px;" class="headersubmenuli"><input id="logintextboxuser" onfocus="logintextboxuser.defaultValue='';"  onblur="logintextboxuser.defaultValue='نام کاربری';" type="text" name="username" value="نام کاربری"/></li>
+									<li class="headersubmenuli" style="border: none;"><input id="logintextboxpass" style="font-family:'Arial'" onfocus="logintextboxpass.defaultValue='';"  onblur="logintextboxpass.defaultValue='رمز عبور';" type="password" name="password" value="رمز عبور"/></li>
+									<li class="headersubmenuli" style="border: none;"><input id="headerloginbtn"  type="submit" value="ورود"/></li><br/>
+									<a href="signup.php"><li id="headersubmitbtn" class="headersubmenuli">عضویت</li></a><br/>
+									<a href="passreset.php"><li id="passremember" class="headersubmenuli">رمز خود را فراموش کرده اید؟</li></a>
+									</form>
+								</ul>			</div>
+			<a href="contactus.php"><div id="contactus" class="headermenutile">
+				تماس با ما
+			</div></a>
+			<div id="headersearch">
+				<form id="searchformh" method="GET" action="http://www.bing.com/search" target="_blank">
+				<img onclick="document.forms['searchformh'].submit();" style="cursor: pointer;" id="searchimgmag" alt="search" src="images/searchmag.jpg" title="Search"/>
+				<img id="searchimg" alt="search" src="images/search.jpg" title="Search" />
+				<input name="q" onfocus="searchtext.defaultValue='';"  onblur="searchtext.defaultValue='جستجو...';" id="searchtext" type="text" value="جستجو..." />
+                <input type="hidden" name="cp" value="65001" />
+                <input type="hidden" name="FORM" value="FREESS" />
+                <input type="hidden" name="q1" value="site:http://com-eng.ir/" />
+              	</form>
+			</div>
+		</div>
+	</div>
+	
+	<script language="javascript" type="text/javascript" src="jscript.js"></script>
+	
+	<div id="rightsidebar">
+		<div class="rightsidebartile">
+			<div class="rightsidebarheader">
+				بخش ها
+			</div>
+			<div class="rightsidebarcontent">
+				<a href="category.php?categoryname=اساتید"><div class="rightsidebarcontenttile">
+											اساتید
+										</div></a><a href="category.php?categoryname=نرم افزار"><div class="rightsidebarcontenttile">
+											نرم افزار
+										</div></a><a href="category.php?categoryname=سخت افزار"><div class="rightsidebarcontenttile">
+											سخت افزار
+										</div></a><a href="category.php?categoryname=هوش مصنوعی"><div class="rightsidebarcontenttile">
+											هوش مصنوعی
+										</div></a><a href="category.php?categoryname=فناوری اطلاعات"><div class="rightsidebarcontenttile">
+											فناوری اطلاعات
+										</div></a><a href="category.php?categoryname=امنیت"><div class="rightsidebarcontenttile">
+											امنیت
+										</div></a><a href="category.php?categoryname=ترفندستان"><div class="rightsidebarcontenttile">
+											ترفندستان
+										</div></a><a href="category.php?categoryname=انجمن"><div class="rightsidebarcontenttile">
+											انجمن
+										</div></a>            </div>
+		</div>
+		<div class="rightsidebartile">
+			<div class="rightsidebarheader">
+				آخرین مطالب
+			</div>
+			<div class="rightsidebarcontent">
+				<a href="post.php?postnumber=92"><div class="rightsidebarcontenttile">
+										نائب قهرمانی دانشجوی رشته برق دانشگاه ارومیه در مسابقات کشتی پهلوانی شهرستان ارومیه
+									</div></a><a href="post.php?postnumber=91"><div class="rightsidebarcontenttile">
+										تجهیز دستگاههای خودپرداز به سوسکهای بمب انداز ضد سرقت
+									</div></a><a href="post.php?postnumber=90"><div class="rightsidebarcontenttile">
+										آموزش فوتوشاپ
+									</div></a><a href="post.php?postnumber=89"><div class="rightsidebarcontenttile">
+										صفحه ‌لمسی‌ای که شما را می‌شناسد
+									</div></a><a href="post.php?postnumber=86"><div class="rightsidebarcontenttile">
+										موس و کی‌بـورد افسـانه می‌شوند
+									</div></a><a href="post.php?postnumber=84"><div class="rightsidebarcontenttile">
+										نشریه باینری
+									</div></a><a href="post.php?postnumber=83"><div class="rightsidebarcontenttile">
+										جشن میلاد حضرت علی (ع) 
+									</div></a><a href="post.php?postnumber=82"><div class="rightsidebarcontenttile">
+										forget your password?
+									</div></a><a href="post.php?postnumber=81"><div class="rightsidebarcontenttile">
+										 کسب مقام دوم تیم بسکتبال دختران دانشگاه ارومیه...   
+									</div></a><a href="post.php?postnumber=80"><div class="rightsidebarcontenttile">
+										عرضه نسخه ایمن لینوکس برای مقابله با جاسوسی آمریکا 
+									</div></a>			</div>
+		</div>
+		<div class="rightsidebartile">
+			<div class="rightsidebarheader">
+				آخرین نظرات
+			</div>
+			<div class="rightsidebarcontent">
+				<a href="post.php?postnumber=74"><div class="rightsidebarcontenttile">
+										<p>بسیار عالی !!<br />
+&nbsp;</p>
+
+									</div></a>			</div>
+		</div>
+		<div class="rightsidebartile">
+			<div class="rightsidebarheader">
+				لینک های مفید
+			</div>
+			<div class="rightsidebarcontent">
+				<a href="http://urmia.ac.ir" target="_blank"><div class="rightsidebarcontenttile">
+										دانشگاه ارومیه
+									</div></a><a href="http://www.urmia.ac.ir/elecomp/computer/default.aspx" target="_blank"><div class="rightsidebarcontenttile">
+										گروه کامپیوتر دانشگاه ارومیه
+									</div></a>			</div>
+		</div>
+			</div>
+	<div id="main">
+		<div id="content">
+			<div id="posts">
+				<div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=64"><h2 class="postheader">
+									تلویزیون های هوشمند هدف بعدی هکرها/ لزوم نصب آنتی ویروس روی تلویزیون
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><div class="postinnertext">
+										<p>عصر فناوری پهن باندهای پرسرعت، وجود تلویزیون های هوشمند را در خانه ها به یک امر ضروری تبدیل کرده اما محققان این گجت های هوشمند را تهدید بعدی هکرها می دانند.&nbsp; به گزارش خبرگزاری مهر، کارشناسان هشدار می دهند اتصال تلویزیون های هوشمند به اینترنت می تواند مزاحمان ها را به خانه دعوت کند یعنی همان ویروس های رایانه ای. با روند افزایشی دانلود فیلم ها از اینترنت در تلویزیون های خانگی و محبوب شدن &quot;گرفتن&quot; کانال های تلویزیونی از طریق اینترنت، آلوده شدن تلویزیون ها به ویروس های رایانه ای امری است که قطعا روی می دهد.</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=64"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=63"><h2 class="postheader">
+									آسیب پذیری در سیستم های ارتباطی ما/هواره ای
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><div class="postinnertext">
+										<p>محققان امنیتی دریافتند كه بسیاری از سیستم های ارتباطی ما/هواره ای دارای آسیب پذیری و حفره های امنیتی می باشند كه می توانند به مهاجمان اجازه دهند تا از راه دور ارتباطات را ردگیری، دستكاری و یا مسدود نمایند و در برخی از موارد كنترل كامل ارتباطات حساس را در اختیار بگیرند. در فاصله ماه های اكتبر تا دسامبر سال گذشته، محققان IOActive به تجزیه و تحلیل میان افزار معروف ترین دستگاه های ارتباطی ما/هواره ای (SATCOM) پرداختند. این دستگاه ها در زیرساخت های حیاتی، نظامی، فضایی، دریایی و سایر بخش های دیگر استفاده می شوند. در این تحقیق محصولات ساخته شده توسط Harris، Hughes Network Systems، Cobham، Thuraya Telecommunications، Japan Radio Company (JRC) و Iridium Communications مورد بررسی قرار گرفتند. این كاوش بیشتر بر روی ترمینال های SATCOM كه بر روی زمین، هوا و دریا از آن استفاده می شود، متمركز شده است و تجهیزات ارتباطی ما/هواره ای كه در فضا از آن استفاده می كنند، مورد مطالعه قرار نگرفته است. روز پنج شنبه محققان IOActive گزارشی را منتشر كردند. در این گزارش آمده است كه تحقیقات نشان می دهد تمامی دستگاه های نام برده می توانند توسط یك فرد خرابكار مورد سوء استفاده قرار گیرند. این تحقیقات نشان داد كه چه عواملی باعث شده است تا در این دستگاه ها راه نفوذ مخفی وجود داشته باشد و هم چنین از پروتكل های ناامن و نامعتبر و الگوریتم های ضعیف رمزگذاری استفاده شده باشد.</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=63"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=62"><h2 class="postheader">
+									گوگل کاربران کروم بوک را از گذرواژه بی نیاز می کند
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><div class="postinnertext">
+										<p>برخی منابع خبری از احتمال عرضه راهکار جدیدی برای احراز هویت کاربران رایانه &rlm;های تحت کروم خبر داده &rlm;اند که احتمال می &rlm;رود جای گذرواژه&rlm; ها را در این رایانه&rlm; ها بگیرد. به گزارش ایتنا از همکاران سیستم و به نقل از وب&rlm; سایت pcworld، برخی منابع خبری گزارش داده &rlm;اند گوگل ممکن است راهکار جدیدی به نام Easy Unlock (باز شدن آسان قفل) برای رایانه&rlm; های تحت سیستم عامل کروم عرضه کند که کاربران را از وجود گذرواژه&rlm; ها و رمزهای عبور بی&rlm; نیاز می &rlm;کند.&nbsp; سازوکار این راهکار بدین شکل است که کاربران فقط کافی است گوشی هوشمند خود را به رایانه تحت کروم نزدیک کنند تا بتوانند قفل آن را باز کنند. در این حالت کاربران نیازی به تعریف گذرواژه نخواهند داشت. این دومین بار است که چنین خبری درباره رایانه&rlm; های تحت کروم منتشر می &rlm;شود. در دسامبر سال گذشته، فرانسوا بوفورت، یکی از توسعه &rlm;دهندگان نرم&rlm; افزار و حامیان سیستم عامل کرومیوم گفته بود تیم متخصصانی که بر روی این سیستم عامل کار می &rlm;کنند تلاش می &rlm;کنند رایانه &rlm;ای عرضه کنند که در آن نیازی به استفاده از گذرواژه نیست. هنوز مشخص نیست شرکت گوگل در این راهکار از چه نوع فناوری استفاده خواهد کرد و گوشی کاربران از چه طریقی با رایانه تحت کروم آن ها ارتباط برقرار خواهد کرد.&nbsp; محمتل&rlm; ترین فناوری&rlm; هایی که می &rlm;توانند بین این دستگاه&rlm; ها ارتباط برقرار کنند، وای فای، بلوتوث و ان اف سی (NFC) است.&nbsp; ان اف سی یکی از فناوری&rlm; های مورد علاقه گوگل است، بطوری که این شرکت از آن در محصولاتی مثل کیف پول گوگل (Google wallet) استفاده کرده است.&nbsp; البته سیستم عامل کروم در حال حاضر از این فناوری پشتیبانی نمی &rlm;کند، ولی یک سالی هست که تیمی می &rlm;کوشد سیستم توسعه کرومیوم این سیستم عامل را با این فناوری سازگار کند.</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=62"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=61"><h2 class="postheader">
+									اطلاعات شخصی یک پنجم آمریکایی ها سرقت شد
+									<div class="postdate">
+										2014-05-02
+									</div>
+								</h2></a>
+								<div class="postcontent"><div class="postinnertext">
+										<p>نتایج حاصل از یک مطالعه جدید نشان داد که ۱۸ درصد کاربران اینترنتی آمریکا با سرقت اطلاعات مهم و حیاتی خود مواجه شده اند. به گزارش ایتنا، مرکز تحقیقاتی Pew Research بر پایه بررسی جدید خود اعلام کرد که داده های مهم از جمله اطلاعات مربوط به حساب های بانکی یا هویت شخصی افراد به دنبال آسیب پذیری های اخیر سرقت شده است و نه تنها جلوی این مشکل گرفته نشده است، بلکه دامنه آن وسیع تر می شود. این مطالعه در ماه ژانویه از سال جاری میلادی انجام شد و نتایج آن نشان داد که میزان سرقت اطلاعات از کاربران آمریکایی نسبت به اواسط سال ۲۰۱۳ میلادی افزایش قابل ملاحظه یافته است. در اواسط سال ۲۰۱۳ تنها ۱۱ درصد کاربران اینترنتی آمریکایی با سرقت اطلاعات شخصی مواجه شدند. مرکز Express Tribune توضیح داد که ۲۱ درصد کاربران در این دوره زمانی برای دسترسی به پست الکترونیکی یا صفحه شخصی در شبکه های اجتماعی با مشکل مواجه شدند و این بزرگ ترین اختلال پیش روی آنها بود. این گزارش در حالی منتشر شده است که با گسترش آسیب پذیری Heartbleed پیش بینی می شود تعداد کاربران آمریکایی که اموال معنوی آن ها سرقت شده است تا چند برابر افزایش یابد.</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=61"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=60"><h2 class="postheader">
+									تهدید شرکت های مستقل مخابراتی توسط سازمان امنیت سوئد
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><div class="postinnertext">
+										<p>به گفته مدیر شرکت مخابراتی بان هوت، سازمان امنیت سوئد (سپو) به اشکال مختلف از جمله تهدید متوسل می شود تا این شرکتها را متقاعد کند فراتر از حدود قانون، اجازه دسترسی به همه ارتباطات مشترکین این شرکتها به صورت مستقیم و خودکار بیابند.&nbsp; به گزارش ایسنا، مدیر شرکت مخابراتی بان هوت نوار ضبط شده از ملاقات چند نماینده سازمان اطلاعات سوئد و شرکت مخابراتی بان هوف، که با میکروفن مخفی ضبط شده است را باز پخش کرد. این نوار نشان می دهد چگونه نماینده این نهاد اطلاعاتی، با تهدید و فشار بر مدیر این شرکت، سعی در مجاب کردن او در همکاری و فراهم کردن دسترسی عمومی و خودکار به همه اطلاعات مشترکین خود را دارد.&nbsp;</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=60"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=59"><h2 class="postheader">
+									دانشگاه های آمریکا در معرض حملات شدید هکر ها
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><div class="postinnertext">
+										<p>حملات سایبری به دانشگاه ها موضوع تازه ای نیست اما پیچیدگی و افزایش این حملات به ویژه در دانشگاه های آمریکایی به مرز هشدار رسیده و این سوال را به ذهن می آورد که چرا هکرها به هک کردن سایت های دانشگاهی علاقه دارند؟ به گزارش افتانا (پایگاه خبری امنیت فناوری اطلاعات) به نقل از ايسنا، انتشار اخبار مربوط به درز اطلاعات دانشگاه ها تقریبا به یک مسئله متداول در آمریکا تبدیل شده به طوری که ماه گذشته مسئولان دانشگاه &laquo;مریلند&raquo; آمریکا اعلام کردند سایت این دانشگاه برای دومین بار در هفته گذشته مورد حمله هکرها قرار گرفته و اطلاعات دانشگاه &laquo;ایندیانا&raquo; نیز در ماه فوریه به بیرون درز کرد و اطلاعات شخصی و محرمانه ۱۴۶ هزار دانشجو و فارغ التحصیل این دانشگاه در دسترس عموم قرار گرفت. اوایل ماه جاری نیز نفوذ هکرها به سیستم های دانشگاه &laquo;داکوتای شمالی&raquo; منجر به فاش شدن اطلاعات بیش از ۲۰۰ هزار استاد، دانشجو و کارمند این دانشگاه شد اما هکرها هیچ یک از این اطلاعات را تصاحب نکردند و به همین دلیل ظاهرا این معضل حملات سایبری تازه در ابتدای راه است.</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=59"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=58"><h2 class="postheader">
+									مروری بر خونریزی اینترنتی که بوی جاسوسی می دهد
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><div class="postinnertext">
+										<p>چندی پیش بود که بحث خونریزی قلبی در اینترنت گرم شد اما این بار موضوع بر سر مسائل پزشکی و تعداد کسانی که از خونریزی قلبی جان خود را از دست داده اند نبود، این بار کامیوترها و امنیت مردم دنیا در شبکه های مجازی دست خوش یک حفره امنیتی شده که به راحتی می توانست تمامی اطلاعات را چپاول کند و درگاه مربوطه را به ورطه ویرانی بکشاند.&nbsp; به گزارش خبرنگار فناوری اطلاعات خبرگزاری دانشجویان ایران (ایسنا) خونریزی قلبی یک اشکال نرم افزاری در کتابخانه رمزنگاری متن باز اس اس ال بود که به مهاجم اجازه خواندن حافظه رایانه ای را می داد. این باگ همچنین به زمینه بازیابی کلیدهای شخصی اس اس ال را برای مهاجمان فراهم می کرد و در پی یک اشتباه در کدنویسی اپن اس اس ال بوجود آمد.&nbsp; در زمان شناسایی این حفره امنیتی (هفتم آوریل ۲۰۱۴)، چنین تخمین زده شد که حدود ۱۷ درصد، معادل نیم میلیون عدد، از وب سرورهایی که توسط مراجع صدور گواهی دیجیتال برای آنها گواهی امنیتی SLL صادر شده است، در برابر این نوع از حمله آسیب پذیر هستند</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=58"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=57"><h2 class="postheader">
+									تاثیر عمیق افشاگری های اسنودن بر حوزه امنیت خدمات ابری
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><div class="postinnertext">
+										<p>افشاگری های ادوارد اسنودن در مورد جاسوسی های اینترنتی دولت آمریکا تاثیرات فراوانی بر نحوه استفاده کاربران از خدمات کلود و دغدغه های امنیتی آنها داشته است. به گزارش فارس به نقل از سیو، این افشاگری ها موجب شده تا کارکنان برجسته و مدیران موسسات فناوری اطلاعات در زمینه استفاده از خدمات کلود ملاحظات بیشتری داشته باشند. همچنین بسیاری از آنها می گویند پس از این افشاگری ها در زمینه محل ذخیره اطلاعات خود در وب دقت بسیار بیشتری به عمل می آورند. بررسی های موسسه NTT Communications که با همکاری هزار نفر از تصمیم گیران برجسته حوزه فناوری اطلاعات در آمریکا، بریتانیا، هنگ کنگ، فرانسه و آلمان انجام شده نشان می دهد که 90 درصد از این افراد معتقدند افشاگری های اسنودن بر رویکرد آنان در قبال فناوری کلود تاثیر گذاشته است. نیمی از این افراد تصمیم گیر پس از این افشاگری ها در مورد محل جغرافیایی سرورهای ذخیره سازی اطلاعات خود دقت بیشتری کرده اند و حدود 50 درصد از آنها هم برای اجرای پروژه های کلود با تامل بیشتری عمل کرده اند. نزدیک به 35 درصد از مصاحبه شوندگان گفته اند که سیاست های خود در زمینه بهره گیری از خدمات کلود شرکت های مختلف را تغییر داده اند و 62 درصد هم انتقال داده های خود به فضای کلود را متوقف کرده اند. 97 درصد از پاسخ دهندگان گفته اند ترجیح می دهند داده هایشان را در منطقه محل زندگی خودشان نگهداری کنند و اکثریت مطلق آنان از افزایش تمهیدات امنیتی برای مقابله با نگرانی های مربوط به جاسوسی دولت آمریکا خبر داده اند.</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=57"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=56"><h2 class="postheader">
+									چرا مرورگر های اینترنتی کند شده اند؟
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><div class="postinnertext">
+										<p>در شرایطی که پیامدهای منفی شناسایی حفره امنیتی نرم افزار OpenSSL ادامه دارد، برخی کارشناسان هشدار می دهند رفع این آسیب پذیری با گرفتاری های فراوانی همراه خواهد بود. به گزارش فارس به نقل از نیشن، این آسیب پذیری که به خونریزی اینترنت مشهور شده هنوز به طور قطعی برطرف نشده و ممکن است برطرف کردن آن با اختلال در فعالیت های آنلاین، بی نظمی و کندی اینترنت همراه شود. خبر خوب این است که اکثر سایت هایی که در برابر این مشکل آسیب پذیر بوده اند با نصب وصله های نرم افزاری جلوی وارد آمدن خسارات بیشتر را گرفته اند، اما خبر بد این است که مرورگرهای اینترنتی به علت تعدد گواهی نامه های امنیتی که باید مورد کنترل قرار بگیرند، کند شده و نتیجه این مساله دریافت پیام های خطا و کاهش سرعت دسترسی به سایت های مورد نظر خواهد بود. باید توجه داشت که عمده وصله های امنیتی نصب شده مرورگرها را مجبور به کنترل تعداد بیشتری گواهی امنیتی برای مقابله با سوءاستفاده های هکرها می کنند و این کنترل ها در عمل کندی اینترنت را موجب می شوند. همچنین تغییر کلیدهای امنیتی قدیمی بر اثر این فعل و انفعالات هم مساله دیگری است که بر سرعت اینترنت تاثیر منفی می گذارد. در چنین شرایطی ممکن است کاربری که به علت کند شدن مرورگر بی تاب و خسته شده، هشدارهای امنیتی نمایش داده شده را جدی نگیرد و حتی ترجیح دهد از گواهی های امنیتی قدیمی و تایید نشده استفاده کند تا بتواند زودتر به سایت مورد نظرش دسترسی یابد و نتیجه این امر به خطر افتادن ثبات و امنیت در فضای مجازی خواهد بود. صاحب نظران معتقدند در چنین شرایطی باید همکاری مشترک به منظور یافتن راه حلی جامع و فراگیر برای کنترل امنیت سایت های اینترنتی و گواهی های امنیتی مختلف افزایش یابد.</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=56"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div><div class="post">
+							<div class="posttext">
+								<a href="post.php?postnumber=55"><h2 class="postheader">
+									هشدار متخصصان امنیتی درباره امکان مکان یابی فیس بوک
+									<div class="postdate">
+										2014-04-23
+									</div>
+								</h2></a>
+								<div class="postcontent"><div class="postinnertext">
+										<p>فیس بوک به تازگی به کاربران تلفن همراه و تبلت امکان داده موقعیت مکانی خود را با دوستانشان به اشتراک بگذارند، اما کارشناسان در مورد خطرات این کار هشدار می دهند. به گزارش فارس به نقل از نیوز، اگر چه در نگاه اول این قابلیت مفید و سودمند به نظر می رسد، اما در عمل استفاده از آن بسیار خطرناک خواهد بود. زیرا اطلاعات مربوط به موقعیت مکانی هر کاربر در فیس بوک از طریق شبکه ای که تحت کنترل مدیران این سایت است، ارسال می شود و نفوذ به آن توسط هکرها و ویروس نویسان، سوءاستفاده های بعدی از محل جغرافیایی هر فرد را تسهیل می کند. از سوی دیگر برای ارسال این اطلاعات، کاربر مجبور است gps گوشی یا تبلت خود را همیشه روشن نگهدارد و در نتیجه باز هم هکرها می توانند به درون موبایل شما نفوذ کنند. این وضعیت به نفع نهادهای جاسوسی و اطلاعاتی دولتی نیز هست و با توجه به اینکه سیستم فیس بوک هم چندان ایمن نیست، می توانید بارها و بارها به همین شیوه مورد حمله قرار بگیرید. متخصصان امنیتی می گویند شبکه های اجتماعی و فیس بوک به همین علت به ابزاری مطمئن برای نشت گسترده اطلاعات شخصی کاربران مبدل شده اند و به سادگی اطلاعات ارزشمندی را در مورد زندگی، روابط شخصی و کاری، علائق، سلیقه، رفت و آمدها و ... در اختیار همگان قرار می دهند. برنامه های همراه مختلف سازگار با این شبکه ها هم که بر روی گوشی و تبلت نصب می شوند روند نشت اطلاعات را سرعت می بخشند و به علت مشکلات امنیتی در میان هکرها محبوبیت دارند. باید توجه داشت که خود گوشی ها و تبلت ها هم به علت قابلیت جابجایی آسان و احتمال سرقت یا مفقود شدن می توانند مشکلات فراوانی ایجاد کنند و لذا نصب تعداد زیادی برنامه با اطلاعات شخصی بر روی آنها عاقلانه نیست.</p>
+
+									</div>
+								</div>
+								<div class="postdetail">
+									<a href="post.php?postnumber=55"><div class="postcontinue">
+										ادامه ...
+									</div></a>
+									<a href="category.php?categoryname=امنیت"><div class="postcate">
+										امنیت
+									</div></a>
+									<div class="postauther">
+										Shadow_Walker58
+									</div>
+									<div class="poscomment">
+									0  نظر
+									</div>
+								</div>
+							</div>
+						</div>			</div>
+		</div>
+		<div id="leftsidebar">
+			<a href="http://www.urmia.ac.ir/" target="_blank"><div class="leftsidebartile">
+							<img class="leftsideimg" alt="ads" src="ads/4.jpg" title="دانشگاه ارومیه" />
+							</div></a><a href="http://com-eng.ir/post.php?postnumber=4" target="_blank"><div class="leftsidebartile">
+							<img class="leftsideimg" alt="ads" src="ads/gosaste.jpg" title="گسسته روزن" />
+							</div></a><a href="http://com-eng.ir/post.php?postnumber=4" target="_blank"><div class="leftsidebartile">
+							<img class="leftsideimg" alt="ads" src="ads/gosasteen.jpg" title="گسسته روزن" />
+							</div></a>			
+			<div class="leftsidebartile">
+				<div class="rightsidebarheader" style="text-align: center;">
+					درباره ما
+				</div>
+				<div class="rightsidebarcontent">
+					<a href="http://www.urmia.ac.ir/asatid/j_bagherzade/default.aspx" target="_blank"><div class="rightsidebarcontenttile" style="border-right-width: 1px;">
+						مدیر گروه : دکتر جمشید باقرزاده					</div></a>
+					<a href="http://www.urmia.ac.ir/asatid/m_namazi/default.aspx" target="_blank"><div class="rightsidebarcontenttile" style="border-right-width: 1px;">
+						معاون گروه : مهندس مجید نمازی					</div></a>
+					<div class="rightsidebarcontenttile" style="border-right-width: 1px;">
+						دبیر انجمن : علی قالی باف					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div id="pagenumcontainer">
+			<a href="http://com-eng.ir/"><div class="pagenum" style="width: 70px;">
+								صفحه اول
+							</div></a><a href="http://com-eng.ir/"><div class="pagenum">
+									1
+								</div></a><a href="http://com-eng.ir/page.php?pagenumber=2"><div class="pagenum">
+									2
+								</div></a><div class="pagenumindex">
+									3
+								</div><a href="http://com-eng.ir/page.php?pagenumber=4"><div class="pagenum">
+									4
+								</div></a><a href="http://com-eng.ir/page.php?pagenumber=5"><div class="pagenum">
+									5
+								</div></a><a href="http://com-eng.ir/page.php?pagenumber=7"><div class="pagenum" style="width: 70px;">
+							صفحه آخر
+						</div></a>		</div>
+	</div>
+	
+	<div id="footer">
+		<div id="fc1" class="footercontent">
+			<ul>
+				<li class="footerliheader">
+					اخبار گروه کامپیوتر
+				</li>
+				<li class="footerli">
+								<a href="post.php?postnumber=4">ترجمه کتاب ریاضیات گسسته و کاربردهای آن</a>
+							</li>			</ul>
+		</div>
+		<div id="fc2" class="footercontent">
+			<ul>
+				<li class="footerliheader">
+					اخبار دانشکده
+				</li>
+				<li class="footerli">
+								<a href="post.php?postnumber=84">نشریه باینری</a>
+							</li>			</ul>
+		</div>
+		<div id="fc3" class="footercontent">
+			<ul>
+				<li class="footerliheader">
+					اخبار دانشگاه
+				</li>
+				<li class="footerli">
+								<a href="post.php?postnumber=92">نائب قهرمانی دانشجوی رشته برق دانشگاه ارومیه در مسابقات کشتی پهلوانی شهرستان ارومیه</a>
+							</li><li class="footerli">
+								<a href="post.php?postnumber=83">جشن میلاد حضرت علی (ع) </a>
+							</li><li class="footerli">
+								<a href="post.php?postnumber=81"> کسب مقام دوم تیم بسکتبال دختران دانشگاه ارومیه...   </a>
+							</li>			</ul>
+		</div>
+		<div id="footerother">
+			<div id="footersocial">
+				<a href="https://www.facebook.com/pages/%D8%A7%D9%86%D8%AC%D9%85%D9%86-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B1%D9%88%D9%85%DB%8C%D9%87/511059362338123?ref=hl" target="_blank"><img id="socialimg1" class="socialimg" alt="facebook" src="images/fb.png" title="FaceBook" /></a>
+				<a href="https://plus.google.com/b/111103336578635094666/111103336578635094666" target="_blank"><img id="socialimg2" class="socialimg" alt="google+" src="images/google+.png" title="Google+" /></a>
+				<a href="mailto:info@com-eng.ir"><img id="socialimg3" class="socialimg" alt="email" src="images/email.png" title="Email" /></a>
+			</div>
+			<div id="footersearch">
+				<form id="searchformf" method="GET" action="http://www.bing.com/search" target="_blank">
+				<img onclick="document.forms['searchformf'].submit();" id="searchimg" alt="search" src="images/search.jpg" title="Search" />
+				<input name="q"  style="width: 100px;" onfocus="searchtextf.defaultValue='';"  onblur="searchtextf.defaultValue='جستجو...';" id="searchtextf" type="text" value="جستجو..." />
+				<input type="hidden" name="cp" value="65001" />
+                <input type="hidden" name="FORM" value="FREESS" />
+                <input type="hidden" name="q1" value="site:http://com-eng.ir/" />
+              	</form>
+			</div>
+			<br/>
+			<div id="subscribe">
+				<form action="" method="post">
+					<input class="btn" type="submit" value="عضویت"/>
+					<input name="subscribef" style="margin-left:10px; width: 100px;" onfocus="subscribetext.defaultValue='';"  onblur="subscribetext.defaultValue='به ما بپیوندید...';" id="subscribetext" type="text" value="به ما بپیوندید..." />
+				</form>
+			</div>
+		</div>
+		<hr style="background-color: #FFF; width: 100%; margin: auto; clear: both;"/>
+		<div id="cright">
+			تمامی حقوق این وب سایت متعلق به انجمن علمی دانشجویی کامپیوتر دانشگاه ارومیه می باشد.<br>استفاده از مطالب وب سایت با ذکر منبع مجاز است.
+		</div>
+		<div id="design">
+			Programmed And Designed By Mohammad Nassiri<br/><a href="mailto:nassirimohammad@ymail.com">E-Mail:nassirimohammad@ymail.com</a>
+		</div>
+
+<!-- Begin WebGozar.com Counter code -->
+<script type="text/javascript" language="javascript" src="http://www.webgozar.ir/c.aspx?Code=3253314&amp;t=counter" ></script>
+<noscript><a href="http://www.webgozar.com/counter/stats.aspx?code=3253314" target="_blank">&#1570;&#1605;&#1575;&#1585;</a></noscript>
+<!-- End WebGozar.com Counter code -->
+
+	</div>
+	<div id="top" style="cursor:pointer; visibility:hidden; position:fixed; bottom:10px; right:10px;">
+		<img id="backtotop" alt="top" width="35" height="30" style="display:none; cursor:pointer; border:none;" src="images/top.png" />
+		<script>
+			$(window).scroll(function() {
+			    if($(this).scrollTop() > 200) {
+			        $('#backtotop').fadeIn();
+			    } else {
+			        $('#backtotop').fadeOut();
+			    }
+			});
+			
+			
+			
+			$('#backtotop').bind('click', function(e) {
+			    e.preventDefault();
+			    $('body,html').animate({scrollTop:0},800);
+			});
+		</script>
+	</div>
+	</body>
+</html>
